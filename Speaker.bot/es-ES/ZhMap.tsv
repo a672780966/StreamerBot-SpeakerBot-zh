@@ -1,0 +1,182 @@
+# english	es-ES
+...	...
+0	0
+1	1
+100%	100%
+15%	15%
+25%	25%
+8ab1f651-b1a1-4493-96a2-03641c7fbdbb	8ab1f651-b1a1-4493-96a2-03641c7fbdbb
+<not logged in>	No iniciado sesión
+Account	Cuenta
+Accounts	Cuentas
+Add	Agregar
+Add Command	Agregar comando
+Address	Dirección
+Allow first emote	Permitir primer emoticono
+Allow whisper !tts commands from moderators	Permitir comandos whisper !tts de moderadores
+Allowed Emotes	Emoticonos permitidos
+Allowed Forced	Permitido forzado
+Application Volume:	Volumen de aplicación:
+Audio Device to Monitor	Dispositivo de audio a monitorear
+Audio Output Device	Dispositivo de salida de audio
+Auto Start	Inicio automático
+Available	Disponible
+Bad Word Filter	Filtro de palabras malsonantes
+BetterTTV	BetterTTV
+Channel Points	Puntos de canal
+Channel Rewards	Recompensas de canal
+Cheers	Ánimos
+Client	Cliente
+Command	Comando
+Command Options	Opciones de comando
+Command Prefix	Prefijo de comando
+Community Goal	Meta de la comunidad
+Configure third party emote handling, changing these requires a restart.	Configura el manejo de emoticonos de terceros; cambiarlos requiere reiniciar.
+Confirmation on Close	Confirmación al cerrar
+Connect	Conectar
+Custom Commands	Comandos personalizados
+Default	Predeterminado
+Default Aliases	Alias predeterminados
+Default Voice Alias	Alias de voz predeterminado
+Delete	Eliminar
+Disable Viewers Tab	Deshabilitar pestaña de espectadores
+Donations	Donaciones
+Emote Handlers	Manejadores de emoticonos
+Emotes	Emoticonos
+Enabled	Habilitado
+Endpoint	Punto de conexión
+Event Log	Registro de eventos
+Event States	Estados de eventos
+Event Sub	Event Sub
+Events	Eventos
+Every spoken phrase will be saved as a WAV file to the folder specified if enabled.	Si está habilitado, cada frase hablada se guardará como archivo WAV en la carpeta especificada.
+Everyone	Todos
+Filter Action	Filtrar acción
+Follows	Seguidores
+Forced	Forzado
+Forget	Olvidar
+FrankerFaceZ	FrankerFaceZ
+General	General
+Gift Bombs	Bombas de regalo
+Global Event Settings	Configuración global de eventos
+Hide Not Present	Ocultar no presentes
+Highlight Voice Alias	Resaltar alias de voz
+Highlight Voice Override	Resaltar anulación de voz
+Hype Trains	Trenes de hype
+ID	ID
+Ignore 7TV Emotes	Ignorar emoticonos de 7TV
+Ignore BTTV Emotes	Ignorar emoticonos de BTTV
+Ignore Cheermotes	Ignorar cheer emotes
+Ignore FFZ Emotes	Ignorar emoticonos de FFZ
+Ignore Shared Chat	Ignorar chat compartido
+Ignore Twemoji Emotes	Ignorar emoticonos Twemoji
+Ignore Twitch Emotes	Ignorar emoticonos de Twitch
+Ignore text prefixed with	Ignorar texto con prefijo
+Ignored	Ignorado
+Ignored Locales	Locales ignorados
+Ignored Prefixes	Prefijos ignorados
+Ignored Voices	Voces ignoradas
+Ignored Voices/Locales	Voces/Locales ignorados
+In Use:	En uso:
+Last Active	Última actividad
+Last spoke grace period	Período de gracia del último mensaje
+Login	Iniciar sesión
+Maximum of	Máximo de
+Merchandise	Mercancía
+Message	Mensaje
+Message Deleted	Mensaje eliminado
+Minimize to Tray	Minimizar a la bandeja
+Minimum Cheer	Ánimo mínimo
+Minimum Donation	Donación mínima
+Minimum Raid Viewers	Mínimo de espectadores en raid
+Moderators	Moderadores
+Name	Nombre
+New	Nuevo
+Nickname	Apodo
+Not Allowed Text	Texto no permitido
+Only say username if previous was different	Solo decir el nombre de usuario si el anterior era diferente
+Order of replacements is important, and can be re-arranged using ctrl+up/down on a selected replacement.	El orden de los reemplazos es importante y se puede reorganizar usando Ctrl+flecha arriba/abajo en un reemplazo seleccionado.
+Output	Salida
+Output Device	Dispositivo de salida
+Past Voices	Voces pasadas
+Pause Threshold:	Umbral de pausa:
+Paused	En pausa
+Per Event Settings	Configuración por evento
+Performance	Rendimiento
+Permissions	Permisos
+Please do not abuse this, I find this very much like putting words in peoples mouths, as you're giving your viewers a voice.	Por favor no abuses de esto; me parece como poner palabras en boca de la gente, ya que estás dando voz a tus espectadores.
+Port	Puerto
+Processing	Procesando
+Profile	Perfil
+Profiles	Perfiles
+Raids	Raids
+Refresh	Actualizar
+Regex Error	Error de expresión regular
+Regex Replacement	Reemplazo por expresión regular
+Regular	Regular
+Regulars	Usuarios regulares
+Remove	Eliminar
+Rename	Renombrar
+Replace	Reemplazar
+Replace %name% with nickname if available	Reemplazar %name% con el apodo si está disponible
+Replacement	Reemplazo
+Replacement Options	Opciones de reemplazo
+Reset	Restablecer
+Resume Threshold:	Umbral de reanudación:
+Resume Wait Timeout	Tiempo de espera de reanudación
+Reward Settings	Configuración de recompensas
+Role	Rol
+Sample	Muestra
+Sample Output	Salida de muestra
+Save	Guardar
+Save TTS audio to file	Guardar audio de TTS en archivo
+Say Everything	Decirlo todo
+Say Username	Decir nombre de usuario
+Say input	Decir entrada
+Services	Servicios
+Settings	Configuración
+SevenTV	SevenTV
+Silence Command Output	Silenciar salida de comandos
+Speak Generic	Hablar genérico
+Speak!	¡Hablar!
+Speaker.bot - Speaker.bot (0.1.7)	Speaker.bot - Bot de voz (0.1.7)
+Speaker.bot Instance Information	Información de instancia de Speaker.bot
+Speaking Options	Opciones de voz
+Speech Engines	Motores de voz
+Speech will be played on the device selected	La voz se reproducirá en el dispositivo seleccionado
+Start	Iniciar
+Start Server	Iniciar servidor
+Sticky Random Voice	Voz aleatoria fija
+Stop Server	Detener servidor
+Stop and Skip spoken messages on	Detener y omitir mensajes hablados en
+StreamElements	StreamElements
+Streamer.bot Website	Sitio web de Streamer.bot
+Streamlabs	Streamlabs
+Subscribed	Suscrito
+Subscribers	Suscriptores
+Subscriptions	Suscripciones
+TTS Speaking Commands	Comandos de voz TTS
+Test Speak	Probar voz
+These settings require a restart after changing.	Estos ajustes requieren reiniciar después de cambiarlos.
+Twitch	Twitch
+Twitch Account	Cuenta de Twitch
+Twitch Shared Chat	Chat compartido de Twitch
+Url Filter	Filtro de URL
+User Banned	Usuario baneado
+User Information	Información de usuario
+User Said Postfix	Sufijo de mensaje de usuario
+User Timed Out	Usuario con timeout
+Username	Nombre de usuario
+Users	Usuarios
+VIPs	VIP
+Voice	Voz
+Voice Alias	Alias de voz
+Voice Aliases	Aliases de voz
+Voice Gate	Puerta de voz
+Voices and locales set here will be excluded from random voice selection	Las voces y locales establecidos aquí se excluirán de la selección aleatoria de voz
+Volume	Volumen
+Websocket Server	Servidor WebSocket
+Weight	Peso
+With	Con:
+ms	ms
+seconds	segundos

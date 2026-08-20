@@ -1,0 +1,182 @@
+# english	ja-JP
+...	...
+0	0
+1	1
+100%	100%
+15%	15%
+25%	25%
+8ab1f651-b1a1-4493-96a2-03641c7fbdbb	8ab1f651-b1a1-4493-96a2-03641c7fbdbb
+<not logged in>	ログインしていません
+Account	アカウント
+Accounts	アカウント
+Add	追加
+Add Command	コマンドを追加
+Address	アドレス
+Allow first emote	最初の絵文字を許可
+Allow whisper !tts commands from moderators	モデレーターからの whisper !tts コマンドを許可
+Allowed Emotes	許可された絵文字
+Allowed Forced	許可（強制）
+Application Volume:	アプリの音量：
+Audio Device to Monitor	監視する音声デバイス
+Audio Output Device	音声出力デバイス
+Auto Start	自動開始
+Available	利用可能
+Bad Word Filter	不適切な言葉フィルター
+BetterTTV	BetterTTV
+Channel Points	チャンネルポイント
+Channel Rewards	チャンネルリワード
+Cheers	Cheers
+Client	クライアント
+Command	コマンド
+Command Options	コマンドオプション
+Command Prefix	コマンドプレフィックス
+Community Goal	コミュニティゴール
+Configure third party emote handling, changing these requires a restart.	サードパーティの絵文字処理を設定。変更には再起動が必要です。
+Confirmation on Close	終了時の確認
+Connect	接続
+Custom Commands	カスタムコマンド
+Default	デフォルト
+Default Aliases	デフォルトエイリアス
+Default Voice Alias	デフォルト音声エイリアス
+Delete	削除
+Disable Viewers Tab	ビューアータブを無効化
+Donations	寄付
+Emote Handlers	絵文字ハンドラー
+Emotes	絵文字
+Enabled	有効
+Endpoint	エンドポイント
+Event Log	イベントログ
+Event States	イベント状態
+Event Sub	Event Sub
+Events	イベント
+Every spoken phrase will be saved as a WAV file to the folder specified if enabled.	有効にすると、読み上げたすべてのフレーズが指定されたフォルダーに WAV ファイルとして保存されます。
+Everyone	全員
+Filter Action	アクションをフィルター
+Follows	フォロー
+Forced	強制
+Forget	忘れる
+FrankerFaceZ	FrankerFaceZ
+General	一般
+Gift Bombs	ギフトボム
+Global Event Settings	グローバルイベント設定
+Hide Not Present	不在を隠す
+Highlight Voice Alias	音声エイリアスをハイライト
+Highlight Voice Override	音声オーバーライドをハイライト
+Hype Trains	ハイプトレイン
+ID	ID
+Ignore 7TV Emotes	7TV の絵文字を無視
+Ignore BTTV Emotes	BTTV の絵文字を無視
+Ignore Cheermotes	チアモートを無視
+Ignore FFZ Emotes	FFZ の絵文字を無視
+Ignore Shared Chat	共有チャットを無視
+Ignore Twemoji Emotes	Twemoji の絵文字を無視
+Ignore Twitch Emotes	Twitch の絵文字を無視
+Ignore text prefixed with	以下のプレフィックスで始まるテキストを無視：
+Ignored	無視中
+Ignored Locales	無視されるロケール
+Ignored Prefixes	無視されるプレフィックス
+Ignored Voices	無視される音声
+Ignored Voices/Locales	無視される音声/ロケール
+In Use:	使用中：
+Last Active	最終アクティブ
+Last spoke grace period	最終発言の猶予期間
+Login	ログイン
+Maximum of	最大：
+Merchandise	グッズ
+Message	メッセージ
+Message Deleted	メッセージ削除
+Minimize to Tray	トレイに最小化
+Minimum Cheer	最小 Cheer
+Minimum Donation	最小寄付額
+Minimum Raid Viewers	最小レイド視聴者数
+Moderators	モデレーター
+Name	名前
+New	新規
+Nickname	ニックネーム
+Not Allowed Text	許可されないテキスト
+Only say username if previous was different	前回と違う場合のみユーザー名を言う
+Order of replacements is important, and can be re-arranged using ctrl+up/down on a selected replacement.	置換の順序は重要です。選択した置換で ctrl+上/下 を使用して並べ替えられます。
+Output	出力
+Output Device	出力デバイス
+Past Voices	過去の音声
+Pause Threshold:	一時停止しきい値：
+Paused	一時停止中
+Per Event Settings	イベントごとの設定
+Performance	パフォーマンス
+Permissions	権限
+Please do not abuse this, I find this very much like putting words in peoples mouths, as you're giving your viewers a voice.	これを悪用しないでください。これは視聴者に発言権を与えるもので、他人の言葉を代弁するようなものです。
+Port	ポート
+Processing	処理中
+Profile	プロファイル
+Profiles	プロファイル
+Raids	レイド
+Refresh	更新
+Regex Error	正規表現エラー
+Regex Replacement	正規表現置換
+Regular	一般
+Regulars	一般ユーザー
+Remove	削除
+Rename	名前を変更
+Replace	置換
+Replace %name% with nickname if available	利用可能な場合 %name% をニックネームで置換
+Replacement	置換
+Replacement Options	置換オプション
+Reset	リセット
+Resume Threshold:	再開しきい値：
+Resume Wait Timeout	再開待機タイムアウト
+Reward Settings	リワード設定
+Role	役割
+Sample	サンプル
+Sample Output	サンプル出力
+Save	保存
+Save TTS audio to file	TTS 音声をファイルに保存
+Say Everything	すべて読み上げ
+Say Username	ユーザー名を読み上げ
+Say input	入力を読み上げ
+Services	サービス
+Settings	設定
+SevenTV	SevenTV
+Silence Command Output	コマンド出力を消音
+Speak Generic	汎用読み上げ
+Speak!	読み上げ！
+Speaker.bot - Speaker.bot (0.1.7)	Speaker.bot - 読み上げボット（0.1.7）
+Speaker.bot Instance Information	Speaker.bot インスタンス情報
+Speaking Options	読み上げオプション
+Speech Engines	音声エンジン
+Speech will be played on the device selected	音声は選択したデバイスで再生されます
+Start	開始
+Start Server	サーバーを開始
+Sticky Random Voice	スティッキーランダム音声
+Stop Server	サーバーを停止
+Stop and Skip spoken messages on	次の場合に読み上げメッセージを停止・スキップ：
+StreamElements	StreamElements
+Streamer.bot Website	Streamer.bot ウェブサイト
+Streamlabs	Streamlabs
+Subscribed	購読中
+Subscribers	購読者
+Subscriptions	サブスクリプション
+TTS Speaking Commands	TTS 読み上げコマンド
+Test Speak	読み上げテスト
+These settings require a restart after changing.	これらの設定は変更後に再起動が必要です。
+Twitch	Twitch
+Twitch Account	Twitch アカウント
+Twitch Shared Chat	Twitch 共有チャット
+Url Filter	URL フィルター
+User Banned	ユーザー BAN
+User Information	ユーザー情報
+User Said Postfix	ユーザー発言の接尾辞
+User Timed Out	ユーザータイムアウト
+Username	ユーザー名
+Users	ユーザー
+VIPs	VIP
+Voice	音声
+Voice Alias	音声エイリアス
+Voice Aliases	音声エイリアス
+Voice Gate	音声ゲート
+Voices and locales set here will be excluded from random voice selection	ここで設定した音声とロケールはランダム音声選択から除外されます
+Volume	音量
+Websocket Server	WebSocket サーバー
+Weight	重み
+With	と：
+ms	ms
+seconds	秒

@@ -1,0 +1,182 @@
+# english	ko-KR
+...	...
+0	0
+1	1
+100%	100%
+15%	15%
+25%	25%
+8ab1f651-b1a1-4493-96a2-03641c7fbdbb	8ab1f651-b1a1-4493-96a2-03641c7fbdbb
+<not logged in>	로그인되지 않음
+Account	계정
+Accounts	계정
+Add	추가
+Add Command	명령 추가
+Address	주소
+Allow first emote	첫 번째 이모티콘 허용
+Allow whisper !tts commands from moderators	모더레이터의 whisper !tts 명령 허용
+Allowed Emotes	허용된 이모티콘
+Allowed Forced	허용(강제)
+Application Volume:	애플리케이션 볼륨:
+Audio Device to Monitor	모니터링할 오디오 장치
+Audio Output Device	오디오 출력 장치
+Auto Start	자동 시작
+Available	사용 가능
+Bad Word Filter	금칙어 필터
+BetterTTV	BetterTTV
+Channel Points	채널 포인트
+Channel Rewards	채널 리워드
+Cheers	치어
+Client	클라이언트
+Command	명령
+Command Options	명령 옵션
+Command Prefix	명령 접두사
+Community Goal	커뮤니티 목표
+Configure third party emote handling, changing these requires a restart.	타사 이모티콘 처리를 구성합니다. 변경 후 재시작이 필요합니다.
+Confirmation on Close	종료 시 확인
+Connect	연결
+Custom Commands	사용자 정의 명령
+Default	기본값
+Default Aliases	기본 별칭
+Default Voice Alias	기본 음성 별칭
+Delete	삭제
+Disable Viewers Tab	뷰어 탭 비활성화
+Donations	기부
+Emote Handlers	이모티콘 처리기
+Emotes	이모티콘
+Enabled	활성화됨
+Endpoint	엔드포인트
+Event Log	이벤트 로그
+Event States	이벤트 상태
+Event Sub	Event Sub
+Events	이벤트
+Every spoken phrase will be saved as a WAV file to the folder specified if enabled.	활성화하면 모든 읽기 문구가 지정된 폴더에 WAV 파일로 저장됩니다.
+Everyone	모두
+Filter Action	동작 필터
+Follows	팔로우
+Forced	강제
+Forget	잊기
+FrankerFaceZ	FrankerFaceZ
+General	일반
+Gift Bombs	선물 폭탄
+Global Event Settings	글로벌 이벤트 설정
+Hide Not Present	부재 중 숨기기
+Highlight Voice Alias	음성 별칭 강조
+Highlight Voice Override	음성 오버라이드 강조
+Hype Trains	하이프 트레인
+ID	ID
+Ignore 7TV Emotes	7TV 이모티콘 무시
+Ignore BTTV Emotes	BTTV 이모티콘 무시
+Ignore Cheermotes	치어모트 무시
+Ignore FFZ Emotes	FFZ 이모티콘 무시
+Ignore Shared Chat	공유 채팅 무시
+Ignore Twemoji Emotes	Twemoji 이모티콘 무시
+Ignore Twitch Emotes	Twitch 이모티콘 무시
+Ignore text prefixed with	다음 접두사로 시작하는 텍스트 무시:
+Ignored	무시됨
+Ignored Locales	무시된 로케일
+Ignored Prefixes	무시된 접두사
+Ignored Voices	무시된 음성
+Ignored Voices/Locales	무시된 음성/로케일
+In Use:	사용 중:
+Last Active	마지막 활동
+Last spoke grace period	마지막 발화 유예 기간
+Login	로그인
+Maximum of	최대:
+Merchandise	상품
+Message	메시지
+Message Deleted	메시지 삭제됨
+Minimize to Tray	트레이로 최소화
+Minimum Cheer	최소 치어
+Minimum Donation	최소 기부액
+Minimum Raid Viewers	최소 레이드 시청자 수
+Moderators	모더레이터
+Name	이름
+New	새로 만들기
+Nickname	닉네임
+Not Allowed Text	허용되지 않는 텍스트
+Only say username if previous was different	이전과 다를 때만 사용자 이름 말하기
+Order of replacements is important, and can be re-arranged using ctrl+up/down on a selected replacement.	대체 순서는 중요합니다. 선택한 대체 항목에서 Ctrl+위/아래로 재정렬할 수 있습니다.
+Output	출력
+Output Device	출력 장치
+Past Voices	과거 음성
+Pause Threshold:	일시정지 임계값:
+Paused	일시정지됨
+Per Event Settings	이벤트별 설정
+Performance	성능
+Permissions	권한
+Please do not abuse this, I find this very much like putting words in peoples mouths, as you're giving your viewers a voice.	이 기능을 악용하지 마세요. 시청자에게 목소리를 주는 것이므로 다른 사람의 말을 대변하는 것과 같습니다.
+Port	포트
+Processing	처리 중
+Profile	프로필
+Profiles	프로필
+Raids	레이드
+Refresh	새로고침
+Regex Error	정규식 오류
+Regex Replacement	정규식 대체
+Regular	일반
+Regulars	일반 사용자
+Remove	제거
+Rename	이름 변경
+Replace	대체
+Replace %name% with nickname if available	가능하면 %name%을 닉네임으로 대체
+Replacement	대체
+Replacement Options	대체 옵션
+Reset	초기화
+Resume Threshold:	재개 임계값:
+Resume Wait Timeout	재개 대기 시간 제한
+Reward Settings	리워드 설정
+Role	역할
+Sample	샘플
+Sample Output	샘플 출력
+Save	저장
+Save TTS audio to file	TTS 오디오를 파일로 저장
+Say Everything	모두 읽기
+Say Username	사용자 이름 읽기
+Say input	입력 읽기
+Services	서비스
+Settings	설정
+SevenTV	SevenTV
+Silence Command Output	명령 출력 음소거
+Speak Generic	일반 읽기
+Speak!	읽기!
+Speaker.bot - Speaker.bot (0.1.7)	Speaker.bot - 음성 봇 (0.1.7)
+Speaker.bot Instance Information	Speaker.bot 인스턴스 정보
+Speaking Options	읽기 옵션
+Speech Engines	음성 엔진
+Speech will be played on the device selected	음성이 선택한 장치에서 재생됩니다
+Start	시작
+Start Server	서버 시작
+Sticky Random Voice	고정 랜덤 음성
+Stop Server	서버 중지
+Stop and Skip spoken messages on	다음 경우에 읽기 메시지 중지 및 건너뛰기:
+StreamElements	StreamElements
+Streamer.bot Website	Streamer.bot 웹사이트
+Streamlabs	Streamlabs
+Subscribed	구독됨
+Subscribers	구독자
+Subscriptions	구독
+TTS Speaking Commands	TTS 읽기 명령
+Test Speak	읽기 테스트
+These settings require a restart after changing.	이 설정은 변경 후 재시작이 필요합니다.
+Twitch	Twitch
+Twitch Account	Twitch 계정
+Twitch Shared Chat	Twitch 공유 채팅
+Url Filter	URL 필터
+User Banned	사용자 차단됨
+User Information	사용자 정보
+User Said Postfix	사용자 발화 접미사
+User Timed Out	사용자 타임아웃
+Username	사용자 이름
+Users	사용자
+VIPs	VIP
+Voice	음성
+Voice Alias	음성 별칭
+Voice Aliases	음성 별칭
+Voice Gate	음성 게이트
+Voices and locales set here will be excluded from random voice selection	여기서 설정한 음성과 로케일은 랜덤 음성 선택에서 제외됩니다
+Volume	볼륨
+Websocket Server	WebSocket 서버
+Weight	가중치
+With	함께:
+ms	ms
+seconds	초

@@ -1,0 +1,182 @@
+# english	chinese
+...	
+<not logged in>	<未登录>
+0	
+1	
+100%	
+15%	
+25%	
+8ab1f651-b1a1-4493-96a2-03641c7fbdbb	
+Account	账户
+Accounts	账户
+Add	添加
+Add Command	添加命令
+Address	地址
+Allow first emote	允许首个表情
+Allow whisper !tts commands from moderators	允许主持人使用私信 !tts 命令
+Allowed Emotes	允许的表情
+Allowed Forced	允许强制
+Application Volume:	应用音量：
+Audio Device to Monitor	要监听的音频设备
+Audio Output Device	音频输出设备
+Auto Start	自动启动
+Available	可用
+Bad Word Filter	脏话过滤器
+BetterTTV	BetterTTV
+Channel Points	频道积分
+Channel Rewards	频道奖励
+Cheers	欢呼
+Client	客户端
+Command	命令
+Command Options	命令选项
+Command Prefix	命令前缀
+Community Goal	社区目标
+Configure third party emote handling, changing these requires a restart.	配置第三方表情处理，更改后需要重启。
+Confirmation on Close	关闭时确认
+Connect	连接
+Custom Commands	自定义命令
+Default	默认
+Default Aliases	默认别名
+Default Voice Alias	默认语音别名
+Delete	删除
+Disable Viewers Tab	禁用观众选项卡
+Donations	捐赠
+Emote Handlers	表情处理器
+Emotes	表情
+Enabled	已启用
+Endpoint	端点
+Event Log	事件日志
+Event States	事件状态
+Event Sub	Event Sub
+Events	事件
+Every spoken phrase will be saved as a WAV file to the folder specified if enabled.	启用后，每句朗读内容都会以 WAV 文件保存到指定文件夹。
+Everyone	所有人
+Filter Action	过滤操作
+Follows	关注
+Forced	强制
+Forget	忘记
+FrankerFaceZ	FrankerFaceZ
+General	常规
+Gift Bombs	礼物炸弹
+Global Event Settings	全局事件设置
+Hide Not Present	隐藏未在场
+Highlight Voice Alias	高亮语音别名
+Highlight Voice Override	高亮语音覆盖
+Hype Trains	欢庆列车
+ID	ID
+Ignore 7TV Emotes	忽略 7TV 表情
+Ignore BTTV Emotes	忽略 BTTV 表情
+Ignore Cheermotes	忽略欢呼表情
+Ignore FFZ Emotes	忽略 FFZ 表情
+Ignore Shared Chat	忽略共享聊天
+Ignore text prefixed with	忽略以下前缀开头的文本
+Ignore Twemoji Emotes	忽略 Twemoji 表情
+Ignore Twitch Emotes	忽略 Twitch 表情
+Ignored	已忽略
+Ignored Locales	忽略的区域
+Ignored Prefixes	忽略的前缀
+Ignored Voices	忽略的语音
+Ignored Voices/Locales	忽略的语音/区域
+In Use:	使用中：
+Last Active	最后活跃
+Last spoke grace period	最后发言宽限期
+Login	登录
+Maximum of	最多
+Merchandise	商品
+Message	消息
+Message Deleted	消息已删除
+Minimize to Tray	最小化到托盘
+Minimum Cheer	最低欢呼数
+Minimum Donation	最低捐赠额
+Minimum Raid Viewers	最低突袭观众数
+Moderators	主持人
+ms	毫秒
+Name	名称
+New	新建
+Nickname	昵称
+Not Allowed Text	不允许的文本
+Only say username if previous was different	仅在与前一个不同时朗读用户名
+Order of replacements is important, and can be re-arranged using ctrl+up/down on a selected replacement.	替换顺序很重要，可使用 Ctrl+上/下键对选中的替换项重新排序。
+Output	输出
+Output Device	输出设备
+Past Voices	过往语音
+Pause Threshold:	暂停阈值：
+Paused	已暂停
+Per Event Settings	各事件设置
+Performance	性能
+Permissions	权限
+Please do not abuse this, I find this very much like putting words in peoples mouths, as you're giving your viewers a voice.	请不要滥用此功能。我认为这就像是替你的观众发声，因为你给了观众一个声音。
+Port	端口
+Processing	处理中
+Profile	配置文件
+Profiles	配置文件
+Raids	突袭
+Refresh	刷新
+Regex Error	正则表达式错误
+Regex Replacement	正则替换
+Regular	常客
+Regulars	常客
+Remove	移除
+Rename	重命名
+Replace	替换
+Replace %name% with nickname if available	有昵称时用昵称替换 %name%
+Replacement	替换
+Replacement Options	替换选项
+Reset	重置
+Resume Threshold:	恢复阈值：
+Resume Wait Timeout	恢复等待超时
+Reward Settings	奖励设置
+Role	角色
+Sample	示例
+Sample Output	示例输出
+Save	保存
+Save TTS audio to file	将 TTS 音频保存为文件
+Say Everything	朗读一切
+Say input	朗读输入
+Say Username	朗读用户名
+seconds	秒
+Services	服务
+Settings	设置
+SevenTV	SevenTV
+Silence Command Output	静默命令输出
+Speak Generic	通用朗读
+Speak!	朗读！
+Speaker.bot - Speaker.bot (0.1.7)	Speaker.bot - 语音机器人 (0.1.7)
+Speaker.bot Instance Information	Speaker.bot 实例信息
+Speaking Options	朗读选项
+Speech Engines	语音引擎
+Speech will be played on the device selected	语音将在所选设备上播放
+Start	开始
+Start Server	启动服务器
+Sticky Random Voice	固定随机语音
+Stop and Skip spoken messages on	在以下情况停止并跳过朗读消息
+Stop Server	停止服务器
+StreamElements	StreamElements
+Streamer.bot Website	Streamer.bot 网站
+Streamlabs	Streamlabs
+Subscribed	已订阅
+Subscribers	订阅者
+Subscriptions	订阅
+Test Speak	测试朗读
+These settings require a restart after changing.	这些设置更改后需要重启。
+TTS Speaking Commands	TTS 朗读命令
+Twitch	Twitch
+Twitch Account	Twitch 账户
+Twitch Shared Chat	Twitch 共享聊天
+Url Filter	网址过滤器
+User Banned	用户已被封禁
+User Information	用户信息
+User Said Postfix	用户说话后缀
+User Timed Out	用户已超时
+Username	用户名
+Users	用户
+VIPs	VIP
+Voice	语音
+Voice Alias	语音别名
+Voice Aliases	语音别名
+Voice Gate	语音门
+Voices and locales set here will be excluded from random voice selection	在此设置的语音和区域将从随机语音选择中排除
+Volume	音量
+Websocket Server	Websocket 服务器
+Weight	权重
+With	使用

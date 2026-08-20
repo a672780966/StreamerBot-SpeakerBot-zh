@@ -1,0 +1,1090 @@
+# english	ko-KR
+%changeType% - The type of change (Changed, Created, Deleted)	%changeType% - 변경 유형(변경, 생성, 삭제)
+%counter% - Global usage counter for reward	%counter% - 보상의 전역 사용 카운터
+%empty% - If the file is now empty	%empty% - 파일이 비어 있는지 여부
+%fileName% - The file name with extension	%fileName% - 확장자를 포함한 파일 이름
+%fullPath% - The full path to the file	%fullPath% - 파일의 전체 경로
+%line#% - The specifc line of the file, 0 based index, 0 is the first line	%line#% - 파일의 특정 줄(0 기반 인덱스, 0이 첫 줄)
+%lineEscaped#% - The line escaped for use in a url query	%lineEscaped#% - URL 쿼리에 사용하기 위해 이스케이프된 줄
+%lines% - The number of lines in the file	%lines% - 파일의 줄 수
+%randomUser0% - Random active user's display name	%randomUser0% - 무작위 활성 사용자의 표시 이름
+%randomUser1% - Random active user's display name	%randomUser1% - 무작위 활성 사용자의 표시 이름
+%randomUserName0% - Random active user's login name	%randomUserName0% - 무작위 활성 사용자의 로그인 이름
+%randomUserName1% - Random active user's login name	%randomUserName1% - 무작위 활성 사용자의 로그인 이름
+%rawInput% - UNSANITIZED input from redemption	%rawInput% - 리뎀션에서 나온 비정화 입력
+%timedoutUser0% - Timed out user's display name	%timedoutUser0% - 타임아웃된 사용자의 표시 이름
+%timedoutUserName0% - Timed out user's login name	%timedoutUserName0% - 타임아웃된 사용자의 로그인 이름
+%user% - Display name of User who used reward	%user% - 보상을 사용한 사용자의 표시 이름
+%userCounter% - Usage counter for user who used reward	%userCounter% - 보상을 사용한 사용자의 사용 카운터
+%userName% - Login of user who used reward	%userName% - 보상을 사용한 사용자의 로그인
+(0/0)	(0/0)
+(Optional)	(선택 사항)
+(in user list)	(사용자 목록에 있음)
+(not in user list)	(사용자 목록에 없음)
+({0})	({0})
+({0}/{1})	({0}/{1})
+- The file line as the file changes	- 파일 내용이 변경될 때의 줄
+- The file name with extension	- 확장자를 포함한 파일 이름
+- The full path to the file	- 파일의 전체 경로
+1. Global Variable Viewer	1. 전역 변수 뷰어
+1.0.7	1.0.7
+2. Action History Variable Inspecting	2. 액션 기록 변수 검사
+A Switch evaluates the input against the Case Values for equality, and first matching will have it's SubActions run.	Switch는 입력을 Case Values와 동등 비교하며, 첫 번째 일치 항목의 하위 액션이 실행됩니다.
+A caveat to note, due to the nature of serializing/deserializing, not all data types will preserved. Ones that I am aware of are List<T> objects, these will become object[] arrays when loaded.	알아둘 점: 직렬화/역직렬화의 특성상 모든 데이터 유형이 보존되지는 않습니다. 알고 있는 것은 List<T> 개체로, 로드 시 object[] 배열이 됩니다.
+A channel may specify a maximum of 10 tags. Each tag is limited to a maximum of 25 characters and may not be an empty string or contain spaces or special characters.	채널은 최대 10개의 태그를 지정할 수 있습니다. 각 태그는 최대 25자로 제한되며 빈 문자열이거나 공백 또는 특수 문자를 포함할 수 없습니다.
+A description for your backup	백업에 대한 설명
+A game engine for your live streams	라이브 스트리밍을 위한 게임 엔진
+A restart is REQUIRED after enabling or disabling this labs feature.	이 랩 기능을 활성화/비활성화한 후에는 다시 시작해야 합니다.
+A rollover will happen when this value is reached	이 값에 도달하면 롤오버가 발생합니다
+A variable, success will also be added, and will be true if Ok was pressed	변수 success도 추가되며, 확인을 누르면 true가 됩니다
+A very special thanks to the following people who believed in me and this project.	저와 이 프로젝트를 믿어준 다음 분들께 특별히 감사드립니다.
+API Key	API 키
+AR Lens	AR 렌즈
+About	정보
+Account Settings	계정 설정
+Action History	액션 기록
+Actions	액션
+Actions & Queues	액션 및 큐
+Actions ({0})	액션({0})
+Add Changed Data	변경된 데이터 추가
+Add Connection	연결 추가
+Add Group	그룹 추가
+Add Multiple Twitch Users to Group	여러 Twitch 사용자를 그룹에 추가
+Add Results to Arguments	결과를 인수에 추가
+Add User	사용자 추가
+Add User to	사용자 추가:
+Add Users	사용자 추가
+Add Variable	변수 추가
+Add a Command in a Group!	그룹에 명령 추가!
+Add a Command!	명령 추가!
+Add a Deck!	덱 추가!
+Add a Group!	그룹 추가!
+Add a Kick Reward!	Kick 보상 추가!
+Add a Timer!	타이머 추가!
+Add a Twitch Reward!	Twitch 보상 추가!
+Add a Voice Control Command!	음성 제어 명령 추가!
+Add a random number into arguments, use for percentages, or anything else.	인수에 난수를 추가합니다. 백분율이나 기타 용도로 사용합니다.
+Add an Action in a Group!	그룹에 액션 추가!
+Add common C# reference	일반 C# 참조 추가
+Add reference from file...	파일에서 참조 추가...
+Add the specified number of random users to the arguments, this will provide a unique number of users filterd by their present status and that have been seen by Streamer.bot.	지정된 수의 무작위 사용자를 인수에 추가합니다. 현재 상태와 Streamer.bot에서 본 적이 있는 사용자로 필터링된 고유한 사용자 수를 제공합니다.
+Add your HypeRate ID (CaSe SenSITiVe!!!!)	HypeRate ID를 입력하세요(대소문자 구분!!!)
+Add your SubActions to either of these groups to perform actions based on the result of this expression.	이 식의 결과에 따라 작업을 수행하려면 하위 액션을 이 그룹 중 하나에 추가하세요.
+Add, edit and delete user groups	사용자 그룹 추가, 편집, 삭제
+Add, edit and manage Streamlabs Desktop instances	Streamlabs Desktop 인스턴스 추가, 편집, 관리
+Adding multiple Get Quotes will overwrite each previous one	Get Quotes를 여러 개 추가하면 이전 항목이 각각 덮어써집니다
+Adds the present user at the index specified.  Index can also be a variable.  As a note, the present user list can change, so if you're iterating through, there is a possibility for same/missed results.	지정된 인덱스에 현재 사용자를 추가합니다. 인덱스는 변수일 수도 있습니다. 현재 사용자 목록은 변경될 수 있으므로 반복 중에 중복되거나 누락된 결과가 발생할 수 있습니다.
+Alerts Widget URL	알림 위젯 URL
+Allowed values for balance are %variables%, or a number value between 0 and 100 inclusive.	balance에 허용되는 값은 %variables% 또는 0~100(포함) 사이의 숫자입니다.
+Allowed values for gain are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	gain에 허용되는 값은 %variables% 또는 0.0~1.0(포함) 사이의 소수 값입니다.
+Allowed values for volume are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	volume에 허용되는 값은 %variables% 또는 0.0~1.0(포함) 사이의 소수 값입니다.
+Alpha Access	Alpha Access
+Also a nod to all those supporters past and present who are not listed above	위에 나열되지 않은 과거와 현재의 모든 서포터에게도 감사를 전합니다
+Always Run	항상 실행
+An up and coming heavy weight	주목받는 신예 중량급
+Anti-flicker	안티플리커
+Any references added to the common references list above will be automatically added to every Execute C# code when it's compiled	위의 공통 참조 목록에 추가된 참조는 컴파일 시 모든 Execute C# code에 자동으로 추가됩니다
+Any values that are left blank, will not be changed	비워 둔 값은 변경되지 않습니다
+Append to File	파일에 추가
+Application Volume	앱 볼륨
+As JSON	JSON으로
+Ask for Confirmation on Close	닫을 때 확인 요청
+Attempt Auto-Typing	자동 입력 시도
+Audio Enabled (boolean)	오디오 활성화(부울)
+Audio Input Device	오디오 입력 장치
+Audio Output Device	오디오 출력 장치
+Auto Connect	자동 연결
+Auto Connect on Startup	시작 시 자동 연결
+Auto Monitor	자동 모니터링
+Auto Monitor Live Broadcasts	라이브 방송 자동 모니터링
+Auto Open	자동 열기
+Auto Open Chat on Startup	시작 시 채팅 자동 열기
+Auto Open Event Feed on Startup	시작 시 이벤트 피드 자동 열기
+Auto Open on Startup	시작 시 자동 열기
+Auto Reconnect	자동 재연결
+Auto Reset	자동 초기화
+Auto Reset Cache	캐시 자동 초기화
+Auto Start	자동 시작
+Auto Start Listen	듣기 자동 시작
+Auto Start on Startup	시작 시 자동 시작
+Auto Type	자동 입력
+Auto pin message after it is sent and will be pinned for 20 minutes	메시지 전송 후 자동으로 고정되며 20분간 유지됩니다
+Auto-Type	자동 입력
+Auto-Type non-JSON Result	비 JSON 결과 자동 입력
+Automatically connect to CrowdControl when Streamer.bot starts up	Streamer.bot 시작 시 CrowdControl에 자동 연결
+Automatically connect to Elgato CameraHub when Streamer.bot starts up	Streamer.bot 시작 시 Elgato CameraHub에 자동 연결
+Automatically connect to Elgato Stream Deck MCP when Streamer.bot starts up	Streamer.bot 시작 시 Elgato Stream Deck MCP에 자동 연결
+Automatically connect to Elgato WaveLink when Streamer.bot starts up	Streamer.bot 시작 시 Elgato WaveLink에 자동 연결
+Automatically connect to HypeRate.io when Streamer.bot starts up	Streamer.bot 시작 시 HypeRate.io에 자동 연결
+Automatically connect to Lumia Stream when Streamer.bot starts up	Streamer.bot 시작 시 Lumia Stream에 자동 연결
+Automatically connect to Pally.gg when Streamer.bot starts up	Streamer.bot 시작 시 Pally.gg에 자동 연결
+Automatically connect to Pulsoid when Streamer.bot starts up	Streamer.bot 시작 시 Pulsoid에 자동 연결
+Automatically connect to Speaker.bot when Streamer.bot starts up	Streamer.bot 시작 시 Speaker.bot에 자동 연결
+Automatically connect to StreamLoots when Streamer.bot starts up	Streamer.bot 시작 시 StreamLoots에 자동 연결
+Automatically connect to Streamfog when Streamer.bot starts up	Streamer.bot 시작 시 Streamfog에 자동 연결
+Automatically connect to Throwing System when Streamer.bot starts up	Streamer.bot 시작 시 Throwing System에 자동 연결
+Automatically connect to TipeeeStream when Streamer.bot starts up	Streamer.bot 시작 시 TipeeeStream에 자동 연결
+Automatically connect to VTubeStudio when Streamer.bot starts up	Streamer.bot 시작 시 VTubeStudio에 자동 연결
+Automatically connect to VoiceMod when Streamer.bot starts up	Streamer.bot 시작 시 VoiceMod에 자동 연결
+Automatically connect to your YouTube Bot account when Streamer.bot starts up	Streamer.bot 시작 시 YouTube Bot 계정에 자동 연결
+Automatically connect to your YouTube Broadcaster account when Streamer.bot starts up	Streamer.bot 시작 시 YouTube Broadcaster 계정에 자동 연결
+Automatically reconnect to CrowdControl when the connection is terminated	연결이 종료되면 CrowdControl에 자동 재연결
+Automatically reconnect to Elgato CameraHub when the connection is terminated	연결이 종료되면 Elgato CameraHub에 자동 재연결
+Automatically reconnect to Elgato Stream Deck MCP when the connection is terminated	연결이 종료되면 Elgato Stream Deck MCP에 자동 재연결
+Automatically reconnect to Elgato WaveLink when the connection is terminated	연결이 종료되면 Elgato WaveLink에 자동 재연결
+Automatically reconnect to HypeRate.io when the connection is terminated	연결이 종료되면 HypeRate.io에 자동 재연결
+Automatically reconnect to Lumia Stream when the connection is terminated	연결이 종료되면 Lumia Stream에 자동 재연결
+Automatically reconnect to Pally.gg when the connection is terminated	연결이 종료되면 Pally.gg에 자동 재연결
+Automatically reconnect to Pulsoid when the connection is terminated	연결이 종료되면 Pulsoid에 자동 재연결
+Automatically reconnect to Speaker.bot when the connection is terminated	연결이 종료되면 Speaker.bot에 자동 재연결
+Automatically reconnect to StreamLoots when the connection is terminated	연결이 종료되면 StreamLoots에 자동 재연결
+Automatically reconnect to Streamfog when the connection is terminated	연결이 종료되면 Streamfog에 자동 재연결
+Automatically reconnect to Throwing System when the connection is terminated	연결이 종료되면 Throwing System에 자동 재연결
+Automatically reconnect to TipeeeStream when the connection is terminated	연결이 종료되면 TipeeeStream에 자동 재연결
+Automatically reconnect to VTubeStudio when the connection is terminated	연결이 종료되면 VTubeStudio에 자동 재연결
+Automatically reconnect to VoiceMod when the connection is terminated	연결이 종료되면 VoiceMod에 자동 재연결
+Automatically run the Stream Update trigger when connecting to Twitch	Twitch에 연결할 때 Stream Update 트리거를 자동 실행
+Automatically start listening for voice commands when Streamer.bot starts	Streamer.bot 시작 시 음성 명령 듣기 자동 시작
+Automatically start the Process Watcher when Streamer.bot starts up	Streamer.bot 시작 시 프로세스 감시기 자동 시작
+Automatically start the server when Streamer.bot starts up	Streamer.bot 시작 시 서버 자동 시작
+Available Endpoints	사용 가능한 엔드포인트
+Available Requests	사용 가능한 요청
+Available Sub-Actions	사용 가능한 하위 액션
+Available Triggers	사용 가능한 트리거
+Avatar URL	아바타 URL
+Background Color	배경색
+Backup Folder	백업 폴더
+Backup Now	지금 백업
+Backup Progress	백업 진행률
+Backup Status	백업 상태
+Backup Version:	백업 버전:
+Backups	백업
+Backups currently available in your cloud storage	클라우드 저장소에서 현재 사용 가능한 백업
+Basic settings related to Streamer.bot	Streamer.bot 관련 기본 설정
+Bits Cost	Bits 비용
+Bits Donated	기부된 Bits
+Bot Account	봇 계정
+Bot Account Auto Connect	봇 계정 자동 연결
+Both fields support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	두 필드 모두 구문 분석을 지원합니다. Duration은 비워두거나(고정 메시지가 방송 종료까지 유지됨), 30~1800 사이의 값으로 설정 또는 구문 분석되어야 합니다.
+Broadcast Information	방송 정보
+Broadcaster Account	브로드캐스터 계정
+Broadcaster Account Auto Connect	브로드캐스터 계정 자동 연결
+Browse your past videos	과거 동영상 찾아보기
+Browser Source Audio Enabled (boolean)	브라우저 소스 오디오 활성화(부울)
+Button ID	버튼 ID
+By clicking "I Agree" below, you are agreeing to YouTube's Terms of Service, Google's Privacy Policy, and Streamer.bot's Terms of Service and Privacy policy as linked below.	아래의 "동의합니다"를 클릭하면 YouTube 서비스 약관, Google 개인정보 보호정책, Streamer.bot 서비스 약관 및 개인정보 보호정책에 동의하게 됩니다.
+By default, timed actions will repeat, you can have them only trigger once, by unticking repeat, and it will trigger after being enabled	기본적으로 타이머 액션은 반복됩니다. 반복을 해제하면 한 번만 트리거되며, 활성화된 후에 트리거됩니다
+C# Compile Settings	C# 컴파일 설정
+C# Compiler	C# 컴파일러
+Camera does not support Noise Reduction!	카메라가 노이즈 감소를 지원하지 않습니다!
+Cancel Login	로그인 취소
+Capture Key	키 캡처
+Capture Model Position	모델 위치 캡처
+Case Sensitive	대소문자 구분
+Case Values	케이스 값
+Category Name	카테고리 이름
+Change VoiceMod settings on the fly, or voices	VoiceMod 설정 또는 음성을 즉시 변경
+Change backup settings, and force backup creation	백업 설정을 변경하고 백업 생성을 강제
+Change settings.	설정을 변경합니다.
+Changed only Values	값만 변경
+Changing enabled Sub-Actions requires a restart of Streamer.bot	활성화된 하위 액션 변경에는 Streamer.bot 재시작이 필요합니다
+Changing enabled Triggers requires a restart of Streamer.bot	활성화된 트리거 변경에는 Streamer.bot 재시작이 필요합니다
+Changing the log folder requires a restart of Streamer.bot	로그 폴더 변경에는 Streamer.bot 재시작이 필요합니다
+Changing these settings requires a restart of Streamer.bot	이러한 설정 변경에는 Streamer.bot 재시작이 필요합니다
+Channel Point Rewards	채널 포인트 보상
+Channel Points Per Vote	투표당 채널 포인트
+Channel Points Per Vote, leave empty or set to 0 to disable	투표당 채널 포인트, 비워 두거나 0으로 설정하면 비활성화
+Channel Points Spent	사용된 채널 포인트
+Chapter Name	챕터 이름
+Chapter name supports %variables%.	챕터 이름은 %variables%를 지원합니다.
+Chat	채팅
+Chat Client	채팅 클라이언트
+Chatters will receive a temporary chat badge indicating the option they voted for until the prediction ends.	채팅 참여자는 예측이 끝날 때까지 자신이 투표한 옵션을 나타내는 임시 채팅 배지를 받습니다.
+Check for Updates	업데이트 확인
+Checking this will make your value be auto typed, and has no effect on increment or decrement source	이것을 체크하면 값이 자동 입력되며 증가/감소 소스에는 영향을 미치지 않습니다
+Choices (Minimum of 2, maximum of 5)	선택지(최소 2, 최대 5)
+Choose a custom default color to use for the Comment Sub-Action	Comment 하위 액션에 사용할 사용자 지정 기본 색상을 선택
+Choose the color to use when a Sub-Action is disabled	하위 액션이 비활성화되었을 때 사용할 색상을 선택
+Choose what MIDI pages to show	표시할 MIDI 페이지 선택
+Choose what Server/Client pages to show	표시할 서버/클라이언트 페이지 선택
+Choose what Voice Control pages to show	표시할 음성 제어 페이지 선택
+Choose what platforms to show	표시할 플랫폼 선택
+Choose what services to show	표시할 서비스 선택
+Choose what streaming applications to show	표시할 스트리밍 앱 선택
+Clear History	기록 지우기
+Clear Queue	큐 지우기
+Clear User	사용자 지우기
+Clear the cache on startup if the time since last startup exceeds the given interval	마지막 시작 이후 경과 시간이 지정된 간격을 초과하면 시작 시 캐시를 지웁니다
+Click the button above to select a category.	위의 버튼을 클릭하여 카테고리를 선택하세요.
+Click the button above to select a game, leave it empty to have your game category empty.	위의 버튼을 클릭하여 게임을 선택하세요. 비워 두면 게임 카테고리가 비게 됩니다.
+Clicking export will export your selected Actions, Queues, Commands, Timed Actions, Websocket Servers and Websocket Clients to your clipboard, and you can share them everywhere.	내보내기를 클릭하면 선택한 액션, 큐, 명령, 타이머 액션, WebSocket 서버 및 클라이언트가 클립보드로 내보내져 어디서나 공유할 수 있습니다.
+Clients that are currently connected	현재 연결된 클라이언트
+Clip ID	클립 ID
+Clip Title	클립 제목
+Cloud Backups	클라우드 백업
+Cloud Backups are a supporter perk, and require you to be subscribed at the	클라우드 백업은 서포터 특전이며, 다음에서 구독해야 합니다:
+Coin Type	코인 유형
+Collapse All	모두 접기
+Command	명령
+Command Type	명령 유형
+Command(s)	명령
+Commands	명령
+Commands ({0})	명령({0})
+Comment Color	댓글 색상
+Common References	공통 참조
+Compiling Log	컴파일 로그
+Completed At	완료 시각
+Completed Count	완료 수
+Confidence Threshold	신뢰도 임계값
+Configure Twitch Sub Counter integration settings	Twitch 구독 카운터 통합 설정 구성
+Configure actions, queues and view action history	액션, 큐를 구성하고 액션 기록 보기
+Configure default options when creating new Actions, Commands and other	새 액션, 명령 등을 만들 때 기본 옵션 구성
+Configure options for the Credits service	Credits 서비스 옵션 구성
+Configure the default audio output device Streamer.bot uses	Streamer.bot이 사용하는 기본 오디오 출력 장치 구성
+Configure the device to use for speech recognition	음성 인식에 사용할 장치 구성
+Configure the first words cache	첫 단어 캐시 구성
+Configure third party emote handling, changing these requires a restart	타사 이모티콘 처리 구성, 변경에는 재시작 필요
+Configure your streaming application settings	스트리밍 앱 설정 구성
+Configuring Elgato CameraHub	Elgato CameraHub 구성 중
+Configuring Elgato WaveLink	Elgato WaveLink 구성 중
+Configuring HTTP Server	HTTP 서버 구성 중
+Configuring Twitch	Twitch 구성 중
+Configuring Voice Control	음성 제어 구성 중
+Connect a bot account to send messages with a different user	다른 사용자로 메시지를 보내려면 봇 계정을 연결하세요
+Connect to enable Ko-fi, Patreon, FourthWall and more!	연결하여 Ko-fi, Patreon, FourthWall 등을 활성화하세요!
+Connect your Stream Deck for even more power!	Stream Deck을 연결하여 더욱 강력하게!
+Connect your StreamElements account to receive events	이벤트를 받으려면 StreamElements 계정을 연결하세요
+Connect your Streamer.bot account	Streamer.bot 계정 연결
+Connect your Streamlabs account to receive events	이벤트를 받으려면 Streamlabs 계정을 연결하세요
+Connect your TreatStream account to receive events	이벤트를 받으려면 TreatStream 계정을 연결하세요
+Connect your streaming account for core functionality	핵심 기능을 위해 스트리밍 계정을 연결하세요
+Connected	연결됨
+Connected Clients	연결된 클라이언트
+Connecting...	연결 중...
+Connection Status	연결 상태
+Control your Elgato Camera or Prompter.	Elgato 카메라 또는 프롬프터를 제어하세요.
+Control your Elgato Microphone.	Elgato 마이크를 제어하세요.
+Control your lights through LumiaStream, and receive events.	LumiaStream을 통해 조명을 제어하고 이벤트를 받으세요.
+Cooldown	쿨다운
+Copy All Variable Names	모든 변수 이름 복사
+Copy All Video Urls to Clipboard	모든 동영상 URL을 클립보드에 복사
+Copy As Text Table	텍스트 표로 복사
+Copy Login Link	로그인 링크 복사
+Copy all to clipboard	모두 클립보드에 복사
+Copy and paste your API Key in this field	이 필드에 API 키를 복사하여 붙여넣으세요
+Copy and paste your Alerts Widget URL in this field	이 필드에 알림 위젯 URL을 복사하여 붙여넣으세요
+Copy and paste your Overlay URL in this field	이 필드에 오버레이 URL을 복사하여 붙여넣으세요
+Copy and paste your remote key in this field	이 필드에 원격 키를 복사하여 붙여넣으세요
+Copy and paste your token in this field	이 필드에 토큰을 복사하여 붙여넣으세요
+Count	수
+Create Backup	백업 만들기
+Create Cloud Backup	클라우드 백업 만들기
+Create Custom Server	사용자 지정 서버 만들기
+Create DonorDrive	DonorDrive 만들기
+Create File Tail	파일 테일 만들기
+Create File Watcher	파일 감시자 만들기
+Create Midi Event	MIDI 이벤트 만들기
+Create Reward	보상 만들기
+Create Timer	타이머 만들기
+Create Websocket Client	WebSocket 클라이언트 만들기
+Create a New Poll	새 투표 만들기
+Create a backup and upload it to your cloud storage	백업을 만들어 클라우드 저장소에 업로드
+Create folder/file watchers to react to file changes	파일 변경에 반응하는 폴더/파일 감시자 만들기
+Create your own WebSocket Servers and manage them from within C#	자체 WebSocket 서버를 만들고 C# 내에서 관리
+Create your own connections to WebSocket Servers and control them from within C#	WebSocket 서버에 대한 자체 연결을 만들고 C# 내에서 제어
+Create, edit and remove your output MIDI device associations	출력 MIDI 장치 연결 생성, 편집, 제거
+Create, edit, and remove Voice Control Commands	음성 제어 명령 생성, 편집, 제거
+Create, edit, and remove your MIDI Input associations and events	MIDI 입력 연결 및 이벤트 생성, 편집, 제거
+Created At	생성 시각
+Created At:	생성 시각:
+Created by nate1280	nate1280이 만듦
+Created by: nate1280	만든 사람: nate1280
+Creators and mods can create predictions. Viewers who guess the outcome correctly can win Channel Points. All predictions must follow Twitch's	크리에이터와 모드는 예측을 만들 수 있습니다. 결과를 올바르게 맞힌 시청자는 채널 포인트를 얻을 수 있습니다. 모든 예측은 Twitch 규칙을 따라야 합니다:
+Cumulative Sub Range	누적 구독 범위
+Current Scene	현재 장면
+Custom Power-Ups	사용자 지정 파워업
+Custom WebSocket Clients	사용자 지정 WebSocket 클라이언트
+Custom WebSocket Servers	사용자 지정 WebSocket 서버
+Custom Webhook	사용자 지정 Webhook
+Custom Websocket Clients	사용자 지정 WebSocket 클라이언트
+Custom Websocket Servers	사용자 지정 WebSocket 서버
+Dark Mode	다크 모드
+Date/Time	날짜/시간
+Dedicated to the loving memory of my mother.	사랑하는 어머니의 추억에 바칩니다.
+Default Tags	기본 태그
+Default Value	기본값
+Default settings to apply to new Actions	새 액션에 적용할 기본 설정
+Default settings to apply to new Commands	새 명령에 적용할 기본 설정
+Default settings to apply to new Switch Case groupings	새 Switch Case 그룹에 적용할 기본 설정
+Defaults	기본값
+Defaults to 5 minutes to balance accuracy and performance	정확성과 성능의 균형을 위해 기본값은 5분
+Delayed Start	지연 시작
+Delete All	모두 삭제
+Delete All Variables	모든 변수 삭제
+Delete Filtered Variables	필터링된 변수 삭제
+Destination	대상
+Destination Slot	대상 슬롯
+Destination Variable	대상 변수
+Device Name	장치 이름
+Disable Capturing of Variable Viewer Window	변수 뷰어 창 캡처 비활성화
+Disable not configured rewards	구성되지 않은 보상 비활성화
+Disable the tracking of Actions to reclaim performance	성능을 회복하려면 액션 추적 비활성화
+Discord	Discord
+Do not show Streamer.bot's splash screen when starting	시작 시 Streamer.bot 스플래시 화면 표시 안 함
+Documentation	문서
+Don't Show Again	다시 표시 안 함
+Duplicate Sub-Action Location	하위 액션 복제 위치
+Duration can contain either a specific value between 5 and 60 (inclusive), or a %variable% that will be parsed.  This is in seconds, and if left blank, the default is 30s.	Duration에는 5~60(포함) 사이의 특정 값 또는 구문 분석되는 %variable%를 지정할 수 있습니다. 단위는 초이며, 비워 두면 기본값은 30초입니다.
+Duration can either be a number (in minutes between 0 and 129,600), or a %variable% that will be parsed.	Duration에는 숫자(0~129,600분) 또는 구문 분석되는 %variable%를 지정할 수 있습니다.
+Duration can either be a number (in seconds), or a %variable% that will be parsed.	Duration에는 숫자(초) 또는 구문 분석되는 %variable%를 지정할 수 있습니다.
+Duration support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	Duration은 구문 분석을 지원합니다. 비워 두거나(고정 메시지가 방송 종료까지 유지됨), 30~1800 사이의 값으로 설정 또는 구문 분석되어야 합니다.
+Duration, defaults to 60 if empty or unable to parse	Duration, 비어 있거나 구문 분석할 수 없으면 기본값 60
+Dynamic Range	다이내믹 레인지
+Editor Settings	편집기 설정
+Elgato CameraHub is Not Connected!	Elgato CameraHub가 연결되지 않았습니다!
+Elgato Stream Deck instances that are currently connected	현재 연결된 Elgato Stream Deck 인스턴스
+Elgato StreamDeck MCP is Not Connected!	Elgato StreamDeck MCP가 연결되지 않았습니다!
+Elgato WaveLink is Not Connected!	Elgato WaveLink가 연결되지 않았습니다!
+Emote Handlers	이모티콘 처리기
+Enable Compression	압축 활성화
+Enable automatic roll over once the subsction count reaches a set number	구독 수가 설정된 숫자에 도달하면 자동 롤오버 활성화
+Enable integrations beyond the UI with Streamer.bot's build in WebSocket server.	Streamer.bot에 내장된 WebSocket 서버로 UI 외부 통합을 활성화하세요.
+Enable or disable the viewers tab to reclaim performance	성능을 회복하려면 뷰어 탭을 활성화/비활성화
+Enable receving events from StreamElements.	StreamElements에서 이벤트 수신을 활성화하세요.
+Enable receving events from Streamlabs.	Streamlabs에서 이벤트 수신을 활성화하세요.
+Enable the Sub Counter for tracking of subscriptions and rollovers	구독 및 롤오버 추적을 위해 구독 카운터 활성화
+Enabled	활성화됨
+Enabled Sub-Actions	활성화된 하위 액션
+Enabled Triggers	활성화된 트리거
+Enter a unique Action name...	고유한 액션 이름 입력...
+Enter a unique queue name...	고유한 큐 이름 입력...
+Enter the IP address Speaker.bot's WebSocket server is running on, '127.0.0.1'	Speaker.bot의 WebSocket 서버가 실행 중인 IP 주소를 입력하세요. 예: '127.0.0.1'
+Enter the IP address for this server to bind to. For example, '127.0.0.1'	이 서버가 바인딩할 IP 주소를 입력하세요. 예: '127.0.0.1'
+Enter the IP address to connect to. For example, '127.0.0.1'	연결할 IP 주소를 입력하세요. 예: '127.0.0.1'
+Enter the endpoint to listen to for the connection.  Defaults to '/'	연결을 위해 들을 엔드포인트를 입력하세요. 기본값은 '/'
+Enter the port Speaker.bot's WebSocket server is running on. Defaults to 7580	Speaker.bot의 WebSocket 서버가 실행 중인 포트를 입력하세요. 기본값 7580
+Enter the port to use for server connection. Defaults to 4242	서버 연결에 사용할 포트를 입력하세요. 기본값 4242
+Enter the port to use for server connection. Defaults to 7474	서버 연결에 사용할 포트를 입력하세요. 기본값 7474
+Enter the port to use for server connection. Defaults to 8059	서버 연결에 사용할 포트를 입력하세요. 기본값 8059
+Enter the port to use for server connection. Defaults to 8080	서버 연결에 사용할 포트를 입력하세요. 기본값 8080
+Enter the port to use for server connection. Defaults to 9652	서버 연결에 사용할 포트를 입력하세요. 기본값 9652
+Enter the port to use for the connection. Defaults to 42069	연결에 사용할 포트를 입력하세요. 기본값 42069
+Environment Variables	환경 변수
+Event Feed	이벤트 피드
+Event Name	이벤트 이름
+EventSub Client	EventSub 클라이언트
+Events Client	이벤트 클라이언트
+Events to Record	기록할 이벤트
+Exchange Source	소스 교환
+Exclude all commands from import	가져오기에서 모든 명령 제외
+Exclude all from Import	가져오기에서 모두 제외
+Exclude all timed actions from import	가져오기에서 모든 타이머 액션 제외
+Exclude all websocket clients from import	가져오기에서 모든 WebSocket 클라이언트 제외
+Exclude all websocket servers from import	가져오기에서 모든 WebSocket 서버 제외
+Exclude from Action Queue/History	액션 큐/기록에서 제외
+Execute C# Code	C# 코드 실행
+Execute C# Code Editor	C# 코드 편집기 실행
+Expand All	모두 펼치기
+Explore the official documentation for Streamer.bot	Streamer.bot 공식 문서 살펴보기
+Export	내보내기
+Export Version	내보내기 버전
+Export to Clipboard	클립보드로 내보내기
+Export to File	파일로 내보내기
+Expression	식
+Fade Time	페이드 시간
+Fallback to Broadcaster	브로드캐스터로 폴백
+File Path	파일 경로
+File Tail	파일 테일
+File Tails	파일 테일
+File to Check if Exists	존재 여부를 확인할 파일
+File to Read From	읽을 파일
+File to Write To	쓸 파일
+File/Folder Watcher	파일/폴더 감시자
+Filter	필터
+Filter Type	필터 유형
+Filter...	필터...
+Find Refs	참조 찾기
+Finish playing before continuing	계속하기 전에 재생을 마칩니다
+First Words	첫 단어
+Folder containing *.mp3 and *.wav	*.mp3 및 *.wav가 포함된 폴더
+Folder mappings for serving local files	로컬 파일 제공을 위한 폴더 매핑
+Folder to Check if Exists	존재 여부를 확인할 폴더
+Font Family	글꼴 패밀리
+Font Size	글꼴 크기
+For readability, consider using camelCasing or PascalCasing.	가독성을 위해 camelCasing 또는 PascalCasing을 사용하는 것이 좋습니다.
+Forget	잊기
+Forget Account	계정 잊기
+Forget any saved credentials for Pulsoid	Pulsoid에 저장된 자격 증명 잊기
+Forget any saved credentials for TipeeeStream	TipeeeStream에 저장된 자격 증명 잊기
+Forget any saved credentials for VTubeStudio	VTubeStudio에 저장된 자격 증명 잊기
+Forget this account?	이 계정을 잊으시겠습니까?
+Format Document	문서 서식 지정
+Found {0} videos	{0}개의 동영상을 찾았습니다
+GCD	GCD
+Gain early access to new features and updates before they are released to the public.	일반 공개 전에 새 기능과 업데이트에 대한 조기 액세스를 얻으세요.
+Game Only	게임 전용
+General Settings	일반 설정
+Generate a new Instance Id for this instance of Streamer.bot	이 Streamer.bot 인스턴스에 대한 새 인스턴스 ID 생성
+Gift Bombs	선물 폭탄
+Gift Sub Count Range	기프트 구독 수 범위
+Global Cooldown	전역 쿨다운
+Global Variables	전역 변수
+Grant Type	부여 유형
+Group	그룹
+Group Layout	그룹 레이아웃
+Group Name	그룹 이름
+Groups	그룹
+HTTP Server	HTTP 서버
+Handle all things variables	변수와 관련된 모든 것을 처리
+Has Permission	권한 있음
+Help with Elgato CameraHub	Elgato CameraHub 도움말
+Help with Elgato WaveLink	Elgato WaveLink 도움말
+Help with HTTP Server	HTTP 서버 도움말
+Help with Twitch	Twitch 도움말
+Help with Voice Control	음성 제어 도움말
+Help with WebSocket Server	WebSocket 서버 도움말
+Hide Not Present	부재 중 숨기기
+Hide Splash Screen	스플래시 화면 숨기기
+Higher tiers gives you more storage space to hold more backups.	상위 티어는 더 많은 백업을 저장할 수 있는 더 큰 저장 공간을 제공합니다.
+Home	홈
+How long it took for the action to run, this is in milliseconds	액션 실행에 걸린 시간(밀리초)
+How long viewers have to guess the outcome	시청자가 결과를 추측할 수 있는 시간
+How long viewers have to vote in the poll	시청자가 투표할 수 있는 시간
+I Agree	동의합니다
+I also can not forget giving a nod to the following people	다음 분들에게도 감사의 인사를 드리지 않을 수 없습니다
+I can not foget to thank the following who are on Streamer.bot's staff, providing support in the discord	Discord에서 지원을 제공하는 Streamer.bot 직원인 다음 분들에게 감사드리지 않을 수 없습니다
+Icon Path	아이콘 경로
+Ideas & Suggestions	아이디어 및 제안
+If "Destination Variable" is left empty, the value will be stored to global_variableName, or user_username_variablename	"Destination Variable"을 비워 두면 값이 global_variableName 또는 user_username_variablename에 저장됩니다
+If AsJson is checked, the file will try to be loaded as a json object only a simple object will be loaded (for now), if it can not be parsed, the below will be available	AsJson이 체크되면 파일이 JSON 개체로 로드되려고 합니다(현재는 단순 개체만). 구문 분석할 수 없으면 아래 항목을 사용할 수 있습니다
+If both options are set, then both criteria must be met for the action to occur. The action will only run if Y number have lines have been said, and if X seconds have passed.	두 옵션을 모두 설정하면 액션이 발생하려면 두 기준을 모두 충족해야 합니다. Y줄이 발화되고 X초가 경과한 경우에만 액션이 실행됩니다.
+If cancelling a redemption, this will refund the channel points back to the user that redeemed it.	리뎀션을 취소하면 채널 포인트가 리뎀션한 사용자에게 환불됩니다.
+If there are no matches then it will fall back to the Default Case.	일치하는 항목이 없으면 Default Case로 폴백합니다.
+If this is checked, only users in the listed groups will be used, otherwise they will be excluded	이것을 체크하면 나열된 그룹의 사용자만 사용되고, 그 외에는 제외됩니다
+If timeout is left blank, it defaults to 30 seconds (or 30,000ms)	타임아웃을 비워 두면 기본값은 30초(또는 30,000ms)입니다
+If you are already subscribed, thank you for your support. Make sure you are currently logged into your Streamer.bot account in the bottom-left corner of Streamer.bot. If you are logged in, then make sure you have also linked your	이미 구독 중이시라면 지원에 감사드립니다. Streamer.bot의 왼쪽 아래 모서리에서 Streamer.bot 계정에 로그인되어 있는지 확인하세요. 로그인되어 있다면 다음도 연결했는지 확인하세요:
+If you enjoy Streamer.bot, please consider supporting nate1280 on Patreon.	Streamer.bot이 마음에 드신다면 Patreon에서 nate1280을 지원하는 것을 고려해 주세요.
+Ignore Aliases	별칭 무시
+Ignore Bot Messages	봇 메시지 무시
+Ignore Case	대소문자 무시
+Ignore Channel	채널 무시
+Ignore Data	데이터 무시
+Ignore Extensions	확장 기능 무시
+Ignore Internal Messages	내부 메시지 무시
+Ignore NoteOff	NoteOff 무시
+Import	가져오기
+Import String	가져오기 문자열
+Import contains custom C# code. Ensure you trust the author and source of this import!	가져오기에는 사용자 지정 C# 코드가 포함되어 있습니다. 이 가져오기의 작성자와 소스를 신뢰할 수 있는지 확인하세요!
+Important Information	중요 정보
+Include Action's Arguments	액션의 인수 포함
+Include All	모두 포함
+Include Subdirectories	하위 디렉터리 포함
+Include auth.db	auth.db 포함
+Input now supports variable parsing, be sure to surround it with % if you want the value of the variable. i.e. %user%, %userCounter%, %rawInput%, etc...	입력은 이제 변수 구문 분석을 지원합니다. 변수 값을 원하면 %로 감싸세요. 예: %user%, %userCounter%, %rawInput% 등...
+Instance Id	인스턴스 ID
+Instance Name:	인스턴스 이름:
+Integrate further with Speaker.bot.	Speaker.bot과 더욱 통합하세요.
+Integrations	통합
+Is UserId	사용자 ID 여부
+Jewels Gifted	선물된 보석
+Join the Streamer.bot community!	Streamer.bot 커뮤니티에 가입하세요!
+Keep the updates coming!	업데이트를 계속 보내주세요!
+Keep track of active viewers in chat	채팅에서 활성 시청자 추적
+Keep track of users that create pyramids in your chat	채팅에서 피라미드를 만드는 사용자 추적
+Key Combination	키 조합
+Kick Message	Kick 메시지
+Kick is not Connected	Kick이 연결되지 않았습니다
+Kick's own API implementation is still very fluid, and lacking, so not every feature maybe implemented	Kick의 자체 API 구현은 아직 유동적이고 부족하여 모든 기능이 구현되지 않을 수 있습니다
+Kicks Gifted	선물된 Kick
+Ko-fi	Ko-fi
+Labs	랩
+Last Active	마지막 활동
+Last Triggered	마지막 트리거
+Last Write	마지막 쓰기
+Last backup: Never	마지막 백업: 없음
+Last backup: {0:F}	마지막 백업: {0:F}
+Learn from Device	장치에서 학습
+Leave color empty to use Application default color for comments	댓글에 앱 기본 색상을 사용하려면 색상을 비워 두세요
+Leaving Event Name empty is considered a catch-all and will trigger on any custom event name.	Event Name을 비워 두면 catch-all로 간주되어 모든 사용자 지정 이벤트 이름에서 트리거됩니다.
+Leaving Event Name empty is considered a catch-all and will trigger on any remote event name.	Event Name을 비워 두면 catch-all로 간주되어 모든 원격 이벤트 이름에서 트리거됩니다.
+Leaving Toast Id empty is considered a catch-all and will trigger on any Toast Id.	Toast Id를 비워 두면 catch-all로 간주되어 모든 Toast Id에서 트리거됩니다.
+Leaving name empty is considered a catch-all and will trigger on any global variable being created	이름을 비워 두면 catch-all로 간주되어 모든 전역 변수 생성에서 트리거됩니다
+Leaving name empty is considered a catch-all and will trigger on any global variable being deleted	이름을 비워 두면 catch-all로 간주되어 모든 전역 변수 삭제에서 트리거됩니다
+Leaving name empty is considered a catch-all and will trigger on any global variable updating	이름을 비워 두면 catch-all로 간주되어 모든 전역 변수 업데이트에서 트리거됩니다
+Leaving name empty is considered a catch-all and will trigger on any process starting.	이름을 비워 두면 catch-all로 간주되어 모든 프로세스 시작에서 트리거됩니다.
+Leaving name empty is considered a catch-all and will trigger on any process stopping.	이름을 비워 두면 catch-all로 간주되어 모든 프로세스 중지에서 트리거됩니다.
+Leaving name or login empty is considered a catch-all and will trigger on any user global variable updating	이름 또는 로그인을 비워 두면 catch-all로 간주되어 모든 사용자 전역 변수 업데이트에서 트리거됩니다
+Leaving soundboard name empty is considered a catch-all and will trigger on any soundboard changed event.	사운드보드 이름을 비워 두면 catch-all로 간주되어 모든 사운드보드 변경 이벤트에서 트리거됩니다.
+Leaving user name empty is considered a catch-all and will trigger on any first words event.	사용자 이름을 비워 두면 catch-all로 간주되어 모든 첫 단어 이벤트에서 트리거됩니다.
+Leaving voice name empty is considered a catch-all and will trigger on any voice loaded event.	음성 이름을 비워 두면 catch-all로 간주되어 모든 음성 로드 이벤트에서 트리거됩니다.
+Lens Name	렌즈 이름
+Lens Name and/or Duration can be a fixed value or a parsed value using variables and/or inline functions.	Lens Name 및/또는 Duration은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+Light Mode	라이트 모드
+Line Number	줄 번호
+Line Spacing	줄 간격
+Listening Status	듣기 상태
+Live (boolean)	라이브(부울)
+Live Update	라이브 업데이트
+Loading Editor Components...	편집기 구성 요소를 불러오는 중...
+Loading...	불러오는 중...
+Location	위치
+Log Folder	로그 폴더
+Log In (Default)	로그인(기본값)
+Log Level	로그 수준
+Log Speech to Text Dictation	음성 인식 받아쓰기 기록
+Login	로그인
+Login to your Kick account, and adjust settings.	Kick 계정에 로그인하고 설정을 조정하세요.
+Login to your Streamer.bot Account to see beta/alpha channels.	베타/알파 채널을 보려면 Streamer.bot 계정에 로그인하세요.
+Login to your Streamer.bot account in the bottom-left corner	왼쪽 아래 모서리에서 Streamer.bot 계정에 로그인하세요
+Login to your Twitch account, manage Chanel Rewards, Poll and Predictions, and settings.	Twitch 계정에 로그인하여 채널 보상, 투표, 예측 및 설정을 관리하세요.
+Login to your YouTube account, see your broadcasts, and alter settings.	YouTube 계정에 로그인하여 방송을 보고 설정을 변경하세요.
+Logout	로그아웃
+LumiaStream is Not Connected!	LumiaStream이 연결되지 않았습니다!
+MIDI	MIDI
+MIDI Device is NOT connected	MIDI 장치가 연결되어 있지 않습니다
+MIDI Device is already in use	MIDI 장치가 이미 사용 중입니다
+MIDI Device is connected	MIDI 장치가 연결되어 있습니다
+MIDI Device is not found	MIDI 장치를 찾을 수 없습니다
+MIDI In	MIDI 입력
+MIDI Out	MIDI 출력
+Making Changes to this list will not invalidate any currently compiled Execute C# Code sub-actions	이 목록을 변경해도 현재 컴파일된 Execute C# Code 하위 액션이 무효화되지는 않습니다
+Manage Polls on your Twitch broadcaster account	Twitch 브로드캐스터 계정에서 투표 관리
+Manage Predictions on your Twitch broadcaster account	Twitch 브로드캐스터 계정에서 예측 관리
+Manage different aspects of Streamer.bot's UI	Streamer.bot UI의 다양한 측면 관리
+Manage network services	네트워크 서비스 관리
+Manage your Kick channel point rewards	Kick 채널 포인트 보상 관리
+Manage your Twitch channel point rewards	Twitch 채널 포인트 보상 관리
+Manage your Twitch custom power-ups (beta)	Twitch 사용자 지정 파워업(베타) 관리
+Manage your chat commands	채팅 명령 관리
+Manually refresh audio input devices	오디오 입력 장치 수동 새로 고침
+Manually refresh audio output devices	오디오 출력 장치 수동 새로 고침
+Manually reset the cache	캐시 수동 초기화
+Mask Variable Containing	다음을 포함하는 변수 마스킹:
+May you rest in peace; you will be missed. 1954-2021	편히 잠드소서. 당신을 그리워할 것입니다. 1954-2021
+Meld Studio Information	Meld Studio 정보
+Menu	메뉴
+Message Id	메시지 ID
+Milestone Range (this is for the number of subs gifted over all time)	마일스톤 범위(전체 기간 동안 선물된 구독 수용)
+Minimize to Tray	트레이로 최소화
+Minimize to Tray on Close	닫을 때 트레이로 최소화
+Minimum Width	최소 너비
+Mix With Scene Lighting Color	장면 조명 색상과 혼합
+Moderator Send Live Enabled (boolean)	모드 전송 라이브 활성화(부울)
+Modify settings related to Voice Control	음성 제어 관련 설정 수정
+Modify your MIDI settings here.	여기서 MIDI 설정을 수정하세요.
+Monaco Settings	Monaco 설정
+Months Gifted	선물된 개월 수
+Move All To	모두 이동:
+NOT Recording!	녹화 중이 아닙니다!
+NOT Streaming!	방송 중이 아닙니다!
+Name	이름
+Name can be a fixed value or a parsed value using variables and/or inline functions.	이름은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+Name the prediction	예측 이름 지정
+Navigation Panel	탐색 패널
+New Poll	새 투표
+New Prediction	새 예측
+No AR Lenses Found!	AR 렌즈를 찾을 수 없습니다!
+No Actions Found!	액션을 찾을 수 없습니다!
+No Audio Devices Found	오디오 장치를 찾을 수 없습니다
+No Command Groups Found!	명령 그룹을 찾을 수 없습니다!
+No Commands Found!	명령을 찾을 수 없습니다!
+No Crosshair Images Found!	조준점 이미지를 찾을 수 없습니다!
+No Devices Available to Learn From!	학습할 수 있는 장치가 없습니다!
+No Editable Rewards Found!	편집 가능한 보상을 찾을 수 없습니다!
+No Execute C# Code Sub-Actions were found!	Execute C# Code 하위 액션을 찾을 수 없습니다!
+No Execute C# Sub-Aactions Found!	Execute C# 하위 액션을 찾을 수 없습니다!
+No Expressions Found!	식을 찾을 수 없습니다!
+No File Tails Found	파일 테일을 찾을 수 없습니다
+No Fonts Found!	글꼴을 찾을 수 없습니다!
+No Groups Found!	그룹을 찾을 수 없습니다!
+No Hotkeys Found!	핫키를 찾을 수 없습니다!
+No Inputs Found!	입력을 찾을 수 없습니다!
+No Items!	항목이 없습니다!
+No Kick Reward Groups Found!	Kick 보상 그룹을 찾을 수 없습니다!
+No Kick Rewards Found!	Kick 보상을 찾을 수 없습니다!
+No Outfits Found!	의상을 찾을 수 없습니다!
+No Output Devices Available!	사용 가능한 출력 장치가 없습니다!
+No Profiles Found!	프로필을 찾을 수 없습니다!
+No Rewards Found	보상을 찾을 수 없습니다
+No Scripts Found!	스크립트를 찾을 수 없습니다!
+No Timers Found!	타이머를 찾을 수 없습니다!
+No Twitch Reward Groups Found!	Twitch 보상 그룹을 찾을 수 없습니다!
+No Twitch Rewards Found!	Twitch 보상을 찾을 수 없습니다!
+No Video Backgrounds Found!	동영상 배경을 찾을 수 없습니다!
+No Voice Control Commands Found!	음성 제어 명령을 찾을 수 없습니다!
+No command groups found!	명령 그룹을 찾을 수 없습니다!
+No commands found!	명령을 찾을 수 없습니다!
+Non-Persisted Globals	비영구 전역 변수
+Non-Persisted User Globals	비영구 사용자 전역 변수
+Not Authenticated	인증되지 않음
+Not Configured	구성되지 않음
+Not Connected	연결되지 않음
+Not Connected!	연결되지 않았습니다!
+Not Ignored	무시되지 않음
+Not all API endpoints/EventSub events have been implemented by Twitch yet. Some features may currently be missing, once they are added on Twitch's side, they will be updated for Streamer.bot's usage.	모든 API 엔드포인트/EventSub 이벤트가 아직 Twitch에 구현되어 있지 않습니다. 일부 기능이 현재 누락될 수 있으며, Twitch 쪽에서 추가되면 Streamer.bot 사용에 맞게 업데이트됩니다.
+OBS Color	OBS 색상
+OBS Information	OBS 정보
+OBS Studio use ABGR format for its colors	OBS Studio는 색상에 ABGR 형식을 사용합니다
+Only Those Listed	나열된 것만
+Only methods that return bool, and have no parameter are usable.	bool을 반환하고 매개 변수가 없는 메서드만 사용할 수 있습니다.
+Open Log Folder...	로그 폴더 열기...
+Open Trigger Viewer	트리거 뷰어 열기
+Optional values that are left blank, will not be changed.	비워 둔 선택 값은 변경되지 않습니다.
+Options	옵션
+Options (Minimum of 2, maximum of 4)	옵션(최소 2, 최대 4)
+Other Instances	기타 인스턴스
+Outcome Title	결과 제목
+Outcomes (Minimum of 2, maximum of 10)	결과(최소 2, 최대 10)
+Outfit Name	의상 이름
+Outfit Name can be a fixed value or a parsed value using variables and/or inline functions.	의상 이름은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+Output File	출력 파일
+Output Text	출력 텍스트
+Output Variable	출력 변수
+Output Variable will be the name of the variable that your result goes into, default is inputResult	출력 변수는 결과가 저장되는 변수의 이름이며, 기본값은 inputResult입니다
+Overlay URL	오버레이 URL
+Override Global	전역 재정의
+Overwrite Existing Variable(s)	기존 변수 덮어쓰기
+Overwrite Variables	변수 덮어쓰기
+Parse Results as JSON	결과를 JSON으로 구문 분석
+Parse Variables	변수 구문 분석
+Partially Connected	부분적으로 연결됨
+Pass through Bad Word Filter	나쁜 단어 필터 통과
+Patreon	Patreon
+Patreon Supporters	Patreon 서포터
+Pause All Queues	모든 큐 일시 중지
+Payload Data	페이로드 데이터
+Pending Action Cache	대기 중인 액션 캐시
+Pending Actions	대기 중인 액션
+Pending Count	대기 수
+Persist Counter	카운터 유지
+Persist User Counter	사용자 카운터 유지
+Persisted Globals	영구 전역 변수
+Persisted User Globals	영구 사용자 전역 변수
+Pick a Random Color	무작위 색상 선택
+Pick a color	색상 선택
+Pick either Light Mode or Dark Mode for Streamer.bot	Streamer.bot의 라이트 모드 또는 다크 모드 선택
+Pick your favorite streamming application, get it connected, and start creating!	좋아하는 스트리밍 앱을 선택하고 연결한 다음 창작을 시작하세요!
+Pick your platform of choice to interact with your viewers.	시청자와 소통할 플랫폼을 선택하세요.
+Platform	플랫폼
+Platforms	플랫폼
+Position X (double, optional)	위치 X(double, 선택)
+Position Y (double, optional)	위치 Y(double, 선택)
+Power-up	파워업
+Precompile on Application Start	앱 시작 시 사전 컴파일
+Prediction Window (seconds) default is 60s	예측 창(초) 기본값 60초
+Present Only	현재만
+Present Viewers	현재 시청자
+Priority	우선순위
+Privacy Policy	개인정보 처리방침
+Process Watcher	프로세스 감시기
+Provide various URL endpoints for interacting with Streamer.bot	Streamer.bot과 상호 작용하기 위한 다양한 URL 엔드포인트 제공
+Pyramids Made	만들어진 피라미드
+Quality:	품질:
+Queue Signal	큐 신호
+Queued At	큐 추가 시각
+Queues ({0})	큐({0})
+Queues keep the Actions flowing, or stopped when needed	큐는 액션이 계속 흐르도록 하거나 필요할 때 중지합니다
+Quote ID	인용 ID
+Quote ID can be a variable which must parse to a number, or a number.	인용 ID는 숫자로 구문 분석되어야 하는 변수이거나 숫자일 수 있습니다.
+Raids	레이드
+Raised/Goal	모금액/목표
+Random Color	무작위 색상
+Raw Message	원시 메시지
+Re-Open on Close	닫을 때 다시 열기
+Re-index	재인덱싱
+React to events that happen in CrowdControl.	CrowdControl에서 발생하는 이벤트에 반응하세요.
+React to events, and trigger changes.	이벤트에 반응하고 변경을 트리거하세요.
+React to viewers purchasing and using cards	시청자가 카드를 구매하고 사용하는 것에 반응
+React to your heart rate!	심박수에 반응하세요!
+Real-time AR effects that work inside OBS, Streamlabs, and Zoom.	OBS, Streamlabs, Zoom에서 작동하는 실시간 AR 효과.
+Receive access to additional supporter benefits, including Custom Webhooks and Cloud Backups!	사용자 지정 Webhook 및 클라우드 백업을 포함한 추가 서포터 혜택에 대한 액세스를 받으세요!
+Receive donation events.	기부 이벤트를 받으세요.
+Receive events when applications on your computer start and/or stop!	컴퓨터의 앱이 시작/중지될 때 이벤트를 받으세요!
+Receive events when donations are received to your campaign!	캠페인에 기부가 도착하면 이벤트를 받으세요!
+Receive events when someone sends you a treat!	누군가 당신에게 트리트를 보내면 이벤트를 받으세요!
+Receive events when tips are received.	팁을 받으면 이벤트를 받으세요.
+Reconnect on Disconnect	연결 끊김 시 재연결
+Recording!	녹화 중!
+Redemption Skips Queue	리뎀션이 큐를 건너뜁니다
+Refresh Polls from Twitch	Twitch에서 투표 새로 고침
+Refresh Predictions from Twitch	Twitch에서 예측 새로 고침
+Refresh from Kick	Kick에서 새로 고침
+Refresh from Twitch	Twitch에서 새로 고침
+Regenerate Browser Sources (boolean)	브라우저 소스 다시 생성(부울)
+Related Support	관련 지원
+Relative to Model (boolean, required)	모델 상대(부울, 필수)
+Remote Key	원격 키
+Remove All	모두 제거
+Remove all actions from export	내보내기에서 모든 액션 제거
+Remove all commands from export	내보내기에서 모든 명령 제거
+Remove all websocket clients from export	내보내기에서 모든 WebSocket 클라이언트 제거
+Remove all websocket servers from export	내보내기에서 모든 WebSocket 서버 제거
+Reply Id	답글 ID
+Requests received by the HTTP server	HTTP 서버가 받은 요청
+Reset Delete Confirmations	삭제 확인 재설정
+Reset Integrations	통합 재설정
+Reset Navigation Items	탐색 항목 재설정
+Reset Sub Counter	구독 카운터 재설정
+Reset sub-counter and rollover counters, this can not be undone	구독 카운터 및 롤오버 카운터 재설정, 실행 취소할 수 없습니다
+Reset the Instance Id for this instance of Streamer.bot	이 Streamer.bot 인스턴스의 인스턴스 ID 재설정
+Reset the information back to what the broadcast has	정보를 방송 내용으로 재설정
+Response (Minimum of 2, maximum of 5)	응답(최소 2, 최대 5)
+Resume All Queues	모든 큐 재개
+Retrying to connect	연결 재시도 중
+Revert to Original Color	원래 색상으로 되돌리기
+Revert to original values	원래 값으로 되돌리기
+Reward Name	보상 이름
+Right click to add an argument	마우스 오른쪽 버튼을 클릭하여 인수 추가
+Right-click to add an Action	마우스 오른쪽 버튼을 클릭하여 액션 추가
+Role	역할
+Rollover Value	롤오버 값
+Rotation (double, optional)	회전(double, 선택)
+Run Action Immediately	액션 즉시 실행
+Run on UI Thread	UI 스레드에서 실행
+Save	저장
+Save All to CSV	모두 CSV로 저장
+Save Key	키 저장
+Save Result to Variable	결과를 변수에 저장
+Save and Compile	저장 및 컴파일
+Save the information for the broadcast	방송 정보 저장
+Scene Name	장면 이름
+Search Kick Categories	Kick 카테고리 검색
+Search above or right-click to add a Sub-Action	위에서 검색하거나 마우스 오른쪽 버튼을 클릭하여 하위 액션 추가
+Search above or right-click to add a Trigger	위에서 검색하거나 마우스 오른쪽 버튼을 클릭하여 트리거 추가
+Search for User	사용자 검색
+Search to add trigger...	트리거를 추가하려면 검색...
+See Streamer.bot work, view and inspect variables of actions that are currently being run	Streamer.bot의 작동을 확인하고 현재 실행 중인 액션의 변수를 보고 검사하세요
+See actions that have finished, and learn more about if they succeeded, what variables were available, etc	완료된 액션을 확인하고 성공 여부, 사용 가능한 변수 등을 자세히 알아보세요
+See the quotes that have been added, as well as add custom ones, or edit/delete existing.	추가된 인용을 보고 사용자 지정 인용을 추가하거나 기존 항목을 편집/삭제하세요.
+Select Action	액션 선택
+Select a Meld Studio Connection	Meld Studio 연결 선택
+Select a Streamlabs Desktop Connection	Streamlabs Desktop 연결 선택
+Select a viewer from the list to view their information.	목록에서 시청자를 선택하여 정보를 확인하세요.
+Select an OBS Connection	OBS 연결 선택
+Select mtion Trigger	모션 트리거 선택
+Selected Camera is not EpocCam!	선택한 카메라가 EpocCam이 아닙니다!
+Selected Poll	선택한 투표
+Selected Prediction	선택한 예측
+Send NoteOff	NoteOff 보내기
+Send using bot account	봇 계정으로 보내기
+Server Status	서버 상태
+Servers/Clients	서버/클라이언트
+Service Status	서비스 상태
+Services	서비스
+Session ID	세션 ID
+Set wait time to 0 seconds to run without waiting	대기 시간을 0초로 설정하면 기다리지 않고 실행
+Settings	설정
+Setup a tail on a file and react to changes in realtime.	파일에 테일을 설정하고 변경 사항에 실시간으로 반응하세요.
+Setup recurring timers.	반복 타이머를 설정하세요.
+Share and discuss ideas for new features or improvements to Streamer.bot	Streamer.bot의 새 기능 또는 개선 아이디어를 공유하고 논의하세요
+Shared Chat Participation	공유 채팅 참여
+Show LastWrite Column	마지막 쓰기 열 표시
+Show or hide Commands page	명령 페이지 표시/숨기기
+Show your Support	지원 표시
+Signal Name	신호 이름
+Signal name	신호 이름
+Size (double, optional)	크기(double, 선택)
+Skips Queue	큐 건너뛰기
+Slot (number, required)	슬롯(숫자, 필수)
+Slot Count (number)	슬롯 수(숫자)
+Sound Name	사운드 이름
+Sound Name can be empty, in which case it will use "default", a variable, or a string you enter	사운드 이름은 비워 둘 수 있습니다. 이 경우 "default", 변수 또는 입력한 문자열이 사용됩니다
+Sound file to play	재생할 사운드 파일
+Soundboard Name	사운드보드 이름
+Source	소스
+Source Slot	소스 슬롯
+Speaker.bot Not Connected	Speaker.bot이 연결되지 않았습니다
+Speaker.bot is Not Connected!	Speaker.bot이 연결되지 않았습니다!
+Specific Category	특정 카테고리
+Specific Game	특정 게임
+Specify the 0 based index of the outcome to use as the winning outcome when resolving the current active prediction.  Variables are supported.	현재 활성 예측을 해결할 때 승리 결과로 사용할 결과의 0 기반 인덱스를 지정하세요. 변수를 지원합니다.
+Specify the title of the outcome to use as the winning outcome when resolving the active prediction.  Variables are supported.	활성 예측을 해결할 때 승리 결과로 사용할 결과의 제목을 지정하세요. 변수를 지원합니다.
+Start Listening	듣기 시작
+Start Server	서버 시작
+Start a Prediction	예측 시작
+Start a UDP server and react to incoming UDP packets	UDP 서버를 시작하고 수신 UDP 패킷에 반응
+Start, stop or alter built in Services.	내장 서비스를 시작, 중지 또는 변경하세요.
+Started At	시작 시각
+Starting...	시작 중...
+Status	상태
+Stop After	다음 이후 중지:
+Stop All Clients	모든 클라이언트 중지
+Stop Listening	듣기 중지
+Stop Server	서버 중지
+Stream Apps	스트리밍 앱
+Stream Deck MCP Server	Stream Deck MCP 서버
+Stream Status	스트리밍 상태
+Stream Update on Connect	연결 시 Stream Update
+Streamer.bot	Streamer.bot
+Streamer.bot - Streamer.bot (v1.0.7)	Streamer.bot - 스트리밍 봇(v1.0.7)
+Streamer.bot Account	Streamer.bot 계정
+Streamer.bot Account Required.  Connect to the Streamer.bot website by clicking 'Login' in the bottom-left corner.	Streamer.bot 계정이 필요합니다. 왼쪽 아래 모서리의 '로그인'을 클릭하여 Streamer.bot 웹사이트에 연결하세요.
+Streamer.bot Cloud Backups	Streamer.bot 클라우드 백업
+Streamer.bot Settings	Streamer.bot 설정
+Streamer.bot Version	Streamer.bot 버전
+Streamer.bot Website	Streamer.bot 웹사이트
+Streamer.bot account	Streamer.bot 계정
+Streamer.bot instances that have been seen by your account	계정에서 확인된 Streamer.bot 인스턴스
+Streamer.bot {0} is available!	Streamer.bot {0}을(를) 사용할 수 있습니다!
+Streamer.bot's YouTube quota has been exceeded! The quota will reset at Midnight PST!	Streamer.bot의 YouTube 할당량을 초과했습니다! 할당량은 PST 자정에 재설정됩니다!
+Streamfog is Not Connected!	Streamfog가 연결되지 않았습니다!
+Streaming!	방송 중!
+Streamlabs Desktop Information	Streamlabs Desktop 정보
+Sub Counter	구독 카운터
+Sub Type	구독 유형
+Sub-Action Disabled Color	하위 액션 비활성 색상
+Sub-Actions	하위 액션
+Submission Preiod	제출 기간
+Subscribed	구독됨
+Suggestions	제안
+Support	지원
+Support Streamer.bot on Patreon!	Patreon에서 Streamer.bot을 지원하세요!
+Support on Patreon	Patreon에서 지원
+Supporter	
+Supporter Perks	서포터 특전
+Switch Case	스위치 케이스
+Tags (Maximum of 10)	태그(최대 10개)
+Tags are case insensitive.	태그는 대소문자를 구분하지 않습니다.
+Take control of your avatar, receive events or control features.	아바타를 제어하고, 이벤트를 받거나 기능을 제어하세요.
+Team Member	팀 멤버
+Terms of Service	서비스 약관
+Text to Speech	텍스트 음성 변환
+Text to Write	쓸 텍스트
+Thank You	감사합니다
+Thank you to the following supporters on Patreon:	Patreon의 다음 서포터분들께 감사드립니다:
+The Elgato CameraHub integration requires a minimum CameraHub version of 2.0.0.5721	Elgato CameraHub 통합에는 CameraHub 버전 2.0.0.5721 이상이 필요합니다
+The Elgato WaveLink integration only supports WaveLink version 2.x, it will not work with 3.x	Elgato WaveLink 통합은 WaveLink 버전 2.x만 지원하며 3.x에서는 작동하지 않습니다
+The UUID for this instance of Streamer.bot	이 Streamer.bot 인스턴스의 UUID
+The clip ID can contain either a specific id for a clip, or a %variable% that will be parsed.  This can also only get URLs for your own clips.	클립 ID에는 특정 클립 ID 또는 구문 분석되는 %variable%를 지정할 수 있습니다. 또한 자신의 클립 URL만 가져올 수 있습니다.
+The confidence the speech engine must have in its recognition	음성 엔진이 인식에 대해 가져야 하는 신뢰도
+The core of Streamer.bot	Streamer.bot의 핵심
+The count can contain a specific number, or a %variables% that will be parsed	수에는 특정 숫자 또는 구문 분석되는 %variables%를 지정할 수 있습니다
+The current value of the sub counter	구독 카운터의 현재 값
+The defacto standard for streaming	스트리밍의 사실상 표준
+The default volume applied to the Play Sound sub-actions and C# methods	Play Sound 하위 액션 및 C# 메서드에 적용되는 기본 볼륨
+The endpoint Speaker.bot uses, default is /	Speaker.bot이 사용하는 엔드포인트, 기본값은 /
+The endpoint that the WebSocket server listens on	WebSocket 서버가 수신하는 엔드포인트
+The field above must contain the %variable% that will contain the quote to be added.	위의 필드에는 추가될 인용이 포함될 %variable%가 포함되어야 합니다.
+The file to write the sub-counter data to	구독 카운터 데이터를 쓸 파일
+The folder to save backups to	백업을 저장할 폴더
+The folder to write logs to	로그를 쓸 폴더
+The global cooldown for the command	명령의 전역 쿨다운
+The heart of Streamer.bot, Actions are what defines what can happen and when	Streamer.bot의 핵심, 액션은 무엇이 언제 발생하는지를 정의합니다
+The locale to use for speech recognition	음성 인식에 사용할 로케일
+The logging level being used, this is locked to verbose in non-stable versions	사용 중인 로그 수준, 비안정 버전에서는 verbose로 고정되어 있습니다
+The minimum number of emotes required before starting to track a pyramid	피라미드 추적을 시작하기 전에 필요한 최소 이모티콘 수
+The name of this Streamer.bot instance	이 Streamer.bot 인스턴스의 이름
+The output template to use when writing to the file specified above	위에서 지정한 파일에 쓸 때 사용할 출력 템플릿
+The password required for authentication	인증에 필요한 비밀번호
+The pinned message will be updated to last until stream ends	고정 메시지가 방송 종료까지 유지되도록 업데이트됩니다
+The slot can contain a number, typically between 1 and 6, or a %variable% that will be parsed.	슬롯에는 일반적으로 1~6 사이의 숫자 또는 구문 분석되는 %variable%를 지정할 수 있습니다.
+The time interval can also be set to a random value within a range, this random value is updated everytime the action is run.	시간 간격은 범위 내의 무작위 값으로 설정할 수도 있으며, 이 무작위 값은 액션이 실행될 때마다 업데이트됩니다.
+The user cooldown for the command	명령의 사용자 쿨다운
+The user id can contain either a specific user's id, or a %variable% that will be parsed	사용자 ID에는 특정 사용자의 ID 또는 구문 분석되는 %variable%를 지정할 수 있습니다
+The user login and group name can contain either a specific user's login, or a %variables% that will be parsed	사용자 로그인 및 그룹 이름에는 특정 사용자의 로그인 또는 구문 분석되는 %variables%를 지정할 수 있습니다
+The user login can contain either a specific user's login, or a %variable% that will be parsed	사용자 로그인에는 특정 사용자의 로그인 또는 구문 분석되는 %variable%를 지정할 수 있습니다
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %broadcastUser%, %user%, %input0%	사용자 로그인에는 특정 사용자의 로그인 또는 구문 분석되는 %variable%를 지정할 수 있습니다. 사용할 변수의 예: %broadcastUser%, %user%, %input0%
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %user%, %targetUser%, %input0%	사용자 로그인에는 특정 사용자의 로그인 또는 구문 분석되는 %variable%를 지정할 수 있습니다. 사용할 변수의 예: %user%, %targetUser%, %input0%
+The user login can contain either a specific user's login, or a %variables% that will be parsed	사용자 로그인에는 특정 사용자의 로그인 또는 구문 분석되는 %variables%를 지정할 수 있습니다
+There is an update available!	사용 가능한 업데이트가 있습니다!
+There was an error trying to initialize WebView	WebView 초기화 중 오류가 발생했습니다
+This Instance	이 인스턴스
+This SubAction will allow you to set the value of an argument.  These are the %variables% you use in other SubActions	이 하위 액션은 인수의 값을 설정할 수 있습니다. 이는 다른 하위 액션에서 사용하는 %variables%입니다
+This SubAction will let you get a global variable and add it to the arguments that are passed along to other SubActions	이 하위 액션은 전역 변수를 가져와 다른 하위 액션에 전달되는 인수에 추가합니다
+This SubAction will set the value of either an argument to the value, or a global variable from an argument, or to the value specified	이 하위 액션은 인수의 값을 설정하거나, 인수에서 전역 변수를 설정하거나, 지정된 값으로 설정합니다
+This feature is very experimental, and I need feedback on it, for options, capabilities, etc.	이 기능은 매우 실험적이며 옵션, 기능 등에 대한 피드백이 필요합니다.
+This labs feature will, on close, write to a database any outstanding pending actions, pending actions are actions that have not yet run, and are waiting to run, either because they're in a blocking queue, or a queue that is paused.	이 랩 기능은 닫을 때 미해결 대기 액션을 데이터베이스에 기록합니다. 대기 액션은 아직 실행되지 않았고, 차단 큐 또는 일시 중지된 큐에 있기 때문에 실행을 기다리는 액션입니다.
+This requires the Enable MCP Deck to be checked in your Stream Deck preferences.	이 기능을 사용하려면 Stream Deck 환경설정에서 Enable MCP Deck이 체크되어 있어야 합니다.
+This sub-action requires the `Hybrid MP4 [BETA](.mp4)` recording format to be selected within OBS.	이 하위 액션은 OBS 내에서 `Hybrid MP4 [BETA](.mp4)` 녹화 형식이 선택되어 있어야 합니다.
+This will allow you to start a raid to the user login that is specified in the above text box. Variables are supported.	위의 텍스트 상자에 지정된 사용자 로그인으로 레이드를 시작할 수 있습니다. 변수를 지원합니다.
+This will hide all filters for a given source that are currently visible.	지정된 소스의 현재 표시된 모든 필터를 숨깁니다.
+This will hide all sources within a group that are currently visible.	그룹 내 현재 표시된 모든 소스를 숨깁니다.
+This will hide all sources within a scene that are currently visible.	장면 내 현재 표시된 모든 소스를 숨깁니다.
+This will make the scene your active scene in OBS Studio	이 장면을 OBS Studio의 활성 장면으로 만듭니다
+This will make the scene your active scene in Streamlabs Desktop	이 장면을 Streamlabs Desktop의 활성 장면으로 만듭니다
+This will only show Execute C# Code subactions that have a name.	이름이 있는 Execute C# Code 하위 액션만 표시합니다.
+This will pick a random filter within the selected source and make it visible or hidden, or toggle its state.	선택한 소스 내에서 무작위 필터를 선택하여 표시/숨기거나 상태를 전환합니다.
+This will pick a random source within the selected group and make it visible, if all items are visible, it will do nothing.	선택한 그룹 내에서 무작위 소스를 선택하여 표시합니다. 모든 항목이 표시되어 있으면 아무것도 하지 않습니다.
+This will pick a random source within the selected scene and make it visible, if all items are visible, it will do nothing.	선택한 장면 내에서 무작위 소스를 선택하여 표시합니다. 모든 항목이 표시되어 있으면 아무것도 하지 않습니다.
+This will prevent the Variable Viewer window from appearing in any form of window/screen capturing	변수 뷰어 창이 어떤 형태의 창/화면 캡처에도 나타나지 않도록 방지합니다
+This will rotate your source around its alignment position.  By default OBS sets this to TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in OBS	소스를 정렬 위치를 중심으로 회전합니다. 기본적으로 OBS는 TopLeft로 설정하지만 이상적으로는 Center로 설정하는 것이 좋습니다. OBS에서 소스의 변형을 편집하여 변경할 수 있습니다
+This will rotate your source around its alignment position.  By default this is TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in Streamlabs Desktop	소스를 정렬 위치를 중심으로 회전합니다. 기본적으로 TopLeft이지만 이상적으로는 Center로 설정하는 것이 좋습니다. Streamlabs Desktop에서 소스의 변형을 편집하여 변경할 수 있습니다
+Throwing System	Throwing System
+Time in Seconds (double, required)	시간(초, double, 필수)
+Timed Actions ({0})	타이머 액션({0})
+Timed actions can have either an interval set, where they will occur every X seconds, or a line count set, where they will occur every Y lines.	타이머 액션은 X초마다 발생하는 간격 또는 Y줄마다 발생하는 줄 수를 설정할 수 있습니다.
+Timeout Exempt	타임아웃 면제
+Tint All	모두 색조 적용
+Title (required)	제목(필수)
+Title, Prompt and Original Text all support variables.	제목, 프롬프트 및 원본 텍스트는 모두 변수를 지원합니다.
+To not set a value for any of the options,, just leave the field empty	옵션에 값을 설정하지 않으려면 필드를 비워 두세요
+Toast Id	토스트 ID
+Track Top	상위 추적
+Trigger	트리거
+Trigger Name	트리거 이름
+Twitch Bot Whisper	Twitch 봇 위스퍼
+Twitch Custom Power-Ups are a beta feature that not everyone has access to.	Twitch 사용자 지정 파워업은 모든 사람이 사용할 수 없는 베타 기능입니다.
+Twitch Message	Twitch 메시지
+Twitch Resubscription Message	Twitch 재구독 메시지
+Twitch Shared Chat	Twitch 공유 채팅
+Twitch Whisper	Twitch 위스퍼
+Twitch is not Connected	Twitch가 연결되지 않았습니다
+Type	유형
+UCD	UCD
+UDP Port	UDP 포트
+UDP Server	UDP 서버
+Until stream ends	방송 종료까지
+Up to Date	최신 상태
+Update All Actions To Use Default	모든 액션을 기본값 사용으로 업데이트
+Update Available	업데이트 사용 가능
+Update Available!	업데이트 사용 가능!
+Update Interval	업데이트 간격
+Updating your YouTube stream information is an expensive call, please use this sparingly.	YouTube 스트림 정보 업데이트는 비용이 많이 드는 호출입니다. 아껴서 사용하세요.
+Use Args	인수 사용
+Use Filename	파일 이름 사용
+Use Monaco Editor	Monaco 편집기 사용
+Use System Default	시스템 기본값 사용
+Use the System Default audio device when the selected device above is not found	위에서 선택한 장치를 찾을 수 없으면 시스템 기본 오디오 장치를 사용
+Use the feature rich Monaco Editor for editing your C# code	C# 코드 편집에는 기능이 풍부한 Monaco 편집기를 사용하세요
+Use the variable that contains the Id, for example %msgId%	Id를 포함하는 변수를 사용하세요. 예: %msgId%
+User Cooldown	사용자 쿨다운
+User ID	사용자 ID
+User Id	사용자 ID
+User Information	사용자 정보
+User Input Required	사용자 입력 필요
+User Interface	사용자 인터페이스
+User Login	사용자 로그인
+User Name	사용자 이름
+User Present (spoke)	사용자 참석(발언)
+Username	사용자 이름
+Using this you can send a UDP broadcast packet which will contain the data you enter in payload.	이것을 사용하면 페이로드에 입력한 데이터가 포함된 UDP 브로드캐스트 패킷을 보낼 수 있습니다.
+VTube Studio is Not Connected!	VTube Studio가 연결되지 않았습니다!
+Value	값
+Variable Masking	변수 마스킹
+Variable Name	변수 이름
+Variable Name or Value can be a fixed value, or a parsed value, using variables and/or inline functions	변수 이름 또는 값은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다
+Variable Name to Use (if empty, fileExists is used)	사용할 변수 이름(비어 있으면 fileExists가 사용됨)
+Variable Name to Use (if empty, folderExists is used)	사용할 변수 이름(비어 있으면 folderExists가 사용됨)
+Variable Name to Use (if empty, line is used)	사용할 변수 이름(비어 있으면 line이 사용됨)
+Variable Prefix	변수 접두사
+Variable Value	변수 값
+Variables	변수
+Variables that contain these words will have their values masked with * in the following areas:	이 단어를 포함하는 변수의 값은 다음 영역에서 *로 마스킹됩니다:
+Vendor Name	공급업체 이름
+Video Enabled (boolean)	비디오 활성화(부울)
+Video Name	비디오 이름
+Video Name can be a fixed value or a parsed value using variables and/or inline functions.	비디오 이름은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+View Count	조회 수
+View Notes	메모 보기
+View a list of what Voice Control has been hearing	음성 제어가 들은 내용 목록 보기
+View and modify your streaming platform settings	스트리밍 플랫폼 설정 보기 및 수정
+Viewers	시청자
+Viewers Tab	시청자 탭
+Voice Alias	음성 별칭
+Voice Control	음성 제어
+Voice Control related settings	음성 제어 관련 설정
+Voice ID	음성 ID
+Voice Name	음성 이름
+Voice Name can be a fixed value or a parsed value using variables and/or inline functions.	음성 이름은 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+VoiceId can be a fixed value or a parsed value using variables and/or inline functions.	VoiceId는 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있습니다.
+VoiceMod is Not Connected!	VoiceMod가 연결되지 않았습니다!
+Volume (number)	볼륨(숫자)
+Wait maximum	최대 대기
+Want to try out experimental features, can enable them here	실험적인 기능을 시험해 보고 싶다면 여기에서 활성화할 수 있습니다
+WebSocket Server	WebSocket 서버
+Websocket Client	WebSocket 클라이언트
+Websocket Clients	WebSocket 클라이언트
+Websocket Clients ({0})	WebSocket 클라이언트({0})
+Websocket Server	WebSocket 서버
+Websocket Servers ({0})	WebSocket 서버({0})
+Weight can be a fixed value, or a parsed value, using variables and/or inline functions, and the resulting value needs to be a double or number	가중치는 고정 값이거나 변수 및/또는 인라인 함수를 사용한 구문 분석 값일 수 있으며, 결과 값은 double 또는 숫자여야 합니다
+Weighted Value	가중 값
+Wether or not to enforce authentication for all requests, or just priviledged	모든 요청에 인증을 적용할지, 아니면 특권 요청에만 적용할지
+What sources are enabled by default	기본적으로 활성화되는 소스
+When Streamer.bot is started, if this cache file is present, it will auto load in any actions that have been cached, as well as pause the queue that they belong to. In addition, an argument will be added, wasCached, this will be set to true; during normal operation, this variable will not exist.	Streamer.bot이 시작될 때 이 캐시 파일이 있으면 캐시된 모든 액션을 자동으로 로드하고 해당 큐를 일시 중지합니다. 또한 wasCached 인수가 추가되어 true로 설정됩니다. 정상 작동 중에는 이 변수가 존재하지 않습니다.
+When a Live broadcast is detected automatically start monitoring it	라이브 방송이 감지되면 자동으로 모니터링 시작
+When adding an If/Else SubAction, two groups, called True Result and False Result, will automatically be added underneath the SubAction.	If/Else 하위 액션을 추가하면 True Result 및 False Result라는 두 그룹이 하위 액션 아래에 자동으로 추가됩니다.
+When closing Streamer.bot, ask if you really meant to close it	Streamer.bot을 닫을 때 정말로 닫을 것인지 확인
+When closing Streamer.bot, it will goto the Tray Icons, using close in the Tray Menu will close Streamer.bot	Streamer.bot을 닫으면 트레이 아이콘으로 이동합니다. 트레이 메뉴에서 닫기를 사용하면 Streamer.bot이 종료됩니다
+When enabled, actions in this queue will be run in sequence, each action waits for the previous one to complete before running.	활성화하면 이 큐의 액션이 순서대로 실행되며, 각 액션은 이전 액션이 완료될 때까지 기다렸다가 실행됩니다.
+When enabled, if queued in a queue that is paused, this action will ignore that pause state and immediately run.	활성화하면 일시 중지된 큐에 대기 중이어도 이 액션은 일시 중지 상태를 무시하고 즉시 실행됩니다.
+When enabled, will prevent this action from showing in the Action Queue Pending/History tabs, this should be enabled for Actions that have high volume Triggers on them.	활성화하면 이 액션이 액션 큐 대기/기록 탭에 표시되지 않습니다. 트리거가 많은 액션에서는 활성화해야 합니다.
+When enabled, will run a random top-level sub-action.	활성화하면 무작위 최상위 하위 액션을 실행합니다.
+When enabled, will run all top-level sub-actions at the same time.	활성화하면 모든 최상위 하위 액션을 동시에 실행합니다.
+When minimizing Streamer.bot, it will goto the Tray Icons	Streamer.bot을 최소화하면 트레이 아이콘으로 이동합니다
+When random type is Next Float, a decimal number (upto 17 decimal precision) will be picked and added to the arguments as %randomFloat%, this number will also be added as a percentage value (with no decimals) as %randomPercent%	무작위 유형이 Next Float이면 소수(최대 17자리 정밀도)가 선택되어 %randomFloat%로 인수에 추가되며, 이 숫자는 %randomPercent%로 백분율 값(소수 없음)에도 추가됩니다
+When random type is between, a number between the 2 values you set will be added into the arguments at %randomNumber%	무작위 유형이 between이면 설정한 두 값 사이의 숫자가 %randomNumber%로 인수에 추가됩니다
+When starting Streamer.bot, the Chat window will automatically open	Streamer.bot을 시작하면 채팅 창이 자동으로 열립니다
+When starting Streamer.bot, the Event Feed window will automatically open	Streamer.bot을 시작하면 이벤트 피드 창이 자동으로 열립니다
+Where to add a duplicated sub-action	중복된 하위 액션을 추가할 위치
+Whether or not shared chat will be able to participate in creating/breaking Pyramids	공유 채팅이 피라미드 생성/파괴에 참여할 수 있는지 여부
+Whether or not the Action is enabled	액션이 활성화되어 있는지 여부
+Whether or not the WebSocket server requires authentication to connect	WebSocket 서버가 연결에 인증을 요구하는지 여부
+Whether or not the command is case sensitive	명령이 대소문자를 구분하는지 여부
+Whether or not this action, when queued will always run, regardless if the queue is paused	이 액션이 큐에 대기 중일 때 큐가 일시 중지되어도 항상 실행되는지 여부
+Whether or not to exclude the action from appearing in the Action Queue or Action History pages	액션 큐 또는 액션 기록 페이지에 액션이 표시되지 않도록 제외할지 여부
+Whether or not to ignore Gift Subs from Gift Bombs	기프트 폭탄의 기프트 구독을 무시할지 여부
+Whether or not to ignore messages that come from the logged in bot account for the service	서비스에 로그인된 봇 계정에서 온 메시지를 무시할지 여부
+Whether or not to ignore messages that originate from Streamer.bot	Streamer.bot에서 시작된 메시지를 무시할지 여부
+Whether or not to include the command in the command list sub-action	명령 목록 하위 액션에 명령을 포함할지 여부
+Whether or not to include your authentication keys in the backup	백업에 인증 키를 포함할지 여부
+Whether or not to log any speech to text dication	음성 인식 받아쓰기를 기록할지 여부
+Whether or not to pick a random top level sub-actions to only run	무작위 최상위 하위 액션 하나만 실행할지 여부
+Whether or not to save counters to disk	카운터를 디스크에 저장할지 여부
+Whether or not to save user counters to disk	사용자 카운터를 디스크에 저장할지 여부
+Whether or not to the switch case should be case sensitive	스위치 케이스가 대소문자를 구분해야 하는지 여부
+Whether or not to use realtime data from Twitch, or artificial data	Twitch의 실시간 데이터를 사용할지, 인공 데이터를 사용할지 여부
+Whether or not top level sub-actions run concurrently	최상위 하위 액션이 동시에 실행되는지 여부
+Whether to handle BetterTTV emotes	BetterTTV 이모티콘을 처리할지 여부
+Whether to handle FrankerFaceZ emotes	FrankerFaceZ 이모티콘을 처리할지 여부
+Whether to handle Seven TV emotes	Seven TV 이모티콘을 처리할지 여부
+White Balance	화이트 밸런스
+White Balance Tint	화이트 밸런스 색조
+Why donate?	왜 기부하나요?
+Will reset all delete confirmations so they are asked again when deleting items	모든 삭제 확인을 재설정하여 항목 삭제 시 다시 확인하도록 합니다
+Will reset the integrations tab back to original	통합 탭을 원래대로 재설정합니다
+Will reset the navigation panel to default, a restart is required	탐색 패널을 기본값으로 재설정합니다. 재시작이 필요합니다
+Window Options	창 옵션
+Winning Index	승리 인덱스
+Working Directory	작업 디렉터리
+You are currently not subscribed to Patreon, subscribe on Patreon to the Thank You tier or higher and get access to Cloud Backups and more!	현재 Patreon에 구독하지 않았습니다. Patreon에서 Thank You 티어 이상에 구독하면 클라우드 백업 등에 액세스할 수 있습니다!
+You can add multiple Case groups under the Switch SubAction, and order matters.	Switch 하위 액션 아래에 여러 Case 그룹을 추가할 수 있으며 순서가 중요합니다.
+You can either set a static description, and/or use variables to set a description.	정적 설명을 설정하거나 변수를 사용하여 설명을 설정할 수 있습니다.
+You can either set a static title, and/or use variables to set a title	정적 제목을 설정하거나 변수를 사용하여 제목을 설정할 수 있습니다
+You can either set a static title, and/or use variables to set a title.	정적 제목을 설정하거나 변수를 사용하여 제목을 설정할 수 있습니다.
+You can either set a static title/description, and/or use variables to set a title/description.	정적 제목/설명을 설정하거나 변수를 사용하여 제목/설명을 설정할 수 있습니다.
+You can enter a %variable% in either field, or a number.  The value is in milliseconds.	두 필드 중 하나에 %variable% 또는 숫자를 입력할 수 있습니다. 값은 밀리초입니다.
+You can get the ButtonID from the StreamDeck Application, and Image/State supports variables. State is optional	ButtonID는 StreamDeck 앱에서 가져올 수 있으며, Image/State는 변수를 지원합니다. State는 선택 사항입니다
+You can get the ButtonID from the StreamDeck Application, and State supports variables.	ButtonID는 StreamDeck 앱에서 가져올 수 있으며, State는 변수를 지원합니다.
+You can get the ButtonID from the StreamDeck Application, and Title/State supports variables.  State is optional.	ButtonID는 StreamDeck 앱에서 가져올 수 있으며, Title/State는 변수를 지원합니다. State는 선택 사항입니다.
+You can get the ButtonID from the StreamDeck Application, and Value supports variables.	ButtonID는 StreamDeck 앱에서 가져올 수 있으며, Value는 변수를 지원합니다.
+You can get the ButtonID from the StreamDeck Application.	ButtonID는 StreamDeck 앱에서 가져올 수 있습니다.
+You can set the status of a redemption using this action, and the usual caveat, the reward must have been created by CPH for it to modify the status of redemptions.	이 액션으로 리뎀션의 상태를 설정할 수 있습니다. 평소와 같은 주의사항으로, 리뎀션 상태를 수정하려면 보상이 CPH에 의해 생성되어야 합니다.
+You can specify a default value to use if the variable is not found, if a default value is set, and the variable is not found, it will also set the variable to this value	변수를 찾을 수 없을 때 사용할 기본값을 지정할 수 있습니다. 기본값이 설정되고 변수를 찾을 수 없으면 변수도 이 값으로 설정됩니다
+You can use the above entry for variables, or set a specific category, change the Source to pick from Kick's category list	위의 항목을 변수에 사용하거나 특정 카테고리를 설정하여 Source를 Kick의 카테고리 목록에서 선택하도록 변경할 수 있습니다
+You can use the above entry for variables, or set a specific game, change the Source to pick from Twitch's list	위의 항목을 변수에 사용하거나 특정 게임을 설정하여 Source를 Twitch의 목록에서 선택하도록 변경할 수 있습니다
+You can use variable in the text, for example, %targetUser% to set the text to the target's name, if an Add Target Info action exists in the actions.	텍스트에 변수를 사용할 수 있습니다. 예를 들어 %targetUser%로 텍스트를 대상의 이름으로 설정합니다. 액션에 Add Target Info 액션이 있는 경우입니다.
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the browser source set to the target user's profile image, if an Add Target info action is in the actions.	소스에 변수를 사용할 수 있습니다. 예를 들어 %targetUserProfileImageUrl%로 브라우저 소스를 대상 사용자의 프로필 이미지로 설정합니다. 액션에 Add Target info 액션이 있는 경우입니다.
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the image or media source set to the target user's profile image, if an Add Target info action is in the actions.	소스에 변수를 사용할 수 있습니다. 예를 들어 %targetUserProfileImageUrl%로 이미지 또는 미디어 소스를 대상 사용자의 프로필 이미지로 설정합니다. 액션에 Add Target info 액션이 있는 경우입니다.
+You can use variables, or a fixed value, including nothing to set a description for the stream marker.	변수 또는 고정 값을 사용하여 스트림 마커에 대한 설명을 설정할 수 있습니다(없음 포함).
+YouTube Message	YouTube 메시지
+Your Kick account is linked on Streamer.bot	Kick 계정이 Streamer.bot에 연결되어 있습니다
+Your Kick connection on the website has expired, this is required, click here to reconnect	웹사이트의 Kick 연결이 만료되었습니다. 필수입니다. 재연결하려면 여기를 클릭하세요
+Your YouTube broadcasts	당신의 YouTube 방송
+Your stream, your rules—made better with Streamer.bot	당신의 스트림, 당신의 규칙—Streamer.bot으로 더 좋게
+Your support helps keep Streamer.bot free for everyone, and shows your appreciation for the hard work that goes into maintaining and improving the application.	당신의 지원은 Streamer.bot을 모든 사람에게 무료로 제공하는 데 도움이 되며, 앱 유지 및 개선에 쏟아지는 노력에 대한 감사를 보여줍니다.
+Your support helps maintain continued development and ongoing improvements to Streamer.bot, ensuring it remains a powerful tool for streamers like you.	당신의 지원은 Streamer.bot의 지속적인 개발과 개선을 유지하여, 당신과 같은 스트리머에게 강력한 도구로 남도록 보장합니다.
+channel points	채널 포인트
+on the	다음에서:
+per Stream	방송당
+per User per Stream	사용자·방송당
+raids,	레이드,
+seconds for exit	종료까지의 초
+set to 0 to disable	0으로 설정하면 비활성화
+tier or higher on Patreon.	Patreon의 해당 티어 이상.
+total viewers	총 시청자 수
+website.	웹사이트.
+{0} ({1})	{0}({1})
+{0} Supporter	{0} 서포터
+{0} is NOT connected!	{0}이(가) 연결되지 않았습니다!
+{0} minute(s)	{0}분

@@ -1,0 +1,1090 @@
+# english	es-ES
+%changeType% - The type of change (Changed, Created, Deleted)	%changeType% - El tipo de cambio (Cambiado, Creado, Eliminado)
+%counter% - Global usage counter for reward	%counter% - Contador global de uso de la recompensa
+%empty% - If the file is now empty	%empty% - Si el archivo ahora está vacío
+%fileName% - The file name with extension	%fileName% - El nombre del archivo con extensión
+%fullPath% - The full path to the file	%fullPath% - La ruta completa del archivo
+%line#% - The specifc line of the file, 0 based index, 0 is the first line	%line#% - La línea específica del archivo, índice basado en 0, 0 es la primera línea
+%lineEscaped#% - The line escaped for use in a url query	%lineEscaped#% - La línea escapada para usar en una consulta de URL
+%lines% - The number of lines in the file	%lines% - El número de líneas en el archivo
+%randomUser0% - Random active user's display name	%randomUser0% - Nombre para mostrar de un usuario activo aleatorio
+%randomUser1% - Random active user's display name	%randomUser1% - Nombre para mostrar de un usuario activo aleatorio
+%randomUserName0% - Random active user's login name	%randomUserName0% - Nombre de inicio de sesión de un usuario activo aleatorio
+%randomUserName1% - Random active user's login name	%randomUserName1% - Nombre de inicio de sesión de un usuario activo aleatorio
+%rawInput% - UNSANITIZED input from redemption	%rawInput% - Entrada NO DEPURADA del canje
+%timedoutUser0% - Timed out user's display name	%timedoutUser0% - Nombre para mostrar del usuario con timeout
+%timedoutUserName0% - Timed out user's login name	%timedoutUserName0% - Nombre de inicio de sesión del usuario con timeout
+%user% - Display name of User who used reward	%user% - Nombre para mostrar del usuario que usó la recompensa
+%userCounter% - Usage counter for user who used reward	%userCounter% - Contador de uso del usuario que usó la recompensa
+%userName% - Login of user who used reward	%userName% - Inicio de sesión del usuario que usó la recompensa
+(0/0)	(0/0)
+(Optional)	(Opcional)
+(in user list)	(en la lista de usuarios)
+(not in user list)	(no en la lista de usuarios)
+({0})	({0})
+({0}/{1})	({0}/{1})
+- The file line as the file changes	- La línea del archivo a medida que cambia
+- The file name with extension	- El nombre del archivo con extensión
+- The full path to the file	- La ruta completa del archivo
+1. Global Variable Viewer	1. Visor de variables globales
+1.0.7	1.0.7
+2. Action History Variable Inspecting	2. Inspección de variables del historial de acciones
+A Switch evaluates the input against the Case Values for equality, and first matching will have it's SubActions run.	Un Switch evalúa la entrada contra los valores de Case para igualdad, y la primera coincidencia ejecutará sus subacciones.
+A caveat to note, due to the nature of serializing/deserializing, not all data types will preserved. Ones that I am aware of are List<T> objects, these will become object[] arrays when loaded.	Una advertencia: debido a la naturaleza de la serialización/deserialización, no todos los tipos de datos se conservarán. Los que conozco son los objetos List<T>, que se convertirán en matrices object[] al cargarlos.
+A channel may specify a maximum of 10 tags. Each tag is limited to a maximum of 25 characters and may not be an empty string or contain spaces or special characters.	Un canal puede especificar un máximo de 10 etiquetas. Cada etiqueta tiene un máximo de 25 caracteres y no puede ser una cadena vacía ni contener espacios o caracteres especiales.
+A description for your backup	Una descripción para tu copia de seguridad
+A game engine for your live streams	Un motor de juego para tus transmisiones en vivo
+A restart is REQUIRED after enabling or disabling this labs feature.	Se REQUIERE reiniciar después de habilitar o deshabilitar esta función de laboratorio.
+A rollover will happen when this value is reached	Se producirá un traspaso cuando se alcance este valor
+A variable, success will also be added, and will be true if Ok was pressed	También se agregará una variable, success, que será verdadera si se presionó Aceptar
+A very special thanks to the following people who believed in me and this project.	Un agradecimiento muy especial a las siguientes personas que creyeron en mí y en este proyecto.
+API Key	Clave de API
+AR Lens	Lente AR
+About	Acerca de
+Account Settings	Configuración de la cuenta
+Action History	Historial de acciones
+Actions	Acciones
+Actions & Queues	Acciones y colas
+Actions ({0})	Acciones ({0})
+Add Changed Data	Agregar datos cambiados
+Add Connection	Agregar conexión
+Add Group	Agregar grupo
+Add Multiple Twitch Users to Group	Agregar varios usuarios de Twitch al grupo
+Add Results to Arguments	Agregar resultados a los argumentos
+Add User	Agregar usuario
+Add User to	Agregar usuario a
+Add Users	Agregar usuarios
+Add Variable	Agregar variable
+Add a Command in a Group!	¡Agrega un comando en un grupo!
+Add a Command!	¡Agrega un comando!
+Add a Deck!	¡Agrega un teclado!
+Add a Group!	¡Agrega un grupo!
+Add a Kick Reward!	¡Agrega una recompensa de Kick!
+Add a Timer!	¡Agrega un temporizador!
+Add a Twitch Reward!	¡Agrega una recompensa de Twitch!
+Add a Voice Control Command!	¡Agrega un comando de control por voz!
+Add a random number into arguments, use for percentages, or anything else.	Agrega un número aleatorio a los argumentos, úsalo para porcentajes o cualquier otra cosa.
+Add an Action in a Group!	¡Agrega una acción en un grupo!
+Add common C# reference	Agregar referencia común de C#
+Add reference from file...	Agregar referencia desde archivo...
+Add the specified number of random users to the arguments, this will provide a unique number of users filterd by their present status and that have been seen by Streamer.bot.	Agrega el número especificado de usuarios aleatorios a los argumentos; esto proporcionará un número único de usuarios filtrados por su estado de presencia y que hayan sido vistos por Streamer.bot.
+Add your HypeRate ID (CaSe SenSITiVe!!!!)	Agrega tu ID de HypeRate (¡¡¡SeNsiBLe A MaYúScUlAs!!!!)
+Add your SubActions to either of these groups to perform actions based on the result of this expression.	Agrega tus subacciones a cualquiera de estos grupos para realizar acciones según el resultado de esta expresión.
+Add, edit and delete user groups	Agregar, editar y eliminar grupos de usuarios
+Add, edit and manage Streamlabs Desktop instances	Agregar, editar y administrar instancias de Streamlabs Desktop
+Adding multiple Get Quotes will overwrite each previous one	Agregar varios Obtener citas sobrescribirá cada uno anterior
+Adds the present user at the index specified.  Index can also be a variable.  As a note, the present user list can change, so if you're iterating through, there is a possibility for same/missed results.	Agrega el usuario presente en el índice especificado. El índice también puede ser una variable. Nota: la lista de usuarios presentes puede cambiar, por lo que si estás iterando, existe la posibilidad de resultados duplicados u omitidos.
+Alerts Widget URL	URL del widget de alertas
+Allowed values for balance are %variables%, or a number value between 0 and 100 inclusive.	Los valores permitidos para balance son %variables%, o un valor numérico entre 0 y 100 inclusive.
+Allowed values for gain are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	Los valores permitidos para gain son %variables%, o un valor decimal entre 0.0 y 1.0 inclusive.
+Allowed values for volume are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	Los valores permitidos para volume son %variables%, o un valor decimal entre 0.0 y 1.0 inclusive.
+Alpha Access	Alpha Access
+Also a nod to all those supporters past and present who are not listed above	También un saludo a todos aquellos seguidores pasados y presentes que no figuran arriba
+Always Run	Ejecutar siempre
+An up and coming heavy weight	Un peso pesado emergente
+Anti-flicker	Anti-parpadeo
+Any references added to the common references list above will be automatically added to every Execute C# code when it's compiled	Cualquier referencia agregada a la lista de referencias comunes anterior se agregará automáticamente a cada Ejecutar código C# cuando se compile
+Any values that are left blank, will not be changed	Cualquier valor que se deje en blanco no se cambiará
+Append to File	Añadir al archivo
+Application Volume	Volumen de la aplicación
+As JSON	Como JSON
+Ask for Confirmation on Close	Preguntar confirmación al cerrar
+Attempt Auto-Typing	Intentar escritura automática
+Audio Enabled (boolean)	Audio habilitado (booleano)
+Audio Input Device	Dispositivo de entrada de audio
+Audio Output Device	Dispositivo de salida de audio
+Auto Connect	Conexión automática
+Auto Connect on Startup	Conectar automáticamente al inicio
+Auto Monitor	Monitoreo automático
+Auto Monitor Live Broadcasts	Monitorear automáticamente transmisiones en vivo
+Auto Open	Abrir automáticamente
+Auto Open Chat on Startup	Abrir automáticamente el chat al inicio
+Auto Open Event Feed on Startup	Abrir automáticamente el feed de eventos al inicio
+Auto Open on Startup	Abrir automáticamente al inicio
+Auto Reconnect	Reconexión automática
+Auto Reset	Restablecimiento automático
+Auto Reset Cache	Restablecer caché automáticamente
+Auto Start	Inicio automático
+Auto Start Listen	Iniciar escucha automáticamente
+Auto Start on Startup	Inicio automático al inicio
+Auto Type	Escritura automática
+Auto pin message after it is sent and will be pinned for 20 minutes	Fijar el mensaje automáticamente después de enviarlo y permanecerá fijado durante 20 minutos
+Auto-Type	Escritura automática
+Auto-Type non-JSON Result	Escribir automáticamente resultado no JSON
+Automatically connect to CrowdControl when Streamer.bot starts up	Conectar automáticamente a CrowdControl cuando se inicia Streamer.bot
+Automatically connect to Elgato CameraHub when Streamer.bot starts up	Conectar automáticamente a Elgato CameraHub cuando se inicia Streamer.bot
+Automatically connect to Elgato Stream Deck MCP when Streamer.bot starts up	Conectar automáticamente a Elgato Stream Deck MCP cuando se inicia Streamer.bot
+Automatically connect to Elgato WaveLink when Streamer.bot starts up	Conectar automáticamente a Elgato WaveLink cuando se inicia Streamer.bot
+Automatically connect to HypeRate.io when Streamer.bot starts up	Conectar automáticamente a HypeRate.io cuando se inicia Streamer.bot
+Automatically connect to Lumia Stream when Streamer.bot starts up	Conectar automáticamente a Lumia Stream cuando se inicia Streamer.bot
+Automatically connect to Pally.gg when Streamer.bot starts up	Conectar automáticamente a Pally.gg cuando se inicia Streamer.bot
+Automatically connect to Pulsoid when Streamer.bot starts up	Conectar automáticamente a Pulsoid cuando se inicia Streamer.bot
+Automatically connect to Speaker.bot when Streamer.bot starts up	Conectar automáticamente a Speaker.bot cuando se inicia Streamer.bot
+Automatically connect to StreamLoots when Streamer.bot starts up	Conectar automáticamente a StreamLoots cuando se inicia Streamer.bot
+Automatically connect to Streamfog when Streamer.bot starts up	Conectar automáticamente a Streamfog cuando se inicia Streamer.bot
+Automatically connect to Throwing System when Streamer.bot starts up	Conectar automáticamente a Throwing System cuando se inicia Streamer.bot
+Automatically connect to TipeeeStream when Streamer.bot starts up	Conectar automáticamente a TipeeeStream cuando se inicia Streamer.bot
+Automatically connect to VTubeStudio when Streamer.bot starts up	Conectar automáticamente a VTubeStudio cuando se inicia Streamer.bot
+Automatically connect to VoiceMod when Streamer.bot starts up	Conectar automáticamente a VoiceMod cuando se inicia Streamer.bot
+Automatically connect to your YouTube Bot account when Streamer.bot starts up	Conectar automáticamente a tu cuenta de bot de YouTube cuando se inicia Streamer.bot
+Automatically connect to your YouTube Broadcaster account when Streamer.bot starts up	Conectar automáticamente a tu cuenta de emisor de YouTube cuando se inicia Streamer.bot
+Automatically reconnect to CrowdControl when the connection is terminated	Reconectar automáticamente a CrowdControl cuando la conexión se termina
+Automatically reconnect to Elgato CameraHub when the connection is terminated	Reconectar automáticamente a Elgato CameraHub cuando la conexión se termina
+Automatically reconnect to Elgato Stream Deck MCP when the connection is terminated	Reconectar automáticamente a Elgato Stream Deck MCP cuando la conexión se termina
+Automatically reconnect to Elgato WaveLink when the connection is terminated	Reconectar automáticamente a Elgato WaveLink cuando la conexión se termina
+Automatically reconnect to HypeRate.io when the connection is terminated	Reconectar automáticamente a HypeRate.io cuando la conexión se termina
+Automatically reconnect to Lumia Stream when the connection is terminated	Reconectar automáticamente a Lumia Stream cuando la conexión se termina
+Automatically reconnect to Pally.gg when the connection is terminated	Reconectar automáticamente a Pally.gg cuando la conexión se termina
+Automatically reconnect to Pulsoid when the connection is terminated	Reconectar automáticamente a Pulsoid cuando la conexión se termina
+Automatically reconnect to Speaker.bot when the connection is terminated	Reconectar automáticamente a Speaker.bot cuando la conexión se termina
+Automatically reconnect to StreamLoots when the connection is terminated	Reconectar automáticamente a StreamLoots cuando la conexión se termina
+Automatically reconnect to Streamfog when the connection is terminated	Reconectar automáticamente a Streamfog cuando la conexión se termina
+Automatically reconnect to Throwing System when the connection is terminated	Reconectar automáticamente a Throwing System cuando la conexión se termina
+Automatically reconnect to TipeeeStream when the connection is terminated	Reconectar automáticamente a TipeeeStream cuando la conexión se termina
+Automatically reconnect to VTubeStudio when the connection is terminated	Reconectar automáticamente a VTubeStudio cuando la conexión se termina
+Automatically reconnect to VoiceMod when the connection is terminated	Reconectar automáticamente a VoiceMod cuando la conexión se termina
+Automatically run the Stream Update trigger when connecting to Twitch	Ejecutar automáticamente el disparador de actualización de transmisión al conectar a Twitch
+Automatically start listening for voice commands when Streamer.bot starts	Iniciar automáticamente la escucha de comandos de voz cuando se inicia Streamer.bot
+Automatically start the Process Watcher when Streamer.bot starts up	Iniciar automáticamente el vigilante de procesos cuando se inicia Streamer.bot
+Automatically start the server when Streamer.bot starts up	Iniciar automáticamente el servidor cuando se inicia Streamer.bot
+Available Endpoints	Puntos de conexión disponibles
+Available Requests	Solicitudes disponibles
+Available Sub-Actions	Subacciones disponibles
+Available Triggers	Disparadores disponibles
+Avatar URL	URL del avatar
+Background Color	Color de fondo
+Backup Folder	Carpeta de copias de seguridad
+Backup Now	Respaldar ahora
+Backup Progress	Progreso de la copia de seguridad
+Backup Status	Estado de la copia de seguridad
+Backup Version:	Versión de la copia de seguridad:
+Backups	Copias de seguridad
+Backups currently available in your cloud storage	Copias de seguridad actualmente disponibles en tu almacenamiento en la nube
+Basic settings related to Streamer.bot	Configuración básica relacionada con Streamer.bot
+Bits Cost	Costo en bits
+Bits Donated	Bits donados
+Bot Account	Cuenta de bot
+Bot Account Auto Connect	Conexión automática de la cuenta de bot
+Both fields support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	Ambos campos admiten análisis. La duración puede estar vacía, lo que significa que el mensaje fijado duraría hasta que termine la transmisión, o debe ser o analizarse a un valor entre 30 y 1800.
+Broadcast Information	Información de la transmisión
+Broadcaster Account	Cuenta de emisor
+Broadcaster Account Auto Connect	Conexión automática de la cuenta de emisor
+Browse your past videos	Explora tus videos pasados
+Browser Source Audio Enabled (boolean)	Audio de origen de navegador habilitado (booleano)
+Button ID	ID del botón
+By clicking "I Agree" below, you are agreeing to YouTube's Terms of Service, Google's Privacy Policy, and Streamer.bot's Terms of Service and Privacy policy as linked below.	Al hacer clic en "Acepto" a continuación, aceptas los Términos de servicio de YouTube, la Política de privacidad de Google y los Términos de servicio y la Política de privacidad de Streamer.bot, como se enlazan a continuación.
+By default, timed actions will repeat, you can have them only trigger once, by unticking repeat, and it will trigger after being enabled	Por defecto, las acciones temporizadas se repiten; puedes hacer que solo se disparen una vez desmarcando repetir, y se dispararán después de habilitarse
+C# Compile Settings	Configuración de compilación de C#
+C# Compiler	Compilador de C#
+Camera does not support Noise Reduction!	¡La cámara no admite reducción de ruido!
+Cancel Login	Cancelar inicio de sesión
+Capture Key	Capturar tecla
+Capture Model Position	Capturar posición del modelo
+Case Sensitive	Sensible a mayúsculas
+Case Values	Valores de caso
+Category Name	Nombre de la categoría
+Change VoiceMod settings on the fly, or voices	Cambiar la configuración de VoiceMod sobre la marcha, o las voces
+Change backup settings, and force backup creation	Cambiar la configuración de copias de seguridad y forzar la creación de copias
+Change settings.	Cambiar configuración.
+Changed only Values	Solo valores cambiados
+Changing enabled Sub-Actions requires a restart of Streamer.bot	Cambiar las subacciones habilitadas requiere reiniciar Streamer.bot
+Changing enabled Triggers requires a restart of Streamer.bot	Cambiar los disparadores habilitados requiere reiniciar Streamer.bot
+Changing the log folder requires a restart of Streamer.bot	Cambiar la carpeta de registros requiere reiniciar Streamer.bot
+Changing these settings requires a restart of Streamer.bot	Cambiar estos ajustes requiere reiniciar Streamer.bot
+Channel Point Rewards	Recompensas de puntos de canal
+Channel Points Per Vote	Puntos de canal por voto
+Channel Points Per Vote, leave empty or set to 0 to disable	Puntos de canal por voto, deja vacío o pon 0 para deshabilitar
+Channel Points Spent	Puntos de canal gastados
+Chapter Name	Nombre del capítulo
+Chapter name supports %variables%.	El nombre del capítulo admite %variables%.
+Chat	Chat
+Chat Client	Cliente de chat
+Chatters will receive a temporary chat badge indicating the option they voted for until the prediction ends.	Los usuarios del chat recibirán una insignia temporal que indica la opción por la que votaron hasta que termine la predicción.
+Check for Updates	Buscar actualizaciones
+Checking this will make your value be auto typed, and has no effect on increment or decrement source	Marcar esto hará que tu valor se escriba automáticamente y no tiene efecto en la fuente de incremento o decremento
+Choices (Minimum of 2, maximum of 5)	Opciones (mínimo 2, máximo 5)
+Choose a custom default color to use for the Comment Sub-Action	Elige un color predeterminado personalizado para usar en la subacción de comentario
+Choose the color to use when a Sub-Action is disabled	Elige el color a usar cuando una subacción está deshabilitada
+Choose what MIDI pages to show	Elige qué páginas MIDI mostrar
+Choose what Server/Client pages to show	Elige qué páginas de servidor/cliente mostrar
+Choose what Voice Control pages to show	Elige qué páginas de control por voz mostrar
+Choose what platforms to show	Elige qué plataformas mostrar
+Choose what services to show	Elige qué servicios mostrar
+Choose what streaming applications to show	Elige qué aplicaciones de transmisión mostrar
+Clear History	Borrar historial
+Clear Queue	Vaciar cola
+Clear User	Borrar usuario
+Clear the cache on startup if the time since last startup exceeds the given interval	Borrar la caché al inicio si el tiempo desde el último inicio supera el intervalo dado
+Click the button above to select a category.	Haz clic en el botón de arriba para seleccionar una categoría.
+Click the button above to select a game, leave it empty to have your game category empty.	Haz clic en el botón de arriba para seleccionar un juego; déjalo vacío para tener tu categoría de juego vacía.
+Clicking export will export your selected Actions, Queues, Commands, Timed Actions, Websocket Servers and Websocket Clients to your clipboard, and you can share them everywhere.	Al hacer clic en exportar se exportarán tus acciones, colas, comandos, acciones temporizadas, servidores WebSocket y clientes WebSocket seleccionados al portapapeles, y podrás compartirlos en cualquier lugar.
+Clients that are currently connected	Clientes actualmente conectados
+Clip ID	ID del clip
+Clip Title	Título del clip
+Cloud Backups	Copias de seguridad en la nube
+Cloud Backups are a supporter perk, and require you to be subscribed at the	Las copias de seguridad en la nube son un beneficio de seguidores y requieren que estés suscrito al
+Coin Type	Tipo de moneda
+Collapse All	Contraer todo
+Command	Comando
+Command Type	Tipo de comando
+Command(s)	Comando(s)
+Commands	Comandos
+Commands ({0})	Comandos ({0})
+Comment Color	Color del comentario
+Common References	Referencias comunes
+Compiling Log	Registro de compilación
+Completed At	Completado en
+Completed Count	Conteo completado
+Confidence Threshold	Umbral de confianza
+Configure Twitch Sub Counter integration settings	Configurar los ajustes de integración del contador de suscripciones de Twitch
+Configure actions, queues and view action history	Configurar acciones, colas y ver el historial de acciones
+Configure default options when creating new Actions, Commands and other	Configurar opciones predeterminadas al crear nuevas acciones, comandos y otros
+Configure options for the Credits service	Configurar opciones para el servicio de créditos
+Configure the default audio output device Streamer.bot uses	Configurar el dispositivo de salida de audio predeterminado que usa Streamer.bot
+Configure the device to use for speech recognition	Configurar el dispositivo a usar para el reconocimiento de voz
+Configure the first words cache	Configurar la caché de primeras palabras
+Configure third party emote handling, changing these requires a restart	Configurar el manejo de emoticonos de terceros; cambiarlos requiere reiniciar
+Configure your streaming application settings	Configurar los ajustes de tu aplicación de transmisión
+Configuring Elgato CameraHub	Configurando Elgato CameraHub
+Configuring Elgato WaveLink	Configurando Elgato WaveLink
+Configuring HTTP Server	Configurando el servidor HTTP
+Configuring Twitch	Configurando Twitch
+Configuring Voice Control	Configurando el control por voz
+Connect a bot account to send messages with a different user	Conecta una cuenta de bot para enviar mensajes con un usuario diferente
+Connect to enable Ko-fi, Patreon, FourthWall and more!	¡Conéctate para habilitar Ko-fi, Patreon, FourthWall y más!
+Connect your Stream Deck for even more power!	¡Conecta tu Stream Deck para aún más poder!
+Connect your StreamElements account to receive events	Conecta tu cuenta de StreamElements para recibir eventos
+Connect your Streamer.bot account	Conecta tu cuenta de Streamer.bot
+Connect your Streamlabs account to receive events	Conecta tu cuenta de Streamlabs para recibir eventos
+Connect your TreatStream account to receive events	Conecta tu cuenta de TreatStream para recibir eventos
+Connect your streaming account for core functionality	Conecta tu cuenta de transmisión para la funcionalidad principal
+Connected	Conectado
+Connected Clients	Clientes conectados
+Connecting...	Conectando...
+Connection Status	Estado de la conexión
+Control your Elgato Camera or Prompter.	Controla tu cámara o teleprompter de Elgato.
+Control your Elgato Microphone.	Controla tu micrófono de Elgato.
+Control your lights through LumiaStream, and receive events.	Controla tus luces a través de LumiaStream y recibe eventos.
+Cooldown	Enfriamiento
+Copy All Variable Names	Copiar todos los nombres de variables
+Copy All Video Urls to Clipboard	Copiar todas las URL de videos al portapapeles
+Copy As Text Table	Copiar como tabla de texto
+Copy Login Link	Copiar enlace de inicio de sesión
+Copy all to clipboard	Copiar todo al portapapeles
+Copy and paste your API Key in this field	Copia y pega tu clave de API en este campo
+Copy and paste your Alerts Widget URL in this field	Copia y pega la URL de tu widget de alertas en este campo
+Copy and paste your Overlay URL in this field	Copia y pega la URL de tu superposición en este campo
+Copy and paste your remote key in this field	Copia y pega tu clave remota en este campo
+Copy and paste your token in this field	Copia y pega tu token en este campo
+Count	Conteo
+Create Backup	Crear copia de seguridad
+Create Cloud Backup	Crear copia de seguridad en la nube
+Create Custom Server	Crear servidor personalizado
+Create DonorDrive	Crear DonorDrive
+Create File Tail	Crear seguimiento de archivo
+Create File Watcher	Crear vigilante de archivos
+Create Midi Event	Crear evento MIDI
+Create Reward	Crear recompensa
+Create Timer	Crear temporizador
+Create Websocket Client	Crear cliente WebSocket
+Create a New Poll	Crear una nueva encuesta
+Create a backup and upload it to your cloud storage	Crear una copia de seguridad y subirla a tu almacenamiento en la nube
+Create folder/file watchers to react to file changes	Crear vigilantes de carpetas/archivos para reaccionar a los cambios de archivos
+Create your own WebSocket Servers and manage them from within C#	Crea tus propios servidores WebSocket y adminístralos desde C#
+Create your own connections to WebSocket Servers and control them from within C#	Crea tus propias conexiones a servidores WebSocket y contrólalas desde C#
+Create, edit and remove your output MIDI device associations	Crear, editar y eliminar tus asociaciones de dispositivos MIDI de salida
+Create, edit, and remove Voice Control Commands	Crear, editar y eliminar comandos de control por voz
+Create, edit, and remove your MIDI Input associations and events	Crear, editar y eliminar tus asociaciones y eventos de entrada MIDI
+Created At	Creado en
+Created At:	Creado en:
+Created by nate1280	Creado por nate1280
+Created by: nate1280	Creado por: nate1280
+Creators and mods can create predictions. Viewers who guess the outcome correctly can win Channel Points. All predictions must follow Twitch's	Los creadores y moderadores pueden crear predicciones. Los espectadores que acierten el resultado pueden ganar puntos de canal. Todas las predicciones deben seguir las
+Cumulative Sub Range	Rango de suscripciones acumuladas
+Current Scene	Escena actual
+Custom Power-Ups	Potenciadores personalizados
+Custom WebSocket Clients	Clientes WebSocket personalizados
+Custom WebSocket Servers	Servidores WebSocket personalizados
+Custom Webhook	Webhook personalizado
+Custom Websocket Clients	Clientes WebSocket personalizados
+Custom Websocket Servers	Servidores WebSocket personalizados
+Dark Mode	Modo oscuro
+Date/Time	Fecha/Hora
+Dedicated to the loving memory of my mother.	Dedicado a la amorosa memoria de mi madre.
+Default Tags	Etiquetas predeterminadas
+Default Value	Valor predeterminado
+Default settings to apply to new Actions	Configuración predeterminada para aplicar a nuevas acciones
+Default settings to apply to new Commands	Configuración predeterminada para aplicar a nuevos comandos
+Default settings to apply to new Switch Case groupings	Configuración predeterminada para aplicar a nuevos agrupamientos de casos de Switch
+Defaults	Valores predeterminados
+Defaults to 5 minutes to balance accuracy and performance	El valor predeterminado es 5 minutos para equilibrar precisión y rendimiento
+Delayed Start	Inicio retrasado
+Delete All	Eliminar todo
+Delete All Variables	Eliminar todas las variables
+Delete Filtered Variables	Eliminar variables filtradas
+Destination	Destino
+Destination Slot	Ranura de destino
+Destination Variable	Variable de destino
+Device Name	Nombre del dispositivo
+Disable Capturing of Variable Viewer Window	Deshabilitar la captura de la ventana del visor de variables
+Disable not configured rewards	Deshabilitar recompensas no configuradas
+Disable the tracking of Actions to reclaim performance	Deshabilitar el seguimiento de acciones para recuperar rendimiento
+Discord	Discord
+Do not show Streamer.bot's splash screen when starting	No mostrar la pantalla de inicio de Streamer.bot al iniciar
+Documentation	Documentación
+Don't Show Again	No mostrar de nuevo
+Duplicate Sub-Action Location	Ubicación de subacción duplicada
+Duration can contain either a specific value between 5 and 60 (inclusive), or a %variable% that will be parsed.  This is in seconds, and if left blank, the default is 30s.	La duración puede contener un valor específico entre 5 y 60 (inclusive) o un %variable% que se analizará. Esto está en segundos y, si se deja en blanco, el valor predeterminado es 30 s.
+Duration can either be a number (in minutes between 0 and 129,600), or a %variable% that will be parsed.	La duración puede ser un número (en minutos entre 0 y 129,600) o un %variable% que se analizará.
+Duration can either be a number (in seconds), or a %variable% that will be parsed.	La duración puede ser un número (en segundos) o un %variable% que se analizará.
+Duration support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	La duración admite análisis. Puede estar vacía, lo que significa que el mensaje fijado duraría hasta que termine la transmisión, o debe ser o analizarse a un valor entre 30 y 1800.
+Duration, defaults to 60 if empty or unable to parse	Duración, 60 por defecto si está vacía o no se puede analizar
+Dynamic Range	Rango dinámico
+Editor Settings	Configuración del editor
+Elgato CameraHub is Not Connected!	¡Elgato CameraHub no está conectado!
+Elgato Stream Deck instances that are currently connected	Instancias de Elgato Stream Deck actualmente conectadas
+Elgato StreamDeck MCP is Not Connected!	¡Elgato StreamDeck MCP no está conectado!
+Elgato WaveLink is Not Connected!	¡Elgato WaveLink no está conectado!
+Emote Handlers	Manejadores de emoticonos
+Enable Compression	Habilitar compresión
+Enable automatic roll over once the subsction count reaches a set number	Habilitar el traspaso automático cuando el conteo de suscripciones alcance un número establecido
+Enable integrations beyond the UI with Streamer.bot's build in WebSocket server.	Habilita integraciones más allá de la interfaz con el servidor WebSocket integrado de Streamer.bot.
+Enable or disable the viewers tab to reclaim performance	Habilita o deshabilita la pestaña de espectadores para recuperar rendimiento
+Enable receving events from StreamElements.	Habilitar la recepción de eventos de StreamElements.
+Enable receving events from Streamlabs.	Habilitar la recepción de eventos de Streamlabs.
+Enable the Sub Counter for tracking of subscriptions and rollovers	Habilitar el contador de suscripciones para el seguimiento de suscripciones y traspasos
+Enabled	Habilitado
+Enabled Sub-Actions	Subacciones habilitadas
+Enabled Triggers	Disparadores habilitados
+Enter a unique Action name...	Ingresa un nombre de acción único...
+Enter a unique queue name...	Ingresa un nombre de cola único...
+Enter the IP address Speaker.bot's WebSocket server is running on, '127.0.0.1'	Ingresa la dirección IP en la que se ejecuta el servidor WebSocket de Speaker.bot, '127.0.0.1'
+Enter the IP address for this server to bind to. For example, '127.0.0.1'	Ingresa la dirección IP a la que este servidor se vinculará. Por ejemplo, '127.0.0.1'
+Enter the IP address to connect to. For example, '127.0.0.1'	Ingresa la dirección IP a la que conectarte. Por ejemplo, '127.0.0.1'
+Enter the endpoint to listen to for the connection.  Defaults to '/'	Ingresa el punto de conexión a escuchar para la conexión. El valor predeterminado es '/'
+Enter the port Speaker.bot's WebSocket server is running on. Defaults to 7580	Ingresa el puerto en el que se ejecuta el servidor WebSocket de Speaker.bot. El valor predeterminado es 7580
+Enter the port to use for server connection. Defaults to 4242	Ingresa el puerto a usar para la conexión del servidor. El valor predeterminado es 4242
+Enter the port to use for server connection. Defaults to 7474	Ingresa el puerto a usar para la conexión del servidor. El valor predeterminado es 7474
+Enter the port to use for server connection. Defaults to 8059	Ingresa el puerto a usar para la conexión del servidor. El valor predeterminado es 8059
+Enter the port to use for server connection. Defaults to 8080	Ingresa el puerto a usar para la conexión del servidor. El valor predeterminado es 8080
+Enter the port to use for server connection. Defaults to 9652	Ingresa el puerto a usar para la conexión del servidor. El valor predeterminado es 9652
+Enter the port to use for the connection. Defaults to 42069	Ingresa el puerto a usar para la conexión. El valor predeterminado es 42069
+Environment Variables	Variables de entorno
+Event Feed	Feed de eventos
+Event Name	Nombre del evento
+EventSub Client	Cliente EventSub
+Events Client	Cliente de eventos
+Events to Record	Eventos a registrar
+Exchange Source	Fuente de intercambio
+Exclude all commands from import	Excluir todos los comandos de la importación
+Exclude all from Import	Excluir todo de la importación
+Exclude all timed actions from import	Excluir todas las acciones temporizadas de la importación
+Exclude all websocket clients from import	Excluir todos los clientes WebSocket de la importación
+Exclude all websocket servers from import	Excluir todos los servidores WebSocket de la importación
+Exclude from Action Queue/History	Excluir de la cola/historial de acciones
+Execute C# Code	Ejecutar código C#
+Execute C# Code Editor	Editor de código C#
+Expand All	Expandir todo
+Explore the official documentation for Streamer.bot	Explora la documentación oficial de Streamer.bot
+Export	Exportar
+Export Version	Versión de exportación
+Export to Clipboard	Exportar al portapapeles
+Export to File	Exportar a archivo
+Expression	Expresión
+Fade Time	Tiempo de fundido
+Fallback to Broadcaster	Replicar al emisor
+File Path	Ruta del archivo
+File Tail	Seguimiento de archivo
+File Tails	Seguimientos de archivos
+File to Check if Exists	Archivo a verificar si existe
+File to Read From	Archivo del que leer
+File to Write To	Archivo al que escribir
+File/Folder Watcher	Vigilante de archivos/carpetas
+Filter	Filtro
+Filter Type	Tipo de filtro
+Filter...	Filtrar...
+Find Refs	Buscar referencias
+Finish playing before continuing	Terminar de reproducir antes de continuar
+First Words	Primeras palabras
+Folder containing *.mp3 and *.wav	Carpeta que contiene *.mp3 y *.wav
+Folder mappings for serving local files	Asignaciones de carpetas para servir archivos locales
+Folder to Check if Exists	Carpeta a verificar si existe
+Font Family	Familia de fuente
+Font Size	Tamaño de fuente
+For readability, consider using camelCasing or PascalCasing.	Para facilitar la lectura, considera usar camelCase o PascalCase.
+Forget	Olvidar
+Forget Account	Olvidar cuenta
+Forget any saved credentials for Pulsoid	Olvidar cualquier credencial guardada de Pulsoid
+Forget any saved credentials for TipeeeStream	Olvidar cualquier credencial guardada de TipeeeStream
+Forget any saved credentials for VTubeStudio	Olvidar cualquier credencial guardada de VTubeStudio
+Forget this account?	¿Olvidar esta cuenta?
+Format Document	Formatear documento
+Found {0} videos	Se encontraron {0} videos
+GCD	GCD
+Gain early access to new features and updates before they are released to the public.	Obtén acceso anticipado a nuevas funciones y actualizaciones antes de que se publiquen.
+Game Only	Solo juego
+General Settings	Configuración general
+Generate a new Instance Id for this instance of Streamer.bot	Generar un nuevo ID de instancia para esta instancia de Streamer.bot
+Gift Bombs	Bombas de regalo
+Gift Sub Count Range	Rango de conteo de suscripciones de regalo
+Global Cooldown	Enfriamiento global
+Global Variables	Variables globales
+Grant Type	Tipo de concesión
+Group	Grupo
+Group Layout	Diseño del grupo
+Group Name	Nombre del grupo
+Groups	Grupos
+HTTP Server	Servidor HTTP
+Handle all things variables	Manejar todo lo relacionado con variables
+Has Permission	Tiene permiso
+Help with Elgato CameraHub	Ayuda con Elgato CameraHub
+Help with Elgato WaveLink	Ayuda con Elgato WaveLink
+Help with HTTP Server	Ayuda con el servidor HTTP
+Help with Twitch	Ayuda con Twitch
+Help with Voice Control	Ayuda con el control por voz
+Help with WebSocket Server	Ayuda con el servidor WebSocket
+Hide Not Present	Ocultar no presentes
+Hide Splash Screen	Ocultar pantalla de inicio
+Higher tiers gives you more storage space to hold more backups.	Los niveles superiores te dan más espacio de almacenamiento para guardar más copias de seguridad.
+Home	Inicio
+How long it took for the action to run, this is in milliseconds	Cuánto tardó la acción en ejecutarse, en milisegundos
+How long viewers have to guess the outcome	Cuánto tiempo tienen los espectadores para adivinar el resultado
+How long viewers have to vote in the poll	Cuánto tiempo tienen los espectadores para votar en la encuesta
+I Agree	Acepto
+I also can not forget giving a nod to the following people	Tampoco puedo olvidar dar un saludo a las siguientes personas
+I can not foget to thank the following who are on Streamer.bot's staff, providing support in the discord	No puedo olvidar agradecer a los siguientes, que forman parte del personal de Streamer.bot y brindan soporte en Discord
+Icon Path	Ruta del icono
+Ideas & Suggestions	Ideas y sugerencias
+If "Destination Variable" is left empty, the value will be stored to global_variableName, or user_username_variablename	Si se deja vacía la "variable de destino", el valor se almacenará en global_nombreVariable, o usuario_nombreusuario_nombreVariable
+If AsJson is checked, the file will try to be loaded as a json object only a simple object will be loaded (for now), if it can not be parsed, the below will be available	Si AsJson está marcado, el archivo intentará cargarse como un objeto JSON; solo se cargará un objeto simple (por ahora); si no se puede analizar, lo siguiente estará disponible
+If both options are set, then both criteria must be met for the action to occur. The action will only run if Y number have lines have been said, and if X seconds have passed.	Si ambas opciones están configuradas, deben cumplirse ambos criterios para que ocurra la acción. La acción solo se ejecutará si se han dicho Y líneas y han pasado X segundos.
+If cancelling a redemption, this will refund the channel points back to the user that redeemed it.	Si se cancela un canje, esto devolverá los puntos de canal al usuario que lo canjeó.
+If there are no matches then it will fall back to the Default Case.	Si no hay coincidencias, recurrirá al caso predeterminado.
+If this is checked, only users in the listed groups will be used, otherwise they will be excluded	Si esto está marcado, solo se usarán los usuarios de los grupos enumerados; de lo contrario, serán excluidos
+If timeout is left blank, it defaults to 30 seconds (or 30,000ms)	Si el tiempo de espera se deja en blanco, el valor predeterminado es 30 segundos (o 30,000 ms)
+If you are already subscribed, thank you for your support. Make sure you are currently logged into your Streamer.bot account in the bottom-left corner of Streamer.bot. If you are logged in, then make sure you have also linked your	Si ya estás suscrito, gracias por tu apoyo. Asegúrate de haber iniciado sesión en tu cuenta de Streamer.bot en la esquina inferior izquierda de Streamer.bot. Si has iniciado sesión, asegúrate también de haber vinculado tu
+If you enjoy Streamer.bot, please consider supporting nate1280 on Patreon.	Si disfrutas de Streamer.bot, considera apoyar a nate1280 en Patreon.
+Ignore Aliases	Ignorar alias
+Ignore Bot Messages	Ignorar mensajes de bot
+Ignore Case	Ignorar mayúsculas
+Ignore Channel	Ignorar canal
+Ignore Data	Ignorar datos
+Ignore Extensions	Ignorar extensiones
+Ignore Internal Messages	Ignorar mensajes internos
+Ignore NoteOff	Ignorar NoteOff
+Import	Importar
+Import String	Cadena de importación
+Import contains custom C# code. Ensure you trust the author and source of this import!	La importación contiene código C# personalizado. ¡Asegúrate de confiar en el autor y la fuente de esta importación!
+Important Information	Información importante
+Include Action's Arguments	Incluir argumentos de la acción
+Include All	Incluir todo
+Include Subdirectories	Incluir subdirectorios
+Include auth.db	Incluir auth.db
+Input now supports variable parsing, be sure to surround it with % if you want the value of the variable. i.e. %user%, %userCounter%, %rawInput%, etc...	La entrada ahora admite el análisis de variables; asegúrate de rodearla con % si quieres el valor de la variable. Por ejemplo, %user%, %userCounter%, %rawInput%, etc...
+Instance Id	ID de instancia
+Instance Name:	Nombre de la instancia:
+Integrate further with Speaker.bot.	Integra más con Speaker.bot.
+Integrations	Integraciones
+Is UserId	Es ID de usuario
+Jewels Gifted	Joyas regaladas
+Join the Streamer.bot community!	¡Únete a la comunidad de Streamer.bot!
+Keep the updates coming!	¡Sigue con las actualizaciones!
+Keep track of active viewers in chat	Realiza un seguimiento de los espectadores activos en el chat
+Keep track of users that create pyramids in your chat	Realiza un seguimiento de los usuarios que crean pirámides en tu chat
+Key Combination	Combinación de teclas
+Kick Message	Mensaje de Kick
+Kick is not Connected	Kick no está conectado
+Kick's own API implementation is still very fluid, and lacking, so not every feature maybe implemented	La implementación de la API propia de Kick todavía es muy fluida y carece de funciones, por lo que tal vez no todas las funciones estén implementadas
+Kicks Gifted	Kicks regalados
+Ko-fi	Ko-fi
+Labs	Laboratorio
+Last Active	Última actividad
+Last Triggered	Última activación
+Last Write	Última escritura
+Last backup: Never	Última copia de seguridad: nunca
+Last backup: {0:F}	Última copia de seguridad: {0:F}
+Learn from Device	Aprender del dispositivo
+Leave color empty to use Application default color for comments	Deja el color vacío para usar el color predeterminado de la aplicación para los comentarios
+Leaving Event Name empty is considered a catch-all and will trigger on any custom event name.	Dejar el nombre del evento vacío se considera comodín y se activará con cualquier nombre de evento personalizado.
+Leaving Event Name empty is considered a catch-all and will trigger on any remote event name.	Dejar el nombre del evento vacío se considera comodín y se activará con cualquier nombre de evento remoto.
+Leaving Toast Id empty is considered a catch-all and will trigger on any Toast Id.	Dejar el ID de Toast vacío se considera comodín y se activará con cualquier ID de Toast.
+Leaving name empty is considered a catch-all and will trigger on any global variable being created	Dejar el nombre vacío se considera comodín y se activará cuando se cree cualquier variable global
+Leaving name empty is considered a catch-all and will trigger on any global variable being deleted	Dejar el nombre vacío se considera comodín y se activará cuando se elimine cualquier variable global
+Leaving name empty is considered a catch-all and will trigger on any global variable updating	Dejar el nombre vacío se considera comodín y se activará cuando se actualice cualquier variable global
+Leaving name empty is considered a catch-all and will trigger on any process starting.	Dejar el nombre vacío se considera comodín y se activará cuando se inicie cualquier proceso.
+Leaving name empty is considered a catch-all and will trigger on any process stopping.	Dejar el nombre vacío se considera comodín y se activará cuando se detenga cualquier proceso.
+Leaving name or login empty is considered a catch-all and will trigger on any user global variable updating	Dejar el nombre o inicio de sesión vacío se considera comodín y se activará cuando se actualice cualquier variable global de usuario
+Leaving soundboard name empty is considered a catch-all and will trigger on any soundboard changed event.	Dejar el nombre de la mesa de sonido vacío se considera comodín y se activará con cualquier evento de cambio de mesa de sonido.
+Leaving user name empty is considered a catch-all and will trigger on any first words event.	Dejar el nombre de usuario vacío se considera comodín y se activará con cualquier evento de primeras palabras.
+Leaving voice name empty is considered a catch-all and will trigger on any voice loaded event.	Dejar el nombre de voz vacío se considera comodín y se activará con cualquier evento de voz cargada.
+Lens Name	Nombre de la lente
+Lens Name and/or Duration can be a fixed value or a parsed value using variables and/or inline functions.	El nombre de la lente y/o la duración pueden ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+Light Mode	Modo claro
+Line Number	Número de línea
+Line Spacing	Interlineado
+Listening Status	Estado de escucha
+Live (boolean)	En vivo (booleano)
+Live Update	Actualización en vivo
+Loading Editor Components...	Cargando componentes del editor...
+Loading...	Cargando...
+Location	Ubicación
+Log Folder	Carpeta de registros
+Log In (Default)	Iniciar sesión (predeterminado)
+Log Level	Nivel de registro
+Log Speech to Text Dictation	Registrar dictado de voz a texto
+Login	Iniciar sesión
+Login to your Kick account, and adjust settings.	Inicia sesión en tu cuenta de Kick y ajusta la configuración.
+Login to your Streamer.bot Account to see beta/alpha channels.	Inicia sesión en tu cuenta de Streamer.bot para ver los canales beta/alfa.
+Login to your Streamer.bot account in the bottom-left corner	Inicia sesión en tu cuenta de Streamer.bot en la esquina inferior izquierda
+Login to your Twitch account, manage Chanel Rewards, Poll and Predictions, and settings.	Inicia sesión en tu cuenta de Twitch, administra recompensas de canal, encuestas y predicciones, y la configuración.
+Login to your YouTube account, see your broadcasts, and alter settings.	Inicia sesión en tu cuenta de YouTube, mira tus transmisiones y cambia la configuración.
+Logout	Cerrar sesión
+LumiaStream is Not Connected!	¡LumiaStream no está conectado!
+MIDI	MIDI
+MIDI Device is NOT connected	El dispositivo MIDI NO está conectado
+MIDI Device is already in use	El dispositivo MIDI ya está en uso
+MIDI Device is connected	El dispositivo MIDI está conectado
+MIDI Device is not found	No se encuentra el dispositivo MIDI
+MIDI In	Entrada MIDI
+MIDI Out	Salida MIDI
+Making Changes to this list will not invalidate any currently compiled Execute C# Code sub-actions	Hacer cambios en esta lista no invalidará ninguna subacción Ejecutar código C# ya compilada
+Manage Polls on your Twitch broadcaster account	Administrar encuestas en tu cuenta de emisor de Twitch
+Manage Predictions on your Twitch broadcaster account	Administrar predicciones en tu cuenta de emisor de Twitch
+Manage different aspects of Streamer.bot's UI	Administra diferentes aspectos de la interfaz de Streamer.bot
+Manage network services	Administrar servicios de red
+Manage your Kick channel point rewards	Administrar tus recompensas de puntos de canal de Kick
+Manage your Twitch channel point rewards	Administrar tus recompensas de puntos de canal de Twitch
+Manage your Twitch custom power-ups (beta)	Administrar tus potenciadores personalizados de Twitch (beta)
+Manage your chat commands	Administrar tus comandos de chat
+Manually refresh audio input devices	Actualizar manualmente los dispositivos de entrada de audio
+Manually refresh audio output devices	Actualizar manualmente los dispositivos de salida de audio
+Manually reset the cache	Restablecer manualmente la caché
+Mask Variable Containing	Variable de máscara que contiene
+May you rest in peace; you will be missed. 1954-2021	Que descanses en paz; te extrañaremos. 1954-2021
+Meld Studio Information	Información de Meld Studio
+Menu	Menú
+Message Id	ID del mensaje
+Milestone Range (this is for the number of subs gifted over all time)	Rango de hitos (esto es para el número de suscripciones regaladas de todos los tiempos)
+Minimize to Tray	Minimizar a la bandeja
+Minimize to Tray on Close	Minimizar a la bandeja al cerrar
+Minimum Width	Ancho mínimo
+Mix With Scene Lighting Color	Mezclar con el color de iluminación de la escena
+Moderator Send Live Enabled (boolean)	Envío en vivo del moderador habilitado (booleano)
+Modify settings related to Voice Control	Modificar la configuración relacionada con el control por voz
+Modify your MIDI settings here.	Modifica aquí tu configuración de MIDI.
+Monaco Settings	Configuración de Monaco
+Months Gifted	Meses regalados
+Move All To	Mover todo a
+NOT Recording!	¡NO grabando!
+NOT Streaming!	¡NO transmitiendo!
+Name	Nombre
+Name can be a fixed value or a parsed value using variables and/or inline functions.	El nombre puede ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+Name the prediction	Nombra la predicción
+Navigation Panel	Panel de navegación
+New Poll	Nueva encuesta
+New Prediction	Nueva predicción
+No AR Lenses Found!	¡No se encontraron lentes AR!
+No Actions Found!	¡No se encontraron acciones!
+No Audio Devices Found	No se encontraron dispositivos de audio
+No Command Groups Found!	¡No se encontraron grupos de comandos!
+No Commands Found!	¡No se encontraron comandos!
+No Crosshair Images Found!	¡No se encontraron imágenes de mira!
+No Devices Available to Learn From!	¡No hay dispositivos disponibles para aprender!
+No Editable Rewards Found!	¡No se encontraron recompensas editables!
+No Execute C# Code Sub-Actions were found!	¡No se encontraron subacciones Ejecutar código C#!
+No Execute C# Sub-Aactions Found!	¡No se encontraron subacciones de C#!
+No Expressions Found!	¡No se encontraron expresiones!
+No File Tails Found	No se encontraron seguimientos de archivos
+No Fonts Found!	¡No se encontraron fuentes!
+No Groups Found!	¡No se encontraron grupos!
+No Hotkeys Found!	¡No se encontraron teclas rápidas!
+No Inputs Found!	¡No se encontraron entradas!
+No Items!	¡Sin elementos!
+No Kick Reward Groups Found!	¡No se encontraron grupos de recompensas de Kick!
+No Kick Rewards Found!	¡No se encontraron recompensas de Kick!
+No Outfits Found!	¡No se encontraron atuendos!
+No Output Devices Available!	¡No hay dispositivos de salida disponibles!
+No Profiles Found!	¡No se encontraron perfiles!
+No Rewards Found	No se encontraron recompensas
+No Scripts Found!	¡No se encontraron scripts!
+No Timers Found!	¡No se encontraron temporizadores!
+No Twitch Reward Groups Found!	¡No se encontraron grupos de recompensas de Twitch!
+No Twitch Rewards Found!	¡No se encontraron recompensas de Twitch!
+No Video Backgrounds Found!	¡No se encontraron fondos de video!
+No Voice Control Commands Found!	¡No se encontraron comandos de control por voz!
+No command groups found!	¡No se encontraron grupos de comandos!
+No commands found!	¡No se encontraron comandos!
+Non-Persisted Globals	Globales no persistentes
+Non-Persisted User Globals	Globales de usuario no persistentes
+Not Authenticated	No autenticado
+Not Configured	No configurado
+Not Connected	No conectado
+Not Connected!	¡No conectado!
+Not Ignored	No ignorado
+Not all API endpoints/EventSub events have been implemented by Twitch yet. Some features may currently be missing, once they are added on Twitch's side, they will be updated for Streamer.bot's usage.	Twitch aún no ha implementado todos los puntos de conexión de API/eventos EventSub. Es posible que falten algunas funciones; una vez que se agreguen en el lado de Twitch, se actualizarán para el uso de Streamer.bot.
+OBS Color	Color OBS
+OBS Information	Información de OBS
+OBS Studio use ABGR format for its colors	OBS Studio usa el formato ABGR para sus colores
+Only Those Listed	Solo los enumerados
+Only methods that return bool, and have no parameter are usable.	Solo se pueden usar métodos que devuelvan bool y no tengan parámetros.
+Open Log Folder...	Abrir carpeta de registros...
+Open Trigger Viewer	Abrir visor de disparadores
+Optional values that are left blank, will not be changed.	Los valores opcionales que se dejen en blanco no se cambiarán.
+Options	Opciones
+Options (Minimum of 2, maximum of 4)	Opciones (mínimo 2, máximo 4)
+Other Instances	Otras instancias
+Outcome Title	Título del resultado
+Outcomes (Minimum of 2, maximum of 10)	Resultados (mínimo 2, máximo 10)
+Outfit Name	Nombre del atuendo
+Outfit Name can be a fixed value or a parsed value using variables and/or inline functions.	El nombre del atuendo puede ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+Output File	Archivo de salida
+Output Text	Texto de salida
+Output Variable	Variable de salida
+Output Variable will be the name of the variable that your result goes into, default is inputResult	La variable de salida será el nombre de la variable en la que va tu resultado; el valor predeterminado es inputResult
+Overlay URL	URL de superposición
+Override Global	Anular global
+Overwrite Existing Variable(s)	Sobrescribir variables existentes
+Overwrite Variables	Sobrescribir variables
+Parse Results as JSON	Analizar resultados como JSON
+Parse Variables	Analizar variables
+Partially Connected	Parcialmente conectado
+Pass through Bad Word Filter	Pasar por el filtro de palabras malsonantes
+Patreon	Patreon
+Patreon Supporters	Seguidores de Patreon
+Pause All Queues	Pausar todas las colas
+Payload Data	Datos de carga útil
+Pending Action Cache	Caché de acciones pendientes
+Pending Actions	Acciones pendientes
+Pending Count	Conteo pendiente
+Persist Counter	Contador persistente
+Persist User Counter	Contador de usuario persistente
+Persisted Globals	Globales persistentes
+Persisted User Globals	Globales de usuario persistentes
+Pick a Random Color	Elegir un color aleatorio
+Pick a color	Elegir un color
+Pick either Light Mode or Dark Mode for Streamer.bot	Elige el modo claro u oscuro para Streamer.bot
+Pick your favorite streamming application, get it connected, and start creating!	Elige tu aplicación de transmisión favorita, conéctala y ¡empieza a crear!
+Pick your platform of choice to interact with your viewers.	Elige tu plataforma preferida para interactuar con tus espectadores.
+Platform	Plataforma
+Platforms	Plataformas
+Position X (double, optional)	Posición X (doble, opcional)
+Position Y (double, optional)	Posición Y (doble, opcional)
+Power-up	Potenciador
+Precompile on Application Start	Precompilar al iniciar la aplicación
+Prediction Window (seconds) default is 60s	Ventana de predicción (segundos), el valor predeterminado es 60 s
+Present Only	Solo presentes
+Present Viewers	Espectadores presentes
+Priority	Prioridad
+Privacy Policy	Política de privacidad
+Process Watcher	Vigilante de procesos
+Provide various URL endpoints for interacting with Streamer.bot	Proporciona varios puntos de conexión URL para interactuar con Streamer.bot
+Pyramids Made	Pirámides hechas
+Quality:	Calidad:
+Queue Signal	Señal de cola
+Queued At	En cola en
+Queues ({0})	Colas ({0})
+Queues keep the Actions flowing, or stopped when needed	Las colas mantienen las acciones fluyendo o las detienen cuando es necesario
+Quote ID	ID de cita
+Quote ID can be a variable which must parse to a number, or a number.	El ID de cita puede ser una variable que debe analizarse a un número, o un número.
+Raids	Raids
+Raised/Goal	Recaudado/Objetivo
+Random Color	Color aleatorio
+Raw Message	Mensaje sin procesar
+Re-Open on Close	Reabrir al cerrar
+Re-index	Reindexar
+React to events that happen in CrowdControl.	Reacciona a los eventos que ocurren en CrowdControl.
+React to events, and trigger changes.	Reacciona a los eventos y dispara cambios.
+React to viewers purchasing and using cards	Reacciona a los espectadores que compran y usan tarjetas
+React to your heart rate!	¡Reacciona a tu ritmo cardíaco!
+Real-time AR effects that work inside OBS, Streamlabs, and Zoom.	Efectos AR en tiempo real que funcionan dentro de OBS, Streamlabs y Zoom.
+Receive access to additional supporter benefits, including Custom Webhooks and Cloud Backups!	Recibe acceso a beneficios adicionales para seguidores, incluidos webhooks personalizados y copias de seguridad en la nube.
+Receive donation events.	Recibir eventos de donación.
+Receive events when applications on your computer start and/or stop!	¡Recibe eventos cuando las aplicaciones de tu computadora se inician y/o detienen!
+Receive events when donations are received to your campaign!	¡Recibe eventos cuando se reciben donaciones en tu campaña!
+Receive events when someone sends you a treat!	¡Recibe eventos cuando alguien te envía un regalo!
+Receive events when tips are received.	Recibe eventos cuando se reciben propinas.
+Reconnect on Disconnect	Reconectar al desconectarse
+Recording!	¡Grabando!
+Redemption Skips Queue	El canje omite la cola
+Refresh Polls from Twitch	Actualizar encuestas desde Twitch
+Refresh Predictions from Twitch	Actualizar predicciones desde Twitch
+Refresh from Kick	Actualizar desde Kick
+Refresh from Twitch	Actualizar desde Twitch
+Regenerate Browser Sources (boolean)	Regenerar fuentes de navegador (booleano)
+Related Support	Soporte relacionado
+Relative to Model (boolean, required)	Relativo al modelo (booleano, obligatorio)
+Remote Key	Clave remota
+Remove All	Eliminar todo
+Remove all actions from export	Eliminar todas las acciones de la exportación
+Remove all commands from export	Eliminar todos los comandos de la exportación
+Remove all websocket clients from export	Eliminar todos los clientes WebSocket de la exportación
+Remove all websocket servers from export	Eliminar todos los servidores WebSocket de la exportación
+Reply Id	ID de respuesta
+Requests received by the HTTP server	Solicitudes recibidas por el servidor HTTP
+Reset Delete Confirmations	Restablecer confirmaciones de eliminación
+Reset Integrations	Restablecer integraciones
+Reset Navigation Items	Restablecer elementos de navegación
+Reset Sub Counter	Restablecer contador de suscripciones
+Reset sub-counter and rollover counters, this can not be undone	Restablecer el contador de suscripciones y los contadores de traspaso; esto no se puede deshacer
+Reset the Instance Id for this instance of Streamer.bot	Restablecer el ID de instancia para esta instancia de Streamer.bot
+Reset the information back to what the broadcast has	Restablecer la información a lo que tiene la transmisión
+Response (Minimum of 2, maximum of 5)	Respuesta (mínimo 2, máximo 5)
+Resume All Queues	Reanudar todas las colas
+Retrying to connect	Reintentando conectar
+Revert to Original Color	Volver al color original
+Revert to original values	Volver a los valores originales
+Reward Name	Nombre de la recompensa
+Right click to add an argument	Haz clic derecho para agregar un argumento
+Right-click to add an Action	Haz clic derecho para agregar una acción
+Role	Rol
+Rollover Value	Valor de traspaso
+Rotation (double, optional)	Rotación (doble, opcional)
+Run Action Immediately	Ejecutar acción inmediatamente
+Run on UI Thread	Ejecutar en el hilo de la interfaz
+Save	Guardar
+Save All to CSV	Guardar todo como CSV
+Save Key	Guardar tecla
+Save Result to Variable	Guardar resultado en variable
+Save and Compile	Guardar y compilar
+Save the information for the broadcast	Guardar la información de la transmisión
+Scene Name	Nombre de la escena
+Search Kick Categories	Buscar categorías de Kick
+Search above or right-click to add a Sub-Action	Busca arriba o haz clic derecho para agregar una subacción
+Search above or right-click to add a Trigger	Busca arriba o haz clic derecho para agregar un disparador
+Search for User	Buscar usuario
+Search to add trigger...	Buscar para agregar disparador...
+See Streamer.bot work, view and inspect variables of actions that are currently being run	Mira Streamer.bot en acción, ve e inspecciona las variables de las acciones que se están ejecutando
+See actions that have finished, and learn more about if they succeeded, what variables were available, etc	Mira las acciones que han terminado y aprende más sobre si tuvieron éxito, qué variables estaban disponibles, etc.
+See the quotes that have been added, as well as add custom ones, or edit/delete existing.	Mira las citas que se han agregado, así como agrega personalizadas o edita/elimina las existentes.
+Select Action	Seleccionar acción
+Select a Meld Studio Connection	Selecciona una conexión de Meld Studio
+Select a Streamlabs Desktop Connection	Selecciona una conexión de Streamlabs Desktop
+Select a viewer from the list to view their information.	Selecciona un espectador de la lista para ver su información.
+Select an OBS Connection	Selecciona una conexión de OBS
+Select mtion Trigger	Seleccionar disparador mtion
+Selected Camera is not EpocCam!	¡La cámara seleccionada no es EpocCam!
+Selected Poll	Encuesta seleccionada
+Selected Prediction	Predicción seleccionada
+Send NoteOff	Enviar NoteOff
+Send using bot account	Enviar usando la cuenta de bot
+Server Status	Estado del servidor
+Servers/Clients	Servidores/clientes
+Service Status	Estado del servicio
+Services	Servicios
+Session ID	ID de sesión
+Set wait time to 0 seconds to run without waiting	Configura el tiempo de espera a 0 segundos para ejecutar sin esperar
+Settings	Configuración
+Setup a tail on a file and react to changes in realtime.	Configura un seguimiento en un archivo y reacciona a los cambios en tiempo real.
+Setup recurring timers.	Configura temporizadores recurrentes.
+Share and discuss ideas for new features or improvements to Streamer.bot	Comparte y discute ideas para nuevas funciones o mejoras de Streamer.bot
+Shared Chat Participation	Participación en el chat compartido
+Show LastWrite Column	Mostrar columna de última escritura
+Show or hide Commands page	Mostrar u ocultar la página de comandos
+Show your Support	Muestra tu apoyo
+Signal Name	Nombre de la señal
+Signal name	Nombre de la señal
+Size (double, optional)	Tamaño (doble, opcional)
+Skips Queue	Omite la cola
+Slot (number, required)	Ranura (número, obligatorio)
+Slot Count (number)	Conteo de ranuras (número)
+Sound Name	Nombre del sonido
+Sound Name can be empty, in which case it will use "default", a variable, or a string you enter	El nombre del sonido puede estar vacío, en cuyo caso usará "default", una variable o una cadena que ingreses
+Sound file to play	Archivo de sonido a reproducir
+Soundboard Name	Nombre de la mesa de sonido
+Source	Fuente
+Source Slot	Ranura de origen
+Speaker.bot Not Connected	Speaker.bot no conectado
+Speaker.bot is Not Connected!	¡Speaker.bot no está conectado!
+Specific Category	Categoría específica
+Specific Game	Juego específico
+Specify the 0 based index of the outcome to use as the winning outcome when resolving the current active prediction.  Variables are supported.	Especifica el índice basado en 0 del resultado a usar como resultado ganador al resolver la predicción activa actual. Se admiten variables.
+Specify the title of the outcome to use as the winning outcome when resolving the active prediction.  Variables are supported.	Especifica el título del resultado a usar como resultado ganador al resolver la predicción activa. Se admiten variables.
+Start Listening	Iniciar escucha
+Start Server	Iniciar servidor
+Start a Prediction	Iniciar una predicción
+Start a UDP server and react to incoming UDP packets	Inicia un servidor UDP y reacciona a los paquetes UDP entrantes
+Start, stop or alter built in Services.	Inicia, detén o cambia los servicios integrados.
+Started At	Iniciado en
+Starting...	Iniciando...
+Status	Estado
+Stop After	Detener después de
+Stop All Clients	Detener todos los clientes
+Stop Listening	Detener escucha
+Stop Server	Detener servidor
+Stream Apps	Aplicaciones de transmisión
+Stream Deck MCP Server	Servidor MCP de Stream Deck
+Stream Status	Estado de la transmisión
+Stream Update on Connect	Actualizar transmisión al conectar
+Streamer.bot	Streamer.bot
+Streamer.bot - Streamer.bot (v1.0.7)	Streamer.bot - Bot de transmisión (v1.0.7)
+Streamer.bot Account	Cuenta de Streamer.bot
+Streamer.bot Account Required.  Connect to the Streamer.bot website by clicking 'Login' in the bottom-left corner.	Se requiere la cuenta de Streamer.bot. Conéctate al sitio web de Streamer.bot haciendo clic en 'Iniciar sesión' en la esquina inferior izquierda.
+Streamer.bot Cloud Backups	Copias de seguridad en la nube de Streamer.bot
+Streamer.bot Settings	Configuración de Streamer.bot
+Streamer.bot Version	Versión de Streamer.bot
+Streamer.bot Website	Sitio web de Streamer.bot
+Streamer.bot account	Cuenta de Streamer.bot
+Streamer.bot instances that have been seen by your account	Instancias de Streamer.bot que ha visto tu cuenta
+Streamer.bot {0} is available!	¡Streamer.bot {0} está disponible!
+Streamer.bot's YouTube quota has been exceeded! The quota will reset at Midnight PST!	¡Se ha superado la cuota de YouTube de Streamer.bot! ¡La cuota se restablecerá a la medianoche PST!
+Streamfog is Not Connected!	¡Streamfog no está conectado!
+Streaming!	¡Transmitiendo!
+Streamlabs Desktop Information	Información de Streamlabs Desktop
+Sub Counter	Contador de suscripciones
+Sub Type	Tipo de suscripción
+Sub-Action Disabled Color	Color de subacción deshabilitada
+Sub-Actions	Subacciones
+Submission Preiod	Período de presentación
+Subscribed	Suscrito
+Suggestions	Sugerencias
+Support	Soporte
+Support Streamer.bot on Patreon!	¡Apoya a Streamer.bot en Patreon!
+Support on Patreon	Apoyar en Patreon
+Supporter	
+Supporter Perks	Beneficios de seguidor
+Switch Case	Caso de Switch
+Tags (Maximum of 10)	Etiquetas (máximo 10)
+Tags are case insensitive.	Las etiquetas no distinguen mayúsculas de minúsculas.
+Take control of your avatar, receive events or control features.	Toma el control de tu avatar, recibe eventos o controla funciones.
+Team Member	Miembro del equipo
+Terms of Service	Términos de servicio
+Text to Speech	Texto a voz
+Text to Write	Texto a escribir
+Thank You	Gracias
+Thank you to the following supporters on Patreon:	Gracias a los siguientes seguidores en Patreon:
+The Elgato CameraHub integration requires a minimum CameraHub version of 2.0.0.5721	La integración de Elgato CameraHub requiere una versión mínima de CameraHub de 2.0.0.5721
+The Elgato WaveLink integration only supports WaveLink version 2.x, it will not work with 3.x	La integración de Elgato WaveLink solo admite la versión 2.x de WaveLink; no funcionará con 3.x
+The UUID for this instance of Streamer.bot	El UUID de esta instancia de Streamer.bot
+The clip ID can contain either a specific id for a clip, or a %variable% that will be parsed.  This can also only get URLs for your own clips.	El ID del clip puede contener un ID específico de un clip o un %variable% que se analizará. Esto también solo puede obtener URL de tus propios clips.
+The confidence the speech engine must have in its recognition	La confianza que el motor de voz debe tener en su reconocimiento
+The core of Streamer.bot	El núcleo de Streamer.bot
+The count can contain a specific number, or a %variables% that will be parsed	El conteo puede contener un número específico o un %variables% que se analizará
+The current value of the sub counter	El valor actual del contador de suscripciones
+The defacto standard for streaming	El estándar de facto para la transmisión
+The default volume applied to the Play Sound sub-actions and C# methods	El volumen predeterminado aplicado a las subacciones de reproducir sonido y a los métodos de C#
+The endpoint Speaker.bot uses, default is /	El punto de conexión que usa Speaker.bot, el valor predeterminado es /
+The endpoint that the WebSocket server listens on	El punto de conexión en el que escucha el servidor WebSocket
+The field above must contain the %variable% that will contain the quote to be added.	El campo anterior debe contener el %variable% que contendrá la cita a agregar.
+The file to write the sub-counter data to	El archivo en el que se escribirán los datos del contador de suscripciones
+The folder to save backups to	La carpeta donde guardar las copias de seguridad
+The folder to write logs to	La carpeta donde escribir los registros
+The global cooldown for the command	El enfriamiento global del comando
+The heart of Streamer.bot, Actions are what defines what can happen and when	El corazón de Streamer.bot; las acciones definen qué puede ocurrir y cuándo
+The locale to use for speech recognition	El locale a usar para el reconocimiento de voz
+The logging level being used, this is locked to verbose in non-stable versions	El nivel de registro en uso; está bloqueado a verbose en versiones no estables
+The minimum number of emotes required before starting to track a pyramid	El número mínimo de emoticonos requeridos antes de empezar a rastrear una pirámide
+The name of this Streamer.bot instance	El nombre de esta instancia de Streamer.bot
+The output template to use when writing to the file specified above	La plantilla de salida a usar al escribir en el archivo especificado anteriormente
+The password required for authentication	La contraseña requerida para la autenticación
+The pinned message will be updated to last until stream ends	El mensaje fijado se actualizará para durar hasta que termine la transmisión
+The slot can contain a number, typically between 1 and 6, or a %variable% that will be parsed.	La ranura puede contener un número, normalmente entre 1 y 6, o un %variable% que se analizará.
+The time interval can also be set to a random value within a range, this random value is updated everytime the action is run.	El intervalo de tiempo también se puede configurar a un valor aleatorio dentro de un rango; este valor aleatorio se actualiza cada vez que se ejecuta la acción.
+The user cooldown for the command	El enfriamiento del usuario para el comando
+The user id can contain either a specific user's id, or a %variable% that will be parsed	El ID de usuario puede contener el ID de un usuario específico o un %variable% que se analizará
+The user login and group name can contain either a specific user's login, or a %variables% that will be parsed	El inicio de sesión del usuario y el nombre del grupo pueden contener el inicio de sesión de un usuario específico o un %variables% que se analizará
+The user login can contain either a specific user's login, or a %variable% that will be parsed	El inicio de sesión del usuario puede contener el inicio de sesión de un usuario específico o un %variable% que se analizará
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %broadcastUser%, %user%, %input0%	El inicio de sesión del usuario puede contener el inicio de sesión de un usuario específico o un %variable% que se analizará. Algunos ejemplos de variables a usar son: %broadcastUser%, %user%, %input0%
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %user%, %targetUser%, %input0%	El inicio de sesión del usuario puede contener el inicio de sesión de un usuario específico o un %variable% que se analizará. Algunos ejemplos de variables a usar son: %user%, %targetUser%, %input0%
+The user login can contain either a specific user's login, or a %variables% that will be parsed	El inicio de sesión del usuario puede contener el inicio de sesión de un usuario específico o un %variables% que se analizará
+There is an update available!	¡Hay una actualización disponible!
+There was an error trying to initialize WebView	Hubo un error al intentar inicializar WebView
+This Instance	Esta instancia
+This SubAction will allow you to set the value of an argument.  These are the %variables% you use in other SubActions	Esta subacción te permitirá establecer el valor de un argumento. Estos son los %variables% que usas en otras subacciones
+This SubAction will let you get a global variable and add it to the arguments that are passed along to other SubActions	Esta subacción te permitirá obtener una variable global y agregarla a los argumentos que se pasan a otras subacciones
+This SubAction will set the value of either an argument to the value, or a global variable from an argument, or to the value specified	Esta subacción establecerá el valor de un argumento al valor, o una variable global desde un argumento, o al valor especificado
+This feature is very experimental, and I need feedback on it, for options, capabilities, etc.	Esta función es muy experimental y necesito tus comentarios sobre opciones, capacidades, etc.
+This labs feature will, on close, write to a database any outstanding pending actions, pending actions are actions that have not yet run, and are waiting to run, either because they're in a blocking queue, or a queue that is paused.	Esta función de laboratorio, al cerrar, escribirá en una base de datos cualquier acción pendiente sin resolver; las acciones pendientes son acciones que aún no se han ejecutado y esperan ejecutarse, ya sea porque están en una cola bloqueante o en una cola pausada.
+This requires the Enable MCP Deck to be checked in your Stream Deck preferences.	Esto requiere que se marque Habilitar MCP Deck en las preferencias de tu Stream Deck.
+This sub-action requires the `Hybrid MP4 [BETA](.mp4)` recording format to be selected within OBS.	Esta subacción requiere que se seleccione el formato de grabación `Hybrid MP4 [BETA](.mp4)` dentro de OBS.
+This will allow you to start a raid to the user login that is specified in the above text box. Variables are supported.	Esto te permitirá iniciar un raid al inicio de sesión del usuario especificado en el cuadro de texto anterior. Se admiten variables.
+This will hide all filters for a given source that are currently visible.	Esto ocultará todos los filtros actualmente visibles de una fuente determinada.
+This will hide all sources within a group that are currently visible.	Esto ocultará todas las fuentes actualmente visibles dentro de un grupo.
+This will hide all sources within a scene that are currently visible.	Esto ocultará todas las fuentes actualmente visibles dentro de una escena.
+This will make the scene your active scene in OBS Studio	Esto hará que la escena sea tu escena activa en OBS Studio
+This will make the scene your active scene in Streamlabs Desktop	Esto hará que la escena sea tu escena activa en Streamlabs Desktop
+This will only show Execute C# Code subactions that have a name.	Esto solo mostrará las subacciones Ejecutar código C# que tengan un nombre.
+This will pick a random filter within the selected source and make it visible or hidden, or toggle its state.	Esto elegirá un filtro aleatorio dentro de la fuente seleccionada y lo hará visible u oculto, o alternará su estado.
+This will pick a random source within the selected group and make it visible, if all items are visible, it will do nothing.	Esto elegirá una fuente aleatoria dentro del grupo seleccionado y la hará visible; si todos los elementos son visibles, no hará nada.
+This will pick a random source within the selected scene and make it visible, if all items are visible, it will do nothing.	Esto elegirá una fuente aleatoria dentro de la escena seleccionada y la hará visible; si todos los elementos son visibles, no hará nada.
+This will prevent the Variable Viewer window from appearing in any form of window/screen capturing	Esto evitará que la ventana del visor de variables aparezca en cualquier forma de captura de ventana/pantalla
+This will rotate your source around its alignment position.  By default OBS sets this to TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in OBS	Esto rotará tu fuente alrededor de su posición de alineación. Por defecto OBS lo establece en ArribaIzquierda; idealmente quieres que esté en Centro; esto se puede cambiar editando la transformación de tu fuente en OBS
+This will rotate your source around its alignment position.  By default this is TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in Streamlabs Desktop	Esto rotará tu fuente alrededor de su posición de alineación. Por defecto es ArribaIzquierda; idealmente quieres que esté en Centro; esto se puede cambiar editando la transformación de tu fuente en Streamlabs Desktop
+Throwing System	Throwing System
+Time in Seconds (double, required)	Tiempo en segundos (doble, obligatorio)
+Timed Actions ({0})	Acciones temporizadas ({0})
+Timed actions can have either an interval set, where they will occur every X seconds, or a line count set, where they will occur every Y lines.	Las acciones temporizadas pueden tener un intervalo configurado, donde ocurrirán cada X segundos, o un conteo de líneas configurado, donde ocurrirán cada Y líneas.
+Timeout Exempt	Exento de timeout
+Tint All	Teñir todo
+Title (required)	Título (obligatorio)
+Title, Prompt and Original Text all support variables.	El título, la solicitud y el texto original admiten variables.
+To not set a value for any of the options,, just leave the field empty	Para no establecer un valor para ninguna de las opciones, solo deja el campo vacío
+Toast Id	ID de Toast
+Track Top	Rastrear parte superior
+Trigger	Disparador
+Trigger Name	Nombre del disparador
+Twitch Bot Whisper	Susurro del bot de Twitch
+Twitch Custom Power-Ups are a beta feature that not everyone has access to.	Los potenciadores personalizados de Twitch son una función beta a la que no todos tienen acceso.
+Twitch Message	Mensaje de Twitch
+Twitch Resubscription Message	Mensaje de resuscripción de Twitch
+Twitch Shared Chat	Chat compartido de Twitch
+Twitch Whisper	Susurro de Twitch
+Twitch is not Connected	Twitch no está conectado
+Type	Tipo
+UCD	UCD
+UDP Port	Puerto UDP
+UDP Server	Servidor UDP
+Until stream ends	Hasta que termine la transmisión
+Up to Date	Actualizado
+Update All Actions To Use Default	Actualizar todas las acciones para usar el valor predeterminado
+Update Available	Actualización disponible
+Update Available!	¡Actualización disponible!
+Update Interval	Intervalo de actualización
+Updating your YouTube stream information is an expensive call, please use this sparingly.	Actualizar la información de tu transmisión de YouTube es una llamada costosa; úsala con moderación.
+Use Args	Usar argumentos
+Use Filename	Usar nombre de archivo
+Use Monaco Editor	Usar el editor Monaco
+Use System Default	Usar el valor predeterminado del sistema
+Use the System Default audio device when the selected device above is not found	Usa el dispositivo de audio predeterminado del sistema cuando no se encuentre el dispositivo seleccionado anteriormente
+Use the feature rich Monaco Editor for editing your C# code	Usa el editor Monaco con muchas funciones para editar tu código C#
+Use the variable that contains the Id, for example %msgId%	Usa la variable que contiene el ID, por ejemplo %msgId%
+User Cooldown	Enfriamiento del usuario
+User ID	ID de usuario
+User Id	ID de usuario
+User Information	Información de usuario
+User Input Required	Se requiere entrada del usuario
+User Interface	Interfaz de usuario
+User Login	Inicio de sesión del usuario
+User Name	Nombre de usuario
+User Present (spoke)	Usuario presente (habló)
+Username	Nombre de usuario
+Using this you can send a UDP broadcast packet which will contain the data you enter in payload.	Con esto puedes enviar un paquete de difusión UDP que contendrá los datos que ingreses en la carga útil.
+VTube Studio is Not Connected!	¡VTube Studio no está conectado!
+Value	Valor
+Variable Masking	Enmascaramiento de variables
+Variable Name	Nombre de la variable
+Variable Name or Value can be a fixed value, or a parsed value, using variables and/or inline functions	El nombre o valor de la variable puede ser un valor fijo o un valor analizado, mediante variables y/o funciones integradas
+Variable Name to Use (if empty, fileExists is used)	Nombre de variable a usar (si está vacío, se usa fileExists)
+Variable Name to Use (if empty, folderExists is used)	Nombre de variable a usar (si está vacío, se usa folderExists)
+Variable Name to Use (if empty, line is used)	Nombre de variable a usar (si está vacío, se usa line)
+Variable Prefix	Prefijo de variable
+Variable Value	Valor de la variable
+Variables	Variables
+Variables that contain these words will have their values masked with * in the following areas:	Las variables que contengan estas palabras tendrán sus valores enmascarados con * en las siguientes áreas:
+Vendor Name	Nombre del proveedor
+Video Enabled (boolean)	Video habilitado (booleano)
+Video Name	Nombre del video
+Video Name can be a fixed value or a parsed value using variables and/or inline functions.	El nombre del video puede ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+View Count	Conteo de vistas
+View Notes	Ver notas
+View a list of what Voice Control has been hearing	Ver una lista de lo que el control por voz ha estado escuchando
+View and modify your streaming platform settings	Ver y modificar la configuración de tu plataforma de transmisión
+Viewers	Espectadores
+Viewers Tab	Pestaña de espectadores
+Voice Alias	Alias de voz
+Voice Control	Control por voz
+Voice Control related settings	Configuración relacionada con el control por voz
+Voice ID	ID de voz
+Voice Name	Nombre de voz
+Voice Name can be a fixed value or a parsed value using variables and/or inline functions.	El nombre de voz puede ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+VoiceId can be a fixed value or a parsed value using variables and/or inline functions.	VoiceId puede ser un valor fijo o un valor analizado mediante variables y/o funciones integradas.
+VoiceMod is Not Connected!	¡VoiceMod no está conectado!
+Volume (number)	Volumen (número)
+Wait maximum	Esperar máximo
+Want to try out experimental features, can enable them here	¿Quieres probar funciones experimentales? Puedes habilitarlas aquí
+WebSocket Server	Servidor WebSocket
+Websocket Client	Cliente WebSocket
+Websocket Clients	Clientes WebSocket
+Websocket Clients ({0})	Clientes WebSocket ({0})
+Websocket Server	Servidor WebSocket
+Websocket Servers ({0})	Servidores WebSocket ({0})
+Weight can be a fixed value, or a parsed value, using variables and/or inline functions, and the resulting value needs to be a double or number	El peso puede ser un valor fijo o un valor analizado, mediante variables y/o funciones integradas, y el valor resultante debe ser un doble o número
+Weighted Value	Valor ponderado
+Wether or not to enforce authentication for all requests, or just priviledged	Si se debe exigir autenticación para todas las solicitudes, o solo para las privilegiadas
+What sources are enabled by default	Qué fuentes están habilitadas por defecto
+When Streamer.bot is started, if this cache file is present, it will auto load in any actions that have been cached, as well as pause the queue that they belong to. In addition, an argument will be added, wasCached, this will be set to true; during normal operation, this variable will not exist.	Cuando se inicia Streamer.bot, si este archivo de caché está presente, cargará automáticamente las acciones que se hayan guardado en caché y pausará la cola a la que pertenecen. Además, se agregará un argumento, wasCached, que se establecerá en verdadero; durante la operación normal, esta variable no existirá.
+When a Live broadcast is detected automatically start monitoring it	Cuando se detecte una transmisión en vivo, iniciar automáticamente el monitoreo
+When adding an If/Else SubAction, two groups, called True Result and False Result, will automatically be added underneath the SubAction.	Al agregar una subacción If/Else, se agregarán automáticamente dos grupos, llamados resultado verdadero y resultado falso, debajo de la subacción.
+When closing Streamer.bot, ask if you really meant to close it	Al cerrar Streamer.bot, preguntar si realmente querías cerrarlo
+When closing Streamer.bot, it will goto the Tray Icons, using close in the Tray Menu will close Streamer.bot	Al cerrar Streamer.bot, irá a los iconos de la bandeja; usar cerrar en el menú de la bandeja cerrará Streamer.bot
+When enabled, actions in this queue will be run in sequence, each action waits for the previous one to complete before running.	Cuando está habilitado, las acciones de esta cola se ejecutarán en secuencia; cada acción espera a que la anterior se complete antes de ejecutarse.
+When enabled, if queued in a queue that is paused, this action will ignore that pause state and immediately run.	Cuando está habilitado, si se pone en cola en una cola pausada, esta acción ignorará ese estado de pausa y se ejecutará inmediatamente.
+When enabled, will prevent this action from showing in the Action Queue Pending/History tabs, this should be enabled for Actions that have high volume Triggers on them.	Cuando está habilitado, evitará que esta acción aparezca en las pestañas de pendientes/historial de la cola de acciones; esto debe habilitarse para acciones con disparadores de alto volumen.
+When enabled, will run a random top-level sub-action.	Cuando está habilitado, ejecutará una subacción de nivel superior aleatoria.
+When enabled, will run all top-level sub-actions at the same time.	Cuando está habilitado, ejecutará todas las subacciones de nivel superior al mismo tiempo.
+When minimizing Streamer.bot, it will goto the Tray Icons	Al minimizar Streamer.bot, irá a los iconos de la bandeja
+When random type is Next Float, a decimal number (upto 17 decimal precision) will be picked and added to the arguments as %randomFloat%, this number will also be added as a percentage value (with no decimals) as %randomPercent%	Cuando el tipo aleatorio es Next Float, se elegirá un número decimal (hasta 17 decimales) y se agregará a los argumentos como %randomFloat%; este número también se agregará como valor de porcentaje (sin decimales) como %randomPercent%
+When random type is between, a number between the 2 values you set will be added into the arguments at %randomNumber%	Cuando el tipo aleatorio es entre, se agregará a los argumentos un número entre los 2 valores que estableciste, en %randomNumber%
+When starting Streamer.bot, the Chat window will automatically open	Al iniciar Streamer.bot, la ventana de chat se abrirá automáticamente
+When starting Streamer.bot, the Event Feed window will automatically open	Al iniciar Streamer.bot, la ventana del feed de eventos se abrirá automáticamente
+Where to add a duplicated sub-action	Dónde agregar una subacción duplicada
+Whether or not shared chat will be able to participate in creating/breaking Pyramids	Si el chat compartido podrá participar en crear/romper pirámides
+Whether or not the Action is enabled	Si la acción está habilitada
+Whether or not the WebSocket server requires authentication to connect	Si el servidor WebSocket requiere autenticación para conectarse
+Whether or not the command is case sensitive	Si el comando distingue mayúsculas de minúsculas
+Whether or not this action, when queued will always run, regardless if the queue is paused	Si esta acción, cuando está en cola, se ejecutará siempre, sin importar si la cola está pausada
+Whether or not to exclude the action from appearing in the Action Queue or Action History pages	Si excluir la acción de aparecer en las páginas de cola de acciones o historial de acciones
+Whether or not to ignore Gift Subs from Gift Bombs	Si ignorar las suscripciones de regalo de las bombas de regalo
+Whether or not to ignore messages that come from the logged in bot account for the service	Si ignorar los mensajes que provienen de la cuenta de bot iniciada para el servicio
+Whether or not to ignore messages that originate from Streamer.bot	Si ignorar los mensajes que se originan en Streamer.bot
+Whether or not to include the command in the command list sub-action	Si incluir el comando en la subacción de lista de comandos
+Whether or not to include your authentication keys in the backup	Si incluir tus claves de autenticación en la copia de seguridad
+Whether or not to log any speech to text dication	Si registrar cualquier dictado de voz a texto
+Whether or not to pick a random top level sub-actions to only run	Si elegir una subacción de nivel superior aleatoria para ejecutar solo esa
+Whether or not to save counters to disk	Si guardar los contadores en el disco
+Whether or not to save user counters to disk	Si guardar los contadores de usuario en el disco
+Whether or not to the switch case should be case sensitive	Si el caso del switch debe distinguir mayúsculas de minúsculas
+Whether or not to use realtime data from Twitch, or artificial data	Si usar datos en tiempo real de Twitch o datos artificiales
+Whether or not top level sub-actions run concurrently	Si las subacciones de nivel superior se ejecutan simultáneamente
+Whether to handle BetterTTV emotes	Si manejar los emoticonos de BetterTTV
+Whether to handle FrankerFaceZ emotes	Si manejar los emoticonos de FrankerFaceZ
+Whether to handle Seven TV emotes	Si manejar los emoticonos de Seven TV
+White Balance	Balance de blancos
+White Balance Tint	Matiz del balance de blancos
+Why donate?	¿Por qué donar?
+Will reset all delete confirmations so they are asked again when deleting items	Restablecerá todas las confirmaciones de eliminación para que se vuelvan a preguntar al eliminar elementos
+Will reset the integrations tab back to original	Restablecerá la pestaña de integraciones a su estado original
+Will reset the navigation panel to default, a restart is required	Restablecerá el panel de navegación a su valor predeterminado; se requiere reiniciar
+Window Options	Opciones de ventana
+Winning Index	Índice ganador
+Working Directory	Directorio de trabajo
+You are currently not subscribed to Patreon, subscribe on Patreon to the Thank You tier or higher and get access to Cloud Backups and more!	Actualmente no estás suscrito a Patreon; suscríbete en Patreon al nivel Thank You o superior y obtén acceso a copias de seguridad en la nube y más.
+You can add multiple Case groups under the Switch SubAction, and order matters.	Puedes agregar varios grupos de Case bajo la subacción Switch, y el orden importa.
+You can either set a static description, and/or use variables to set a description.	Puedes establecer una descripción estática y/o usar variables para establecer una descripción.
+You can either set a static title, and/or use variables to set a title	Puedes establecer un título estático y/o usar variables para establecer un título
+You can either set a static title, and/or use variables to set a title.	Puedes establecer un título estático y/o usar variables para establecer un título.
+You can either set a static title/description, and/or use variables to set a title/description.	Puedes establecer un título/descripción estáticos y/o usar variables para establecer un título/descripción.
+You can enter a %variable% in either field, or a number.  The value is in milliseconds.	Puedes ingresar un %variable% en cualquiera de los campos, o un número. El valor está en milisegundos.
+You can get the ButtonID from the StreamDeck Application, and Image/State supports variables. State is optional	Puedes obtener el ButtonID de la aplicación StreamDeck, e Imagen/Estado admite variables. El estado es opcional
+You can get the ButtonID from the StreamDeck Application, and State supports variables.	Puedes obtener el ButtonID de la aplicación StreamDeck, y el Estado admite variables.
+You can get the ButtonID from the StreamDeck Application, and Title/State supports variables.  State is optional.	Puedes obtener el ButtonID de la aplicación StreamDeck, y Título/Estado admite variables. El estado es opcional.
+You can get the ButtonID from the StreamDeck Application, and Value supports variables.	Puedes obtener el ButtonID de la aplicación StreamDeck, y el Valor admite variables.
+You can get the ButtonID from the StreamDeck Application.	Puedes obtener el ButtonID de la aplicación StreamDeck.
+You can set the status of a redemption using this action, and the usual caveat, the reward must have been created by CPH for it to modify the status of redemptions.	Puedes establecer el estado de un canje con esta acción y, con la advertencia habitual, la recompensa debe haber sido creada por CPH para que modifique el estado de los canjes.
+You can specify a default value to use if the variable is not found, if a default value is set, and the variable is not found, it will also set the variable to this value	Puedes especificar un valor predeterminado a usar si no se encuentra la variable; si se establece un valor predeterminado y no se encuentra la variable, también la establecerá en este valor
+You can use the above entry for variables, or set a specific category, change the Source to pick from Kick's category list	Puedes usar la entrada anterior para variables o establecer una categoría específica; cambia la fuente para elegir de la lista de categorías de Kick
+You can use the above entry for variables, or set a specific game, change the Source to pick from Twitch's list	Puedes usar la entrada anterior para variables o establecer un juego específico; cambia la fuente para elegir de la lista de Twitch
+You can use variable in the text, for example, %targetUser% to set the text to the target's name, if an Add Target Info action exists in the actions.	Puedes usar variables en el texto, por ejemplo, %targetUser% para establecer el texto al nombre del objetivo, si existe una acción Agregar información del objetivo en las acciones.
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the browser source set to the target user's profile image, if an Add Target info action is in the actions.	Puedes usar variables en la fuente, por ejemplo %targetUserProfileImageUrl% si quieres que la fuente de navegador se configure a la imagen de perfil del usuario objetivo, si hay una acción Agregar información del objetivo en las acciones.
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the image or media source set to the target user's profile image, if an Add Target info action is in the actions.	Puedes usar variables en la fuente, por ejemplo %targetUserProfileImageUrl% si quieres que la fuente de imagen o medios se configure a la imagen de perfil del usuario objetivo, si hay una acción Agregar información del objetivo en las acciones.
+You can use variables, or a fixed value, including nothing to set a description for the stream marker.	Puedes usar variables o un valor fijo, incluso nada, para establecer una descripción para el marcador de transmisión.
+YouTube Message	Mensaje de YouTube
+Your Kick account is linked on Streamer.bot	Tu cuenta de Kick está vinculada en Streamer.bot
+Your Kick connection on the website has expired, this is required, click here to reconnect	Tu conexión de Kick en el sitio web ha expirado; esto es necesario, haz clic aquí para reconectar
+Your YouTube broadcasts	Tus transmisiones de YouTube
+Your stream, your rules—made better with Streamer.bot	Tu transmisión, tus reglas: mejoradas con Streamer.bot
+Your support helps keep Streamer.bot free for everyone, and shows your appreciation for the hard work that goes into maintaining and improving the application.	Tu apoyo ayuda a mantener Streamer.bot gratuito para todos y muestra tu aprecio por el duro trabajo que implica mantener y mejorar la aplicación.
+Your support helps maintain continued development and ongoing improvements to Streamer.bot, ensuring it remains a powerful tool for streamers like you.	Tu apoyo ayuda a mantener el desarrollo continuo y las mejoras constantes de Streamer.bot, garantizando que siga siendo una herramienta poderosa para streamers como tú.
+channel points	puntos de canal
+on the	en el
+per Stream	por transmisión
+per User per Stream	por usuario por transmisión
+raids,	raids,
+seconds for exit	segundos para salir
+set to 0 to disable	pon 0 para deshabilitar
+tier or higher on Patreon.	nivel o superior en Patreon.
+total viewers	espectadores totales
+website.	sitio web.
+{0} ({1})	{0} ({1})
+{0} Supporter	{0} seguidor
+{0} is NOT connected!	¡{0} NO está conectado!
+{0} minute(s)	{0} minuto(s)

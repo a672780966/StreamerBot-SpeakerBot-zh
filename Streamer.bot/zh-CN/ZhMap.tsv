@@ -1,0 +1,1090 @@
+# english	chinese
+%changeType% - The type of change (Changed, Created, Deleted)	%changeType% - 变更的类型（Changed、Created、Deleted）
+%counter% - Global usage counter for reward	%counter% - 奖励的全局使用计数器
+%empty% - If the file is now empty	%empty% - 文件现在是否为空
+%fileName% - The file name with extension	%fileName% - 带扩展名的文件名
+%fullPath% - The full path to the file	%fullPath% - 文件的完整路径
+%line#% - The specifc line of the file, 0 based index, 0 is the first line	%line#% - 文件的特定行，从 0 开始的索引，0 为第一行
+%lineEscaped#% - The line escaped for use in a url query	%lineEscaped#% - 已转义用于 URL 查询的行
+%lines% - The number of lines in the file	%lines% - 文件的行数
+%randomUser0% - Random active user's display name	%randomUser0% - 随机活跃用户的显示名称
+%randomUser1% - Random active user's display name	%randomUser1% - 随机活跃用户的显示名称
+%randomUserName0% - Random active user's login name	%randomUserName0% - 随机活跃用户的登录名
+%randomUserName1% - Random active user's login name	%randomUserName1% - 随机活跃用户的登录名
+%rawInput% - UNSANITIZED input from redemption	%rawInput% - 来自兑换的未净化输入
+%timedoutUser0% - Timed out user's display name	%timedoutUser0% - 被超时用户的显示名称
+%timedoutUserName0% - Timed out user's login name	%timedoutUserName0% - 被超时用户的登录名
+%user% - Display name of User who used reward	%user% - 使用奖励的用户的显示名称
+%userCounter% - Usage counter for user who used reward	%userCounter% - 使用奖励的用户的计数器
+%userName% - Login of user who used reward	%userName% - 使用奖励的用户的登录名
+(0/0)	(0/0)
+(Optional)	（可选）
+(in user list)	（在用户列表中）
+(not in user list)	（不在用户列表中）
+({0})	（{0}）
+({0}/{1})	（{0}/{1}）
+- The file line as the file changes	- 文件随内容变化时的行
+- The file name with extension	- 带扩展名的文件名
+- The full path to the file	- 文件的完整路径
+1. Global Variable Viewer	1. 全局变量查看器
+1.0.7	1.0.7
+2. Action History Variable Inspecting	2. 动作历史变量检查
+A Switch evaluates the input against the Case Values for equality, and first matching will have it's SubActions run.	Switch 会将输入与“大小写值”进行相等比较，第一个匹配的 Case 会运行其子动作。
+A caveat to note, due to the nature of serializing/deserializing, not all data types will preserved. Ones that I am aware of are List<T> objects, these will become object[] arrays when loaded.	需要注意：由于序列化/反序列化的特性，并非所有数据类型都能保留。我已知的有 List<T> 对象，加载时会变为 object[] 数组。
+A channel may specify a maximum of 10 tags. Each tag is limited to a maximum of 25 characters and may not be an empty string or contain spaces or special characters.	一个频道最多可指定 10 个标签。每个标签最多 25 个字符，不能为空字符串，也不能包含空格或特殊字符。
+A description for your backup	为你的备份添加说明
+A game engine for your live streams	适用于你的直播的游戏引擎
+A restart is REQUIRED after enabling or disabling this labs feature.	启用或禁用此实验室功能后需要重启。
+A rollover will happen when this value is reached	达到此值后将发生结转
+A variable, success will also be added, and will be true if Ok was pressed	还会添加一个变量 success，如果按下了“确定”则为 true
+A very special thanks to the following people who believed in me and this project.	特别感谢以下相信我和这个项目的人。
+API Key	API 密钥
+AR Lens	AR 镜头
+About	关于
+Account Settings	账户设置
+Action History	动作历史
+Actions	动作
+Actions & Queues	动作与队列
+Actions ({0})	动作（{0}）
+Add Changed Data	添加变更数据
+Add Connection	添加连接
+Add Group	添加分组
+Add Multiple Twitch Users to Group	将多个 Twitch 用户添加到分组
+Add Results to Arguments	将结果添加到参数
+Add User	添加用户
+Add User to	添加到用户：
+Add Users	添加用户
+Add Variable	添加变量
+Add a Command in a Group!	在分组中添加命令！
+Add a Command!	添加命令！
+Add a Deck!	添加按键！
+Add a Group!	添加分组！
+Add a Kick Reward!	添加 Kick 奖励！
+Add a Timer!	添加计时器！
+Add a Twitch Reward!	添加 Twitch 奖励！
+Add a Voice Control Command!	添加语音控制命令！
+Add a random number into arguments, use for percentages, or anything else.	向参数中添加一个随机数，可用于百分比或其他用途。
+Add an Action in a Group!	在分组中添加动作！
+Add common C# reference	添加常用 C# 引用
+Add reference from file...	从文件添加引用…
+Add the specified number of random users to the arguments, this will provide a unique number of users filterd by their present status and that have been seen by Streamer.bot.	将指定数量的随机用户添加到参数中，这将以在场状态为依据筛选出一定数量的唯一用户，并且这些用户已被 Streamer.bot 见过。
+Add your HypeRate ID (CaSe SenSITiVe!!!!)	添加你的 HypeRate ID（区分大小写！！！！）
+Add your SubActions to either of these groups to perform actions based on the result of this expression.	将你的子动作添加到这两个分组中的任一组，即可根据此表达式的结果执行动作。
+Add, edit and delete user groups	添加、编辑和删除用户分组
+Add, edit and manage Streamlabs Desktop instances	添加、编辑和管理 Streamlabs Desktop 实例
+Adding multiple Get Quotes will overwrite each previous one	添加多个“获取引文”会覆盖之前的每一个
+Adds the present user at the index specified.  Index can also be a variable.  As a note, the present user list can change, so if you're iterating through, there is a possibility for same/missed results.	在指定的索引处添加当前在场的用户。索引也可以是变量。请注意，在场用户列表可能会变化，因此在迭代时可能会出现重复或遗漏的结果。
+Alerts Widget URL	提醒组件 URL
+Allowed values for balance are %variables%, or a number value between 0 and 100 inclusive.	余额的允许值是 %variables%，或是 0 到 100（含）之间的数字值。
+Allowed values for gain are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	增益的允许值是 %variables%，或是 0.0 到 1.0（含）之间的小数值。
+Allowed values for volume are %variables%, or a decimal value between 0.0 and 1.0 inclusive.	音量的允许值是 %variables%，或是 0.0 到 1.0（含）之间的小数值。
+Alpha Access	Alpha 抢先体验
+Also a nod to all those supporters past and present who are not listed above	同样感谢所有未在上方列出的过往和现在的支持者
+Always Run	始终运行
+An up and coming heavy weight	一个崭露头角的重磅新星
+Anti-flicker	防闪烁
+Any references added to the common references list above will be automatically added to every Execute C# code when it's compiled	添加到上方常用引用列表中的任何引用，都会在编译时自动添加到每个“执行 C# 代码”中
+Any values that are left blank, will not be changed	留空的任何值都不会被更改
+Append to File	追加到文件
+Application Volume	应用音量
+As JSON	作为 JSON
+Ask for Confirmation on Close	关闭时询问确认
+Attempt Auto-Typing	尝试自动输入
+Audio Enabled (boolean)	音频已启用（布尔值）
+Audio Input Device	音频输入设备
+Audio Output Device	音频输出设备
+Auto Connect	自动连接
+Auto Connect on Startup	启动时自动连接
+Auto Monitor	自动监控
+Auto Monitor Live Broadcasts	自动监控直播
+Auto Open	自动打开
+Auto Open Chat on Startup	启动时自动打开聊天
+Auto Open Event Feed on Startup	启动时自动打开事件流
+Auto Open on Startup	启动时自动打开
+Auto Reconnect	自动重连
+Auto Reset	自动重置
+Auto Reset Cache	自动重置缓存
+Auto Start	自动启动
+Auto Start Listen	自动开始监听
+Auto Start on Startup	启动时自动启动
+Auto Type	自动输入
+Auto pin message after it is sent and will be pinned for 20 minutes	消息发送后自动置顶，并将置顶 20 分钟
+Auto-Type	自动输入
+Auto-Type non-JSON Result	自动输入非 JSON 结果
+Automatically connect to CrowdControl when Streamer.bot starts up	Streamer.bot 启动时自动连接到 CrowdControl
+Automatically connect to Elgato CameraHub when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Elgato CameraHub
+Automatically connect to Elgato Stream Deck MCP when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Elgato Stream Deck MCP
+Automatically connect to Elgato WaveLink when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Elgato WaveLink
+Automatically connect to HypeRate.io when Streamer.bot starts up	Streamer.bot 启动时自动连接到 HypeRate.io
+Automatically connect to Lumia Stream when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Lumia Stream
+Automatically connect to Pally.gg when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Pally.gg
+Automatically connect to Pulsoid when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Pulsoid
+Automatically connect to Speaker.bot when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Speaker.bot
+Automatically connect to StreamLoots when Streamer.bot starts up	Streamer.bot 启动时自动连接到 StreamLoots
+Automatically connect to Streamfog when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Streamfog
+Automatically connect to Throwing System when Streamer.bot starts up	Streamer.bot 启动时自动连接到 Throwing System
+Automatically connect to TipeeeStream when Streamer.bot starts up	Streamer.bot 启动时自动连接到 TipeeeStream
+Automatically connect to VTubeStudio when Streamer.bot starts up	Streamer.bot 启动时自动连接到 VTubeStudio
+Automatically connect to VoiceMod when Streamer.bot starts up	Streamer.bot 启动时自动连接到 VoiceMod
+Automatically connect to your YouTube Bot account when Streamer.bot starts up	Streamer.bot 启动时自动连接到你的 YouTube 机器人账户
+Automatically connect to your YouTube Broadcaster account when Streamer.bot starts up	Streamer.bot 启动时自动连接到你的 YouTube 主播账户
+Automatically reconnect to CrowdControl when the connection is terminated	连接中断时自动重新连接到 CrowdControl
+Automatically reconnect to Elgato CameraHub when the connection is terminated	连接中断时自动重新连接到 Elgato CameraHub
+Automatically reconnect to Elgato Stream Deck MCP when the connection is terminated	连接中断时自动重新连接到 Elgato Stream Deck MCP
+Automatically reconnect to Elgato WaveLink when the connection is terminated	连接中断时自动重新连接到 Elgato WaveLink
+Automatically reconnect to HypeRate.io when the connection is terminated	连接中断时自动重新连接到 HypeRate.io
+Automatically reconnect to Lumia Stream when the connection is terminated	连接中断时自动重新连接到 Lumia Stream
+Automatically reconnect to Pally.gg when the connection is terminated	连接中断时自动重新连接到 Pally.gg
+Automatically reconnect to Pulsoid when the connection is terminated	连接中断时自动重新连接到 Pulsoid
+Automatically reconnect to Speaker.bot when the connection is terminated	连接中断时自动重新连接到 Speaker.bot
+Automatically reconnect to StreamLoots when the connection is terminated	连接中断时自动重新连接到 StreamLoots
+Automatically reconnect to Streamfog when the connection is terminated	连接中断时自动重新连接到 Streamfog
+Automatically reconnect to Throwing System when the connection is terminated	连接中断时自动重新连接到 Throwing System
+Automatically reconnect to TipeeeStream when the connection is terminated	连接中断时自动重新连接到 TipeeeStream
+Automatically reconnect to VTubeStudio when the connection is terminated	连接中断时自动重新连接到 VTubeStudio
+Automatically reconnect to VoiceMod when the connection is terminated	连接中断时自动重新连接到 VoiceMod
+Automatically run the Stream Update trigger when connecting to Twitch	连接到 Twitch 时自动运行“流更新”触发器
+Automatically start listening for voice commands when Streamer.bot starts	Streamer.bot 启动时自动开始监听语音命令
+Automatically start the Process Watcher when Streamer.bot starts up	Streamer.bot 启动时自动启动进程监视器
+Automatically start the server when Streamer.bot starts up	Streamer.bot 启动时自动启动服务器
+Available Endpoints	可用端点
+Available Requests	可用请求
+Available Sub-Actions	可用子动作
+Available Triggers	可用触发器
+Avatar URL	头像 URL
+Background Color	背景颜色
+Backup Folder	备份文件夹
+Backup Now	立即备份
+Backup Progress	备份进度
+Backup Status	备份状态
+Backup Version:	备份版本：
+Backups currently available in your cloud storage	你云存储中当前可用的备份
+Basic settings related to Streamer.bot	与 Streamer.bot 相关的基本设置
+Bits Cost	Bits 费用
+Bits Donated	捐赠的 Bits
+Bot Account	机器人账户
+Bot Account Auto Connect	机器人账户自动连接
+Both fields support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	两个字段都支持解析。时长可以为空，表示置顶消息将一直保留到直播结束，也可以是或解析为 30 到 1800 之间的值。
+Broadcast Information	直播信息
+Broadcaster Account	主播账户
+Broadcaster Account Auto Connect	主播账户自动连接
+Browse your past videos	浏览你过往的视频
+Browser Source Audio Enabled (boolean)	浏览器源音频已启用（布尔值）
+Button ID	按键 ID
+By clicking "I Agree" below, you are agreeing to YouTube's Terms of Service, Google's Privacy Policy, and Streamer.bot's Terms of Service and Privacy policy as linked below.	点击下方的“我同意”，即表示你同意 YouTube 的服务条款、Google 的隐私政策以及下方链接的 Streamer.bot 服务条款和隐私政策。
+By default, timed actions will repeat, you can have them only trigger once, by unticking repeat, and it will trigger after being enabled	默认情况下，定时动作会重复执行；取消勾选“重复”即可让其只触发一次，并且会在启用后触发
+C# Compile Settings	C# 编译设置
+C# Compiler	C# 编译器
+Camera does not support Noise Reduction!	摄像头不支持降噪！
+Cancel Login	取消登录
+Capture Key	捕获按键
+Capture Model Position	捕获模型位置
+Case Sensitive	区分大小写
+Case Values	大小写值
+Category Name	类别名称
+Change backup settings, and force backup creation	更改备份设置，并强制创建备份
+Change settings.	更改设置。
+Changed only Values	仅更改的值
+Changing enabled Sub-Actions requires a restart of Streamer.bot	更改已启用的子动作需要重启 Streamer.bot
+Changing enabled Triggers requires a restart of Streamer.bot	更改已启用的触发器需要重启 Streamer.bot
+Changing the log folder requires a restart of Streamer.bot	更改日志文件夹需要重启 Streamer.bot
+Changing these settings requires a restart of Streamer.bot	更改这些设置需要重启 Streamer.bot
+Channel Point Rewards	频道积分奖励
+Channel Points Per Vote	每次投票的频道积分
+Channel Points Per Vote, leave empty or set to 0 to disable	每次投票的频道积分，留空或设为 0 以禁用
+Channel Points Spent	已花费的频道积分
+Chapter Name	章节名称
+Chapter name supports %variables%.	章节名称支持 %variables%。
+Chat	聊天
+Chat Client	聊天客户端
+Chatters will receive a temporary chat badge indicating the option they voted for until the prediction ends.	聊天者将获得一个临时聊天徽章，标明他们所投票的选项，直到预测结束。
+Check for Updates	检查更新
+Checking this will make your value be auto typed, and has no effect on increment or decrement source	勾选此项后，你的值将被自动输入，对递增或递减源无效
+Choices (Minimum of 2, maximum of 5)	选项（最少 2 个，最多 5 个）
+Choose a custom default color to use for the Comment Sub-Action	为“评论”子动作选择自定义默认颜色
+Choose the color to use when a Sub-Action is disabled	选择子动作禁用时要使用的颜色
+Choose what MIDI pages to show	选择要显示的 MIDI 页面
+Choose what Server/Client pages to show	选择要显示的服务器/客户端页面
+Choose what Voice Control pages to show	选择要显示的语音控制页面
+Choose what platforms to show	选择要显示的平台
+Choose what services to show	选择要显示的服务
+Choose what streaming applications to show	选择要显示的流媒体应用
+Clear History	清除历史
+Clear Queue	清除队列
+Clear User	清除用户
+Clear the cache on startup if the time since last startup exceeds the given interval	如果距上次启动的时间超过给定间隔，则在启动时清除缓存
+Click the button above to select a category.	点击上面的按钮以选择类别。
+Click the button above to select a game, leave it empty to have your game category empty.	点击上面的按钮以选择游戏，留空则游戏类别为空。
+Clicking export will export your selected Actions, Queues, Commands, Timed Actions, Websocket Servers and Websocket Clients to your clipboard, and you can share them everywhere.	点击导出会将你选中的动作、队列、命令、定时动作、WebSocket 服务器和 WebSocket 客户端导出到剪贴板，你可以随时随地进行分享。
+Clients that are currently connected	当前已连接的客户端
+Clip ID	剪辑 ID
+Clip Title	剪辑标题
+Cloud Backups	云备份
+Cloud Backups are a supporter perk, and require you to be subscribed at the	云备份是支持者福利，要求你的订阅达到
+Coin Type	硬币类型
+Collapse All	全部折叠
+Command	命令
+Command Type	命令类型
+Command(s)	命令
+Commands	命令
+Commands ({0})	命令（{0}）
+Comment Color	评论颜色
+Common References	常用引用
+Compiling Log	编译日志
+Completed At	完成于
+Completed Count	完成数量
+Confidence Threshold	置信度阈值
+Configure Twitch Sub Counter integration settings	配置 Twitch 订阅计数器集成设置
+Configure actions, queues and view action history	配置动作、队列并查看动作历史
+Configure default options when creating new Actions, Commands and other	创建新的动作、命令等时配置默认选项
+Configure options for the Credits service	配置“演职员表”服务的选项
+Configure the default audio output device Streamer.bot uses	配置 Streamer.bot 使用的默认音频输出设备
+Configure the device to use for speech recognition	配置用于语音识别的设备
+Configure the first words cache	配置首个词缓存
+Configure third party emote handling, changing these requires a restart	配置第三方表情处理，更改这些需要重启
+Configure your streaming application settings	配置你的流媒体应用设置
+Configuring Elgato CameraHub	正在配置 Elgato CameraHub
+Configuring Elgato WaveLink	正在配置 Elgato WaveLink
+Configuring HTTP Server	正在配置 HTTP 服务器
+Configuring Twitch	正在配置 Twitch
+Configuring Voice Control	正在配置语音控制
+Connect a bot account to send messages with a different user	连接一个机器人账户，以使用不同的用户发送消息
+Connect your StreamElements account to receive events	连接你的 StreamElements 账户以接收事件
+Connect your Streamer.bot account	连接你的 Streamer.bot 账户
+Connect your Streamlabs account to receive events	连接你的 Streamlabs 账户以接收事件
+Connect your TreatStream account to receive events	连接你的 TreatStream 账户以接收事件
+Connect your streaming account for core functionality	连接你的直播账户以使用核心功能
+Connected	已连接
+Connected Clients	已连接的客户端
+Connecting...	正在连接…
+Connection Status	连接状态
+Cooldown	冷却
+Copy All Variable Names	复制所有变量名
+Copy All Video Urls to Clipboard	将所有视频 URL 复制到剪贴板
+Copy As Text Table	以文本表格复制
+Copy Login Link	复制登录链接
+Copy all to clipboard	全部复制到剪贴板
+Copy and paste your API Key in this field	在此字段中复制并粘贴你的 API 密钥
+Copy and paste your Alerts Widget URL in this field	在此字段中复制并粘贴你的提醒组件 URL
+Copy and paste your Overlay URL in this field	在此字段中复制并粘贴你的叠加层 URL
+Copy and paste your remote key in this field	在此字段中复制并粘贴你的远程密钥
+Copy and paste your token in this field	在此字段中复制并粘贴你的令牌
+Count	数量
+Create Backup	创建备份
+Create Cloud Backup	创建云备份
+Create Custom Server	创建自定义服务器
+Create DonorDrive	创建 DonorDrive
+Create File Tail	创建文件尾随
+Create File Watcher	创建文件监视器
+Create Midi Event	创建 MIDI 事件
+Create Reward	创建奖励
+Create Timer	创建计时器
+Create Websocket Client	创建 WebSocket 客户端
+Create a New Poll	创建新投票
+Create a backup and upload it to your cloud storage	创建备份并上传到你的云存储
+Create folder/file watchers to react to file changes	创建文件夹/文件监视器以响应文件变化
+Create your own WebSocket Servers and manage them from within C#	创建你自己的 WebSocket 服务器，并在 C# 中进行管理
+Create your own connections to WebSocket Servers and control them from within C#	创建你自己的 WebSocket 服务器连接，并在 C# 中进行控制
+Create, edit and remove your output MIDI device associations	创建、编辑和移除你的输出 MIDI 设备关联
+Create, edit, and remove Voice Control Commands	创建、编辑和移除语音控制命令
+Create, edit, and remove your MIDI Input associations and events	创建、编辑和移除你的 MIDI 输入关联和事件
+Created At	创建于
+Created At:	创建于：
+Created by nate1280	由 nate1280 创建
+Created by: nate1280	由 nate1280 创建
+Creators and mods can create predictions. Viewers who guess the outcome correctly can win Channel Points. All predictions must follow Twitch's	创作者和版主可以创建预测。猜中结果的观众可以赢得频道积分。所有预测都必须遵守 Twitch 的
+Cumulative Sub Range	累计订阅范围
+Current Scene	当前场景
+Custom Power-Ups	自定义增益
+Custom WebSocket Clients	自定义 WebSocket 客户端
+Custom WebSocket Servers	自定义 WebSocket 服务器
+Custom Webhook	自定义 Webhook
+Custom Websocket Clients	自定义 WebSocket 客户端
+Custom Websocket Servers	自定义 WebSocket 服务器
+Dark Mode	深色模式
+Date/Time	日期/时间
+Dedicated to the loving memory of my mother.	以此纪念我深爱的母亲。
+Default Tags	默认标签
+Default Value	默认值
+Default settings to apply to new Actions	应用于新动作的默认设置
+Default settings to apply to new Commands	应用于新命令的默认设置
+Default settings to apply to new Switch Case groupings	应用于新的 Switch Case 分组的默认设置
+Defaults to 5 minutes to balance accuracy and performance	默认为 5 分钟，以平衡准确性和性能
+Delayed Start	延迟启动
+Delete All	全部删除
+Delete All Variables	删除所有变量
+Delete Filtered Variables	删除已筛选的变量
+Destination	目标
+Destination Slot	目标插槽
+Destination Variable	目标变量
+Device Name	设备名称
+Disable Capturing of Variable Viewer Window	禁用变量查看器窗口的捕获
+Disable not configured rewards	禁用未配置的奖励
+Disable the tracking of Actions to reclaim performance	禁用动作跟踪以恢复性能
+Discord	Discord
+Do not show Streamer.bot's splash screen when starting	启动时不显示 Streamer.bot 的启动画面
+Documentation	文档
+Don't Show Again	不再显示
+Duplicate Sub-Action Location	复制子动作的位置
+Duration can contain either a specific value between 5 and 60 (inclusive), or a %variable% that will be parsed.  This is in seconds, and if left blank, the default is 30s.	时长可以是 5 到 60（含）之间的具体值，也可以是被解析的 %variable%。单位为秒，留空时默认为 30 秒。
+Duration can either be a number (in minutes between 0 and 129,600), or a %variable% that will be parsed.	时长可以是数字（0 到 129,600 之间的分钟数），也可以是被解析的 %variable%。
+Duration can either be a number (in seconds), or a %variable% that will be parsed.	时长可以是数字（秒），也可以是被解析的 %variable%。
+Duration support parsing.  Duration can either be empty, which means the Pinned Message would last until the stream ends, or it must be, or parse to a value between 30 and 1800.	时长支持解析。时长可以为空，表示置顶消息将一直保留到直播结束，也可以是或解析为 30 到 1800 之间的值。
+Duration, defaults to 60 if empty or unable to parse	时长，留空或无法解析时默认为 60
+Dynamic Range	动态范围
+Editor Settings	编辑器设置
+Elgato CameraHub is Not Connected!	Elgato CameraHub 未连接！
+Elgato Stream Deck instances that are currently connected	当前已连接的 Elgato Stream Deck 实例
+Elgato StreamDeck MCP is Not Connected!	Elgato StreamDeck MCP 未连接！
+Elgato WaveLink is Not Connected!	Elgato WaveLink 未连接！
+Emote Handlers	表情处理器
+Enable Compression	启用压缩
+Enable automatic roll over once the subsction count reaches a set number	当订阅数达到设定数值时启用自动结转
+Enable integrations beyond the UI with Streamer.bot's build in WebSocket server.	通过 Streamer.bot 内置的 WebSocket 服务器启用 UI 之外的集成。
+Enable or disable the viewers tab to reclaim performance	启用或禁用观众选项卡以恢复性能
+Enable the Sub Counter for tracking of subscriptions and rollovers	启用订阅计数器以跟踪订阅和结转
+Enabled	已启用
+Enabled Sub-Actions	已启用的子动作
+Enabled Triggers	已启用的触发器
+Enter a unique Action name...	输入唯一的动作名称…
+Enter a unique queue name...	输入唯一的队列名称…
+Enter the IP address Speaker.bot's WebSocket server is running on, '127.0.0.1'	输入 Speaker.bot WebSocket 服务器运行所在的 IP 地址，例如“127.0.0.1”
+Enter the IP address for this server to bind to. For example, '127.0.0.1'	输入此服务器要绑定的 IP 地址。例如“127.0.0.1”
+Enter the IP address to connect to. For example, '127.0.0.1'	输入要连接的 IP 地址。例如“127.0.0.1”
+Enter the endpoint to listen to for the connection.  Defaults to '/'	输入连接要监听的端点。默认为“/”
+Enter the port Speaker.bot's WebSocket server is running on. Defaults to 7580	输入 Speaker.bot WebSocket 服务器运行所在的端口。默认为 7580
+Enter the port to use for server connection. Defaults to 4242	输入用于服务器连接的端口。默认为 4242
+Enter the port to use for server connection. Defaults to 7474	输入用于服务器连接的端口。默认为 7474
+Enter the port to use for server connection. Defaults to 8059	输入用于服务器连接的端口。默认为 8059
+Enter the port to use for server connection. Defaults to 8080	输入用于服务器连接的端口。默认为 8080
+Enter the port to use for server connection. Defaults to 9652	输入用于服务器连接的端口。默认为 9652
+Enter the port to use for the connection. Defaults to 42069	输入用于连接的端口。默认为 42069
+Environment Variables	环境变量
+Event Feed	事件流
+Event Name	事件名称
+EventSub Client	EventSub 客户端
+Events Client	事件客户端
+Events to Record	要记录的事件
+Exchange Source	交换来源
+Exclude all commands from import	导入时排除所有命令
+Exclude all from Import	导入时排除全部
+Exclude all timed actions from import	导入时排除所有定时动作
+Exclude all websocket clients from import	导入时排除所有 WebSocket 客户端
+Exclude all websocket servers from import	导入时排除所有 WebSocket 服务器
+Exclude from Action Queue/History	从动作队列/历史中排除
+Execute C# Code	执行 C# 代码
+Execute C# Code Editor	C# 代码编辑器
+Expand All	全部展开
+Explore the official documentation for Streamer.bot	浏览 Streamer.bot 官方文档
+Export	导出
+Export Version	导出版本
+Export to Clipboard	导出到剪贴板
+Export to File	导出到文件
+Expression	表达式
+Fade Time	淡入淡出时间
+Fallback to Broadcaster	回退到主播
+File Path	文件路径
+File Tail	文件尾随
+File Tails	文件尾随
+File to Check if Exists	要检查是否存在的文件
+File to Read From	要从中读取的文件
+File to Write To	要写入的文件
+File/Folder Watcher	文件/文件夹监视器
+Filter Type	筛选类型
+Filter...	筛选…
+Find Refs	查找引用
+Finish playing before continuing	先播完再继续
+First Words	首个词
+Folder containing *.mp3 and *.wav	包含 *.mp3 和 *.wav 的文件夹
+Folder mappings for serving local files	用于提供本地文件的文件夹映射
+Folder to Check if Exists	要检查是否存在的文件夹
+Font Family	字体
+Font Size	字号
+For readability, consider using camelCasing or PascalCasing.	为便于阅读，请考虑使用驼峰式（camelCase）或帕斯卡式（PascalCase）命名。
+Forget	忘记
+Forget Account	忘记账户
+Forget any saved credentials for Pulsoid	忘记 Pulsoid 的任何已保存凭据
+Forget any saved credentials for TipeeeStream	忘记 TipeeeStream 的任何已保存凭据
+Forget any saved credentials for VTubeStudio	忘记 VTubeStudio 的任何已保存凭据
+Forget this account?	忘记此账户？
+Format Document	格式化文档
+Found {0} videos	找到 {0} 个视频
+GCD	GCD
+Gain early access to new features and updates before they are released to the public.	抢先体验尚未公开发布的新功能和更新。
+Game Only	仅游戏
+General Settings	常规设置
+Generate a new Instance Id for this instance of Streamer.bot	为此 Streamer.bot 实例生成新的实例 ID
+Gift Bombs	礼物炸弹
+Gift Sub Count Range	礼物订阅数量范围
+Global Cooldown	全局冷却
+Global Variables	全局变量
+Grant Type	授权类型
+Group	分组
+Group Layout	分组布局
+Group Name	分组名称
+HTTP Server	HTTP 服务器
+Handle all things variables	处理所有与变量相关的事务
+Has Permission	有权限
+Help with Elgato CameraHub	Elgato CameraHub 帮助
+Help with Elgato WaveLink	Elgato WaveLink 帮助
+Help with HTTP Server	HTTP 服务器帮助
+Help with Twitch	Twitch 帮助
+Help with Voice Control	语音控制帮助
+Help with WebSocket Server	WebSocket 服务器帮助
+Hide Not Present	隐藏不存在的
+Hide Splash Screen	隐藏启动画面
+Higher tiers gives you more storage space to hold more backups.	更高的等级会给你更多的存储空间来保存更多备份。
+Home	主页
+How long it took for the action to run, this is in milliseconds	动作运行所花费的时间，单位为毫秒
+How long viewers have to guess the outcome	观众猜结果的时间
+How long viewers have to vote in the poll	观众投票的时间
+I Agree	我同意
+I also can not forget giving a nod to the following people	我也不会忘记感谢以下人员
+I can not foget to thank the following who are on Streamer.bot's staff, providing support in the discord	我不能忘记感谢以下 Streamer.bot 工作人员，他们在 Discord 中提供支持
+Icon Path	图标路径
+Ideas & Suggestions	想法与建议
+If "Destination Variable" is left empty, the value will be stored to global_variableName, or user_username_variablename	如果“目标变量”留空，该值将存储到 global_变量名，或 user_用户名_变量名
+If AsJson is checked, the file will try to be loaded as a json object only a simple object will be loaded (for now), if it can not be parsed, the below will be available	如果勾选了 AsJson，文件将尝试作为 JSON 对象加载，目前仅加载简单对象；如果无法解析，则下面内容将可用
+If both options are set, then both criteria must be met for the action to occur. The action will only run if Y number have lines have been said, and if X seconds have passed.	如果同时设置两个选项，则必须同时满足两个条件动作才会发生。只有已说够 Y 行，且已过去 X 秒，动作才会运行。
+If cancelling a redemption, this will refund the channel points back to the user that redeemed it.	如果取消兑换，这将把频道积分退还给进行兑换的用户。
+If there are no matches then it will fall back to the Default Case.	如果没有匹配项，则将回退到默认 Case。
+If this is checked, only users in the listed groups will be used, otherwise they will be excluded	如果勾选此项，则只使用所列分组中的用户，否则将排除他们
+If timeout is left blank, it defaults to 30 seconds (or 30,000ms)	如果超时留空，则默认为 30 秒（或 30,000 毫秒）
+If you are already subscribed, thank you for your support. Make sure you are currently logged into your Streamer.bot account in the bottom-left corner of Streamer.bot. If you are logged in, then make sure you have also linked your	如果你已订阅，感谢你的支持。请确保你已在 Streamer.bot 左下角登录你的 Streamer.bot 账户。如果已登录，请确保你已关联你的
+If you enjoy Streamer.bot, please consider supporting nate1280 on Patreon.	如果你喜欢 Streamer.bot，请考虑在 Patreon 上支持 nate1280。
+Ignore Aliases	忽略别名
+Ignore Bot Messages	忽略机器人消息
+Ignore Case	忽略大小写
+Ignore Channel	忽略频道
+Ignore Data	忽略数据
+Ignore Extensions	忽略扩展名
+Ignore Internal Messages	忽略内部消息
+Ignore NoteOff	忽略 NoteOff
+Import	导入
+Import String	导入字符串
+Import contains custom C# code. Ensure you trust the author and source of this import!	导入包含自定义 C# 代码。请确保你信任此导入的作者和来源！
+Important Information	重要信息
+Include Action's Arguments	包含动作的参数
+Include All	包含全部
+Include Subdirectories	包含子目录
+Include auth.db	包含 auth.db
+Input now supports variable parsing, be sure to surround it with % if you want the value of the variable. i.e. %user%, %userCounter%, %rawInput%, etc...	输入现在支持变量解析，如需使用变量的值，请务必用 % 将其包围。例如 %user%、%userCounter%、%rawInput% 等…
+Instance Id	实例 ID
+Instance Name:	实例名称：
+Integrations	集成
+Is UserId	是用户 ID
+Jewels Gifted	赠送的宝石
+Join the Streamer.bot community!	加入 Streamer.bot 社区！
+Keep the updates coming!	持续更新！
+Keep track of active viewers in chat	跟踪聊天中的活跃观众
+Keep track of users that create pyramids in your chat	跟踪在你的聊天中创建金字塔的用户
+Key Combination	按键组合
+Kick Message	Kick 消息
+Kick is not Connected	Kick 未连接
+Kick's own API implementation is still very fluid, and lacking, so not every feature maybe implemented	Kick 自己的 API 实现仍在快速变化且有欠缺，因此并非每个功能都已实现
+Kicks Gifted	赠送的 Kick
+Ko-fi	Ko-fi
+Last Active	最后活跃
+Last Triggered	上次触发
+Last Write	最后写入
+Last backup: Never	上次备份：从未
+Last backup: {0:F}	上次备份：{0:F}
+Learn from Device	从设备学习
+Leave color empty to use Application default color for comments	将颜色留空以使用“评论”的应用默认颜色
+Leaving Event Name empty is considered a catch-all and will trigger on any custom event name.	事件名称留空视为通配，将匹配任何自定义事件名称触发。
+Leaving Event Name empty is considered a catch-all and will trigger on any remote event name.	事件名称留空视为通配，将匹配任何远程事件名称触发。
+Leaving Toast Id empty is considered a catch-all and will trigger on any Toast Id.	Toast ID 留空视为通配，将匹配任何 Toast ID 触发。
+Leaving name empty is considered a catch-all and will trigger on any global variable being created	名称留空视为通配，将在任何全局变量被创建时触发
+Leaving name empty is considered a catch-all and will trigger on any global variable being deleted	名称留空视为通配，将在任何全局变量被删除时触发
+Leaving name empty is considered a catch-all and will trigger on any global variable updating	名称留空视为通配，将在任何全局变量更新时触发
+Leaving name empty is considered a catch-all and will trigger on any process starting.	名称留空视为通配，将在任何进程启动时触发。
+Leaving name empty is considered a catch-all and will trigger on any process stopping.	名称留空视为通配，将在任何进程停止时触发。
+Leaving name or login empty is considered a catch-all and will trigger on any user global variable updating	名称或登录名留空视为通配，将在任何用户全局变量更新时触发
+Leaving soundboard name empty is considered a catch-all and will trigger on any soundboard changed event.	音板名称留空视为通配，将在任何音板更改事件时触发。
+Leaving user name empty is considered a catch-all and will trigger on any first words event.	用户名留空视为通配，将在任何“首个词”事件时触发。
+Leaving voice name empty is considered a catch-all and will trigger on any voice loaded event.	语音名称留空视为通配，将在任何语音加载事件时触发。
+Lens Name	镜头名称
+Lens Name and/or Duration can be a fixed value or a parsed value using variables and/or inline functions.	镜头名称和/或时长可以是固定值，也可以是使用变量和/或内联函数解析的值。
+Light Mode	浅色模式
+Line Number	行号
+Line Spacing	行距
+Listening Status	监听状态
+Live (boolean)	直播中（布尔值）
+Live Update	实时更新
+Loading Editor Components...	正在加载编辑器组件…
+Loading...	正在加载…
+Location	位置
+Log Folder	日志文件夹
+Log In (Default)	登录（默认）
+Log Level	日志级别
+Log Speech to Text Dictation	记录语音转文字听写
+Login	登录
+Login to your Kick account, and adjust settings.	登录你的 Kick 账户并调整设置。
+Login to your Streamer.bot Account to see beta/alpha channels.	登录你的 Streamer.bot 账户以查看测试版/内测版频道。
+Login to your Streamer.bot account in the bottom-left corner	在左下角登录你的 Streamer.bot 账户
+Login to your Twitch account, manage Chanel Rewards, Poll and Predictions, and settings.	登录你的 Twitch 账户，管理频道奖励、投票、预测和设置。
+Login to your YouTube account, see your broadcasts, and alter settings.	登录你的 YouTube 账户，查看你的直播并修改设置。
+Logout	退出登录
+LumiaStream is Not Connected!	LumiaStream 未连接！
+MIDI	MIDI
+MIDI Device is NOT connected	MIDI 设备未连接
+MIDI Device is already in use	MIDI 设备已被占用
+MIDI Device is connected	MIDI 设备已连接
+MIDI Device is not found	未找到 MIDI 设备
+MIDI In	MIDI 输入
+MIDI Out	MIDI 输出
+Making Changes to this list will not invalidate any currently compiled Execute C# Code sub-actions	更改此列表不会使任何当前已编译的“执行 C# 代码”子动作失效
+Manage Polls on your Twitch broadcaster account	在你的 Twitch 主播账户上管理投票
+Manage Predictions on your Twitch broadcaster account	在你的 Twitch 主播账户上管理预测
+Manage different aspects of Streamer.bot's UI	管理 Streamer.bot 用户界面的不同方面
+Manage network services	管理网络服务
+Manage your Kick channel point rewards	管理你的 Kick 频道积分奖励
+Manage your Twitch channel point rewards	管理你的 Twitch 频道积分奖励
+Manage your Twitch custom power-ups (beta)	管理你的 Twitch 自定义增益（测试版）
+Manage your chat commands	管理你的聊天命令
+Manually refresh audio input devices	手动刷新音频输入设备
+Manually refresh audio output devices	手动刷新音频输出设备
+Manually reset the cache	手动重置缓存
+Mask Variable Containing	包含屏蔽变量的文本
+May you rest in peace; you will be missed. 1954-2021	愿你安息，我们会想念你。1954-2021
+Meld Studio Information	Meld Studio 信息
+Menu	菜单
+Message Id	消息 ID
+Milestone Range (this is for the number of subs gifted over all time)	里程碑范围（这是针对历史累计赠送的订阅数）
+Minimize to Tray	最小化到托盘
+Minimize to Tray on Close	关闭时最小化到托盘
+Minimum Width	最小宽度
+Mix With Scene Lighting Color	与场景灯光颜色混合
+Moderator Send Live Enabled (boolean)	主持人发送直播已启用（布尔值）
+Modify settings related to Voice Control	修改与语音控制相关的设置
+Modify your MIDI settings here.	在此修改你的 MIDI 设置。
+Monaco Settings	Monaco 设置
+Months Gifted	赠送的月数
+Move All To	全部移动到
+NOT Recording!	未在录制！
+NOT Streaming!	未在直播！
+Name	名称
+Name can be a fixed value or a parsed value using variables and/or inline functions.	名称可以是固定值，也可以是使用变量和/或内联函数解析的值。
+Name the prediction	为预测命名
+Navigation Panel	导航面板
+New Poll	新建投票
+New Prediction	新建预测
+No AR Lenses Found!	未找到 AR 镜头！
+No Actions Found!	未找到动作！
+No Audio Devices Found	未找到音频设备
+No Command Groups Found!	未找到命令分组！
+No Commands Found!	未找到命令！
+No Crosshair Images Found!	未找到准星图像！
+No Devices Available to Learn From!	没有可用于学习的设备！
+No Editable Rewards Found!	未找到可编辑的奖励！
+No Execute C# Code Sub-Actions were found!	未找到任何“执行 C# 代码”子动作！
+No Execute C# Sub-Aactions Found!	未找到 C# 子动作！
+No Expressions Found!	未找到表达式！
+No File Tails Found	未找到文件尾随
+No Fonts Found!	未找到字体！
+No Groups Found!	未找到分组！
+No Hotkeys Found!	未找到热键！
+No Inputs Found!	未找到输入！
+No Items!	没有项目！
+No Kick Reward Groups Found!	未找到 Kick 奖励分组！
+No Kick Rewards Found!	未找到 Kick 奖励！
+No Outfits Found!	未找到套装！
+No Output Devices Available!	没有可用的输出设备！
+No Profiles Found!	未找到配置文件！
+No Rewards Found	未找到奖励
+No Scripts Found!	未找到脚本！
+No Timers Found!	未找到计时器！
+No Twitch Reward Groups Found!	未找到 Twitch 奖励分组！
+No Twitch Rewards Found!	未找到 Twitch 奖励！
+No Video Backgrounds Found!	未找到视频背景！
+No Voice Control Commands Found!	未找到语音控制命令！
+No command groups found!	未找到命令分组！
+No commands found!	未找到命令！
+Non-Persisted Globals	非持久化全局变量
+Non-Persisted User Globals	非持久化用户全局变量
+Not Authenticated	未认证
+Not Configured	未配置
+Not Connected	未连接
+Not Connected!	未连接！
+Not Ignored	不忽略
+Not all API endpoints/EventSub events have been implemented by Twitch yet. Some features may currently be missing, once they are added on Twitch's side, they will be updated for Streamer.bot's usage.	Twitch 尚未实现所有 API 端点/EventSub 事件。某些功能当前可能缺失，一旦 Twitch 侧添加，就会为 Streamer.bot 更新。
+OBS Color	OBS 颜色
+OBS Information	OBS 信息
+OBS Studio use ABGR format for its colors	OBS Studio 的颜色使用 ABGR 格式
+Only Those Listed	仅限所列
+Only methods that return bool, and have no parameter are usable.	只有返回 bool 且无参数的方法才可用。
+Open Log Folder...	打开日志文件夹…
+Open Trigger Viewer	打开触发器查看器
+Optional values that are left blank, will not be changed.	留空的可选值将不会被更改。
+Options	选项
+Options (Minimum of 2, maximum of 4)	选项（最少 2 个，最多 4 个）
+Other Instances	其他实例
+Outcome Title	结果标题
+Outcomes (Minimum of 2, maximum of 10)	结果（最少 2 个，最多 10 个）
+Outfit Name	套装名称
+Outfit Name can be a fixed value or a parsed value using variables and/or inline functions.	套装名称可以是固定值，也可以是使用变量和/或内联函数解析的值。
+Output File	输出文件
+Output Text	输出文本
+Output Variable	输出变量
+Output Variable will be the name of the variable that your result goes into, default is inputResult	输出变量将是你的结果所存入的变量名称，默认为 inputResult
+Overlay URL	叠加层 URL
+Override Global	覆盖全局
+Overwrite Existing Variable(s)	覆盖现有变量
+Overwrite Variables	覆盖变量
+Parse Results as JSON	将结果解析为 JSON
+Parse Variables	解析变量
+Partially Connected	部分连接
+Pass through Bad Word Filter	通过不良词过滤器
+Patreon	Patreon
+Patreon Supporters	Patreon 支持者
+Pause All Queues	暂停所有队列
+Payload Data	负载数据
+Pending Action Cache	待处理动作缓存
+Pending Actions	待处理动作
+Pending Count	待处理数量
+Persist Counter	持久化计数器
+Persist User Counter	持久化用户计数器
+Persisted Globals	持久化全局变量
+Persisted User Globals	持久化用户全局变量
+Pick a Random Color	选择随机颜色
+Pick a color	选择颜色
+Pick either Light Mode or Dark Mode for Streamer.bot	为 Streamer.bot 选择浅色模式或深色模式
+Pick your favorite streamming application, get it connected, and start creating!	选择你最喜欢的流媒体应用，连接它，然后开始创作！
+Pick your platform of choice to interact with your viewers.	选择你偏好的平台来与你的观众互动。
+Platforms	平台
+Position X (double, optional)	X 位置（双精度，可选）
+Position Y (double, optional)	Y 位置（双精度，可选）
+Power-up	增益
+Precompile on Application Start	应用启动时预编译
+Prediction Window (seconds) default is 60s	预测窗口（秒），默认为 60 秒
+Present Only	仅在场的
+Present Viewers	在场的观众
+Priority	优先级
+Privacy Policy	隐私政策
+Process Watcher	进程监视器
+Provide various URL endpoints for interacting with Streamer.bot	提供用于与 Streamer.bot 交互的各种 URL 端点
+Pyramids Made	完成的金字塔
+Quality:	质量：
+Queue Signal	队列信号
+Queued At	排队于
+Queues ({0})	队列（{0}）
+Queues keep the Actions flowing, or stopped when needed	队列让动作保持流动，或在需要时停止
+Quote ID	引用 ID
+Quote ID can be a variable which must parse to a number, or a number.	引文 ID 可以是必须解析为数字的变量，也可以是一个数字。
+Raised/Goal	已筹集/目标
+Random Color	随机颜色
+Raw Message	原始消息
+Re-Open on Close	关闭后重新打开
+Re-index	重新索引
+Receive access to additional supporter benefits, including Custom Webhooks and Cloud Backups!	获得额外支持者福利，包括自定义 Webhook 和云备份！
+Receive events when applications on your computer start and/or stop!	当电脑上的应用启动和/或停止时接收事件！
+Reconnect on Disconnect	断开后重连
+Recording!	录制中！
+Redemption Skips Queue	兑换跳过队列
+Refresh Polls from Twitch	从 Twitch 刷新投票
+Refresh Predictions from Twitch	从 Twitch 刷新预测
+Refresh from Kick	从 Kick 刷新
+Refresh from Twitch	从 Twitch 刷新
+Regenerate Browser Sources (boolean)	重新生成浏览器源（布尔值）
+Related Support	相关支持
+Relative to Model (boolean, required)	相对模型（布尔值，必填）
+Remote Key	远程按键
+Remove All	全部移除
+Remove all actions from export	从导出中移除所有动作
+Remove all commands from export	从导出中移除所有命令
+Remove all websocket clients from export	从导出中移除所有 WebSocket 客户端
+Remove all websocket servers from export	从导出中移除所有 WebSocket 服务器
+Reply Id	回复 ID
+Requests received by the HTTP server	HTTP 服务器收到的请求
+Reset Delete Confirmations	重置删除确认
+Reset Integrations	重置集成
+Reset Navigation Items	重置导航项
+Reset Sub Counter	重置订阅计数器
+Reset sub-counter and rollover counters, this can not be undone	重置订阅计数器和结转计数器，此操作无法撤销
+Reset the Instance Id for this instance of Streamer.bot	重置此 Streamer.bot 实例的实例 ID
+Reset the information back to what the broadcast has	将信息重置回直播所具有的内容
+Response (Minimum of 2, maximum of 5)	响应（最少 2 个，最多 5 个）
+Resume All Queues	恢复所有队列
+Retrying to connect	正在重试连接
+Revert to Original Color	恢复为原始颜色
+Revert to original values	恢复为原始值
+Reward Name	奖励名称
+Right click to add an argument	右键单击以添加参数
+Right-click to add an Action	右键单击以添加动作
+Rollover Value	结转值
+Rotation (double, optional)	旋转（双精度，可选）
+Run Action Immediately	立即运行动作
+Run on UI Thread	在 UI 线程上运行
+Save	保存
+Save All to CSV	全部保存为 CSV
+Save Key	保存按键
+Save Result to Variable	将结果保存到变量
+Save and Compile	保存并编译
+Save the information for the broadcast	保存直播信息
+Scene Name	场景名称
+Search Kick Categories	搜索 Kick 类别
+Search above or right-click to add a Sub-Action	在上方搜索或右键单击以添加子动作
+Search above or right-click to add a Trigger	在上方搜索或右键单击以添加触发器
+Search for User	搜索用户
+Search to add trigger...	搜索以添加触发器…
+See Streamer.bot work, view and inspect variables of actions that are currently being run	查看 Streamer.bot 的运行情况，查看和检查当前正在运行的动作的变量
+See actions that have finished, and learn more about if they succeeded, what variables were available, etc	查看已完成的动作，并了解它们是否成功、有哪些可用变量等信息
+See the quotes that have been added, as well as add custom ones, or edit/delete existing.	查看已添加的引文，也可以添加自定义引文，或编辑/删除现有的引文。
+Select Action	选择动作
+Select a Meld Studio Connection	选择 Meld Studio 连接
+Select a Streamlabs Desktop Connection	选择 Streamlabs Desktop 连接
+Select a viewer from the list to view their information.	从列表中选择一个观众以查看其信息。
+Select an OBS Connection	选择 OBS 连接
+Select mtion Trigger	选择 mtion 触发器
+Selected Camera is not EpocCam!	所选摄像头不是 EpocCam！
+Selected Poll	所选投票
+Selected Prediction	所选预测
+Send NoteOff	发送 NoteOff
+Send using bot account	使用机器人账户发送
+Server Status	服务器状态
+Servers/Clients	服务器/客户端
+Service Status	服务状态
+Services	服务
+Session ID	会话 ID
+Set wait time to 0 seconds to run without waiting	将等待时间设为 0 秒即可不等待直接运行
+Settings	设置
+Setup a tail on a file and react to changes in realtime.	对文件设置尾随并实时响应变化。
+Setup recurring timers.	设置循环计时器。
+Share and discuss ideas for new features or improvements to Streamer.bot	分享和讨论 Streamer.bot 的新功能或改进想法
+Shared Chat Participation	共享聊天参与
+Show LastWrite Column	显示最后写入列
+Show or hide Commands page	显示或隐藏命令页面
+Show your Support	表达你的支持
+Signal Name	信号名称
+Signal name	信号名称
+Size (double, optional)	大小（双精度，可选）
+Skips Queue	跳过队列
+Slot (number, required)	插槽（数字，必填）
+Slot Count (number)	插槽数量（数字）
+Sound Name	声音名称
+Sound Name can be empty, in which case it will use "default", a variable, or a string you enter	声音名称可以为空，此时将使用“default”、一个变量或你输入的字符串
+Sound file to play	要播放的声音文件
+Soundboard Name	音板名称
+Source	来源
+Source Slot	来源插槽
+Speaker.bot Not Connected	Speaker.bot 未连接
+Speaker.bot is Not Connected!	Speaker.bot 未连接！
+Specific Category	特定类别
+Specific Game	特定游戏
+Specify the 0 based index of the outcome to use as the winning outcome when resolving the current active prediction.  Variables are supported.	指定结果中从 0 开始的索引，作为解析当前激活预测时的中奖结果。支持变量。
+Specify the title of the outcome to use as the winning outcome when resolving the active prediction.  Variables are supported.	指定结果标题，作为解析当前激活预测时的中奖结果。支持变量。
+Start Listening	开始监听
+Start Server	启动服务器
+Start a Prediction	开始预测
+Start a UDP server and react to incoming UDP packets	启动 UDP 服务器并响应传入的 UDP 数据包
+Start, stop or alter built in Services.	启动、停止或修改内置服务。
+Started At	开始于
+Starting...	正在启动…
+Status	状态
+Stop After	之后停止
+Stop All Clients	停止所有客户端
+Stop Listening	停止监听
+Stop Server	停止服务器
+Stream Apps	流媒体应用
+Stream Deck MCP Server	Stream Deck MCP 服务器
+Stream Status	直播状态
+Stream Update on Connect	连接时更新直播信息
+Streamer.bot	Streamer.bot
+Streamer.bot - Streamer.bot (v1.0.7)	Streamer.bot - 流媒体机器人 (v1.0.7)
+Streamer.bot Account	Streamer.bot 账户
+Streamer.bot Account Required.  Connect to the Streamer.bot website by clicking 'Login' in the bottom-left corner.	需要 Streamer.bot 账户。点击左下角的“登录”以连接到 Streamer.bot 网站。
+Streamer.bot Cloud Backups	Streamer.bot 云备份
+Streamer.bot Settings	Streamer.bot 设置
+Streamer.bot Version	Streamer.bot 版本
+Streamer.bot Website	Streamer.bot 网站
+Streamer.bot account	Streamer.bot 账户
+Streamer.bot instances that have been seen by your account	你的账户见过的 Streamer.bot 实例
+Streamer.bot {0} is available!	Streamer.bot {0} 可用！
+Streamer.bot's YouTube quota has been exceeded! The quota will reset at Midnight PST!	Streamer.bot 的 YouTube 配额已超出！配额将在太平洋时间午夜重置！
+Streamfog is Not Connected!	Streamfog 未连接！
+Streaming!	直播中！
+Streamlabs Desktop Information	Streamlabs Desktop 信息
+Sub Counter	订阅计数器
+Sub Type	订阅类型
+Sub-Action Disabled Color	子动作禁用颜色
+Sub-Actions	子动作
+Submission Preiod	提交期间
+Suggestions	建议
+Support	支持
+Support Streamer.bot on Patreon!	在 Patreon 上支持 Streamer.bot！
+Support on Patreon	在 Patreon 上支持
+Supporter	
+Supporter Perks	支持者福利
+Switch Case	切换大小写
+Tags (Maximum of 10)	标签（最多 10 个）
+Tags are case insensitive.	标签不区分大小写。
+Team Member	团队成员
+Terms of Service	服务条款
+Text to Speech	文字转语音
+Text to Write	要写入的文本
+Thank You	谢谢你
+Thank you to the following supporters on Patreon:	感谢以下 Patreon 支持者：
+The Elgato CameraHub integration requires a minimum CameraHub version of 2.0.0.5721	Elgato CameraHub 集成要求 CameraHub 最低版本为 2.0.0.5721
+The Elgato WaveLink integration only supports WaveLink version 2.x, it will not work with 3.x	Elgato WaveLink 集成仅支持 WaveLink 2.x 版本，不适用于 3.x
+The UUID for this instance of Streamer.bot	此 Streamer.bot 实例的 UUID
+The clip ID can contain either a specific id for a clip, or a %variable% that will be parsed.  This can also only get URLs for your own clips.	剪辑 ID 可以是剪辑的具体 ID，也可以是被解析的 %variable%。此功能也只能获取你自己剪辑的 URL。
+The confidence the speech engine must have in its recognition	语音引擎对其识别结果必须达到的置信度
+The core of Streamer.bot	Streamer.bot 的核心
+The count can contain a specific number, or a %variables% that will be parsed	数量可以是一个具体的数字，也可以是被解析的 %variables%
+The current value of the sub counter	订阅计数器的当前值
+The defacto standard for streaming	直播的事实标准
+The default volume applied to the Play Sound sub-actions and C# methods	应用于“播放声音”子动作和 C# 方法的默认音量
+The endpoint Speaker.bot uses, default is /	Speaker.bot 使用的端点，默认为 /
+The endpoint that the WebSocket server listens on	WebSocket 服务器监听的端点
+The field above must contain the %variable% that will contain the quote to be added.	上面的字段必须包含将保存要添加引文的 %variable%。
+The file to write the sub-counter data to	写入订阅计数器数据的文件
+The folder to save backups to	保存备份的文件夹
+The folder to write logs to	写入日志的文件夹
+The global cooldown for the command	命令的全局冷却
+The heart of Streamer.bot, Actions are what defines what can happen and when	Streamer.bot 的核心，动作定义了可以发生什么以及何时发生
+The locale to use for speech recognition	语音识别使用的区域设置
+The logging level being used, this is locked to verbose in non-stable versions	正在使用的日志级别，非稳定版本中锁定为 verbose
+The minimum number of emotes required before starting to track a pyramid	开始跟踪金字塔所需的最少表情数量
+The name of this Streamer.bot instance	此 Streamer.bot 实例的名称
+The output template to use when writing to the file specified above	写入上方指定文件时使用的输出模板
+The password required for authentication	认证所需的密码
+The pinned message will be updated to last until stream ends	置顶消息将被更新为一直保留到直播结束
+The slot can contain a number, typically between 1 and 6, or a %variable% that will be parsed.	插槽可以是数字（通常为 1 到 6 之间），也可以是被解析的 %variable%。
+The time interval can also be set to a random value within a range, this random value is updated everytime the action is run.	时间间隔也可以设置为范围内的随机值，该随机值每次动作运行时都会更新。
+The user cooldown for the command	命令的用户冷却
+The user id can contain either a specific user's id, or a %variable% that will be parsed	用户 ID 可以是具体用户的 ID，也可以是被解析的 %variable%
+The user login and group name can contain either a specific user's login, or a %variables% that will be parsed	用户登录名和分组名可以是具体用户的登录名，也可以是被解析的 %variables%
+The user login can contain either a specific user's login, or a %variable% that will be parsed	用户登录名可以是具体用户的登录名，也可以是被解析的 %variable%
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %broadcastUser%, %user%, %input0%	用户登录名可以是具体用户的登录名，也可以是被解析的 %variable%。可用的变量示例：%broadcastUser%、%user%、%input0%
+The user login can contain either a specific user's login, or a %variable% that will be parsed.  Some examples of variables to use are: %user%, %targetUser%, %input0%	用户登录名可以是具体用户的登录名，也可以是被解析的 %variable%。可用的变量示例：%user%、%targetUser%、%input0%
+The user login can contain either a specific user's login, or a %variables% that will be parsed	用户登录名可以是具体用户的登录名，也可以是被解析的 %variables%
+There is an update available!	有可用更新！
+There was an error trying to initialize WebView	尝试初始化 WebView 时出错
+This Instance	此实例
+This SubAction will allow you to set the value of an argument.  These are the %variables% you use in other SubActions	此子动作允许你设置参数的值。这些是在其他子动作中使用的 %variables%
+This SubAction will let you get a global variable and add it to the arguments that are passed along to other SubActions	此子动作可让你获取一个全局变量，并将其添加到传递给其他子动作的参数中
+This SubAction will set the value of either an argument to the value, or a global variable from an argument, or to the value specified	此子动作会将参数的值设置为指定值，或将全局变量设置为参数的值，或设置为指定值
+This feature is very experimental, and I need feedback on it, for options, capabilities, etc.	此功能非常实验性，我需要你对其选项、功能等提供反馈。
+This labs feature will, on close, write to a database any outstanding pending actions, pending actions are actions that have not yet run, and are waiting to run, either because they're in a blocking queue, or a queue that is paused.	此实验室功能会在关闭时，将任何未完成的待处理动作写入数据库。待处理动作是指尚未运行、正在等待运行的动作，它们要么在阻塞队列中，要么在已暂停的队列中。
+This requires the Enable MCP Deck to be checked in your Stream Deck preferences.	这需要在你的 Stream Deck 偏好设置中勾选“启用 MCP Deck”。
+This sub-action requires the `Hybrid MP4 [BETA](.mp4)` recording format to be selected within OBS.	此子动作要求在 OBS 中选择“Hybrid MP4 [BETA](.mp4)”录制格式。
+This will allow you to start a raid to the user login that is specified in the above text box. Variables are supported.	这将允许你向上方文本框指定的用户登录名发起突袭。支持变量。
+This will hide all filters for a given source that are currently visible.	这将隐藏给定来源当前可见的所有筛选器。
+This will hide all sources within a group that are currently visible.	这将隐藏分组中当前可见的所有来源。
+This will hide all sources within a scene that are currently visible.	这将隐藏场景中当前可见的所有来源。
+This will make the scene your active scene in OBS Studio	这将使该场景成为你在 OBS Studio 中的活动场景
+This will make the scene your active scene in Streamlabs Desktop	这将使该场景成为你在 Streamlabs Desktop 中的活动场景
+This will only show Execute C# Code subactions that have a name.	这将只显示有名称的“执行 C# 代码”子动作。
+This will pick a random filter within the selected source and make it visible or hidden, or toggle its state.	这将在所选来源中随机挑选一个筛选器，使其可见或隐藏，或切换其状态。
+This will pick a random source within the selected group and make it visible, if all items are visible, it will do nothing.	这将在所选分组中随机挑选一个来源并使其可见；如果所有项目都已可见，则不做任何操作。
+This will pick a random source within the selected scene and make it visible, if all items are visible, it will do nothing.	这将在所选场景中随机挑选一个来源并使其可见；如果所有项目都已可见，则不做任何操作。
+This will prevent the Variable Viewer window from appearing in any form of window/screen capturing	这将防止变量查看器窗口出现在任何形式的窗口/屏幕捕获中
+This will rotate your source around its alignment position.  By default OBS sets this to TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in OBS	这将围绕来源的对齐位置旋转。默认情况下 OBS 将其设为 TopLeft，理想情况下你希望设为 Center，可在 OBS 中编辑来源的变换来更改
+This will rotate your source around its alignment position.  By default this is TopLeft, ideally you want this set to Center, this can be changed by editing your source's transform in Streamlabs Desktop	这将围绕来源的对齐位置旋转。默认情况下这是 TopLeft，理想情况下你希望设为 Center，可在 Streamlabs Desktop 中编辑来源的变换来更改
+Throwing System	投掷系统
+Time in Seconds (double, required)	时间（秒，双精度，必填）
+Timed Actions ({0})	定时动作（{0}）
+Timed actions can have either an interval set, where they will occur every X seconds, or a line count set, where they will occur every Y lines.	定时动作可以设置间隔（每 X 秒发生一次），也可以设置行数（每 Y 行发生一次）。
+Timeout Exempt	超时豁免
+Tint All	全部着色
+Title (required)	标题（必填）
+Title, Prompt and Original Text all support variables.	标题、提示和原始文本都支持变量。
+To not set a value for any of the options,, just leave the field empty	要不为任何选项设置值，只需将字段留空
+Toast Id	Toast ID
+Track Top	跟踪顶部
+Trigger	触发器
+Trigger Name	触发器名称
+Twitch Bot Whisper	Twitch 机器人私信
+Twitch Custom Power-Ups are a beta feature that not everyone has access to.	Twitch 自定义增益是一项测试版功能，并非所有人都能使用。
+Twitch Message	Twitch 消息
+Twitch Resubscription Message	Twitch 续订消息
+Twitch Shared Chat	Twitch 共享聊天
+Twitch Whisper	Twitch 私信
+Twitch is not Connected	Twitch 未连接
+Type	类型
+UCD	UCD
+UDP Port	UDP 端口
+UDP Server	UDP 服务器
+Until stream ends	直到直播结束
+Up to Date	已是最新
+Update All Actions To Use Default	更新所有动作以使用默认设置
+Update Available	有可用更新
+Update Available!	有可用更新！
+Update Interval	更新间隔
+Updating your YouTube stream information is an expensive call, please use this sparingly.	更新你的 YouTube 直播信息是一个开销很大的调用，请谨慎使用。
+Use Args	使用参数
+Use Filename	使用文件名
+Use Monaco Editor	使用 Monaco 编辑器
+Use System Default	使用系统默认
+Use the System Default audio device when the selected device above is not found	当上方所选设备未找到时，使用系统默认音频设备
+Use the feature rich Monaco Editor for editing your C# code	使用功能丰富的 Monaco 编辑器编辑你的 C# 代码
+Use the variable that contains the Id, for example %msgId%	使用包含 ID 的变量，例如 %msgId%
+User Cooldown	用户冷却
+User ID	用户 ID
+User Id	用户 ID
+User Information	用户信息
+User Input Required	需要用户输入
+User Interface	用户界面
+User Login	用户登录
+User Name	用户名
+User Present (spoke)	用户在场（说过话）
+Using this you can send a UDP broadcast packet which will contain the data you enter in payload.	使用此功能可发送 UDP 广播数据包，其中将包含你在负载中输入的数据。
+VTube Studio is Not Connected!	VTube Studio 未连接！
+Value	值
+Variable Masking	变量屏蔽
+Variable Name	变量名
+Variable Name or Value can be a fixed value, or a parsed value, using variables and/or inline functions	变量名或值可以是固定值，也可以是使用变量和/或内联函数解析的值
+Variable Name to Use (if empty, fileExists is used)	要使用的变量名（留空时使用 fileExists）
+Variable Name to Use (if empty, folderExists is used)	要使用的变量名（留空时使用 folderExists）
+Variable Name to Use (if empty, line is used)	要使用的变量名（留空时使用 line）
+Variable Prefix	变量前缀
+Variable Value	变量值
+Variables that contain these words will have their values masked with * in the following areas:	包含这些词的变量，其值将在以下区域中以 * 屏蔽：
+Vendor Name	供应商名称
+Video Enabled (boolean)	视频已启用（布尔值）
+Video Name	视频名称
+Video Name can be a fixed value or a parsed value using variables and/or inline functions.	视频名称可以是固定值，也可以是使用变量和/或内联函数解析的值。
+View Count	观看次数
+View Notes	查看说明
+View a list of what Voice Control has been hearing	查看语音控制已听到的内容列表
+View and modify your streaming platform settings	查看并修改你的流媒体平台设置
+Viewers	观众
+Viewers Tab	观众选项卡
+Voice Alias	语音别名
+Voice Control	语音控制
+Voice Control related settings	语音控制相关设置
+Voice ID	语音 ID
+Voice Name	语音名称
+Voice Name can be a fixed value or a parsed value using variables and/or inline functions.	语音名称可以是固定值，也可以是使用变量和/或内联函数解析的值。
+VoiceId can be a fixed value or a parsed value using variables and/or inline functions.	VoiceId 可以是固定值，也可以是使用变量和/或内联函数解析的值。
+VoiceMod is Not Connected!	VoiceMod 未连接！
+Volume (number)	音量（数字）
+Wait maximum	最长等待
+Want to try out experimental features, can enable them here	想试用实验性功能，可在此启用
+WebSocket Server	WebSocket 服务器
+Websocket Client	WebSocket 客户端
+Websocket Clients	WebSocket 客户端
+Websocket Clients ({0})	WebSocket 客户端（{0}）
+Websocket Server	WebSocket 服务器
+Websocket Servers ({0})	WebSocket 服务器（{0}）
+Weight can be a fixed value, or a parsed value, using variables and/or inline functions, and the resulting value needs to be a double or number	权重可以是固定值，也可以是使用变量和/或内联函数解析的值，结果值需为双精度或数字
+Weighted Value	加权值
+Wether or not to enforce authentication for all requests, or just priviledged	是否对所有请求强制执行认证，还是仅对特权请求
+What sources are enabled by default	默认启用哪些来源
+When Streamer.bot is started, if this cache file is present, it will auto load in any actions that have been cached, as well as pause the queue that they belong to. In addition, an argument will be added, wasCached, this will be set to true; during normal operation, this variable will not exist.	当 Streamer.bot 启动时，如果此缓存文件存在，它将自动加载所有已缓存的动作，并暂停它们所属的队列。此外，还会添加一个参数 wasCached，它将被设为 true；在正常操作期间，此变量将不存在。
+When a Live broadcast is detected automatically start monitoring it	检测到直播时自动开始监控
+When adding an If/Else SubAction, two groups, called True Result and False Result, will automatically be added underneath the SubAction.	添加 If/Else 子动作时，会自动在该子动作下方添加两个分组，分别称为“真结果”和“假结果”。
+When closing Streamer.bot, ask if you really meant to close it	关闭 Streamer.bot 时，询问你是否真的要关闭它
+When closing Streamer.bot, it will goto the Tray Icons, using close in the Tray Menu will close Streamer.bot	关闭 Streamer.bot 时，它将转到托盘图标；在托盘菜单中使用“关闭”才会真正关闭 Streamer.bot
+When enabled, actions in this queue will be run in sequence, each action waits for the previous one to complete before running.	启用后，此队列中的动作将按顺序运行，每个动作都会等待前一个动作完成后再运行。
+When enabled, if queued in a queue that is paused, this action will ignore that pause state and immediately run.	启用后，如果动作被加入到一个已暂停的队列中，该动作将忽略暂停状态并立即运行。
+When enabled, will prevent this action from showing in the Action Queue Pending/History tabs, this should be enabled for Actions that have high volume Triggers on them.	启用后，将阻止此动作显示在动作队列的“待处理/历史”选项卡中；对于有高流量触发器的动作，应启用此选项。
+When enabled, will run a random top-level sub-action.	启用后，将运行一个随机的高级子动作。
+When enabled, will run all top-level sub-actions at the same time.	启用后，将同时运行所有高级子动作。
+When minimizing Streamer.bot, it will goto the Tray Icons	最小化 Streamer.bot 时，它将转到托盘图标
+When random type is Next Float, a decimal number (upto 17 decimal precision) will be picked and added to the arguments as %randomFloat%, this number will also be added as a percentage value (with no decimals) as %randomPercent%	当随机类型为 Next Float 时，会选取一个小数（最多 17 位小数精度）并以 %randomFloat% 添加到参数中，该数字还会以百分比值（无小数）的形式作为 %randomPercent% 添加
+When random type is between, a number between the 2 values you set will be added into the arguments at %randomNumber%	当随机类型为 Between 时，会在你设置的两个值之间选取一个数字，并以 %randomNumber% 添加到参数中
+When starting Streamer.bot, the Chat window will automatically open	启动 Streamer.bot 时，聊天窗口将自动打开
+When starting Streamer.bot, the Event Feed window will automatically open	启动 Streamer.bot 时，事件流窗口将自动打开
+Where to add a duplicated sub-action	在哪里添加复制的子动作
+Whether or not shared chat will be able to participate in creating/breaking Pyramids	共享聊天是否能够参与创建/破坏金字塔
+Whether or not the Action is enabled	动作是否启用
+Whether or not the WebSocket server requires authentication to connect	WebSocket 服务器是否需要认证才能连接
+Whether or not the command is case sensitive	命令是否区分大小写
+Whether or not this action, when queued will always run, regardless if the queue is paused	此动作入队时是否始终运行，无论队列是否已暂停
+Whether or not to exclude the action from appearing in the Action Queue or Action History pages	是否将动作从动作队列或动作历史页面中排除
+Whether or not to ignore Gift Subs from Gift Bombs	是否忽略礼物炸弹中的礼物订阅
+Whether or not to ignore messages that come from the logged in bot account for the service	是否忽略来自该服务已登录机器人账户的消息
+Whether or not to ignore messages that originate from Streamer.bot	是否忽略源自 Streamer.bot 的消息
+Whether or not to include the command in the command list sub-action	是否将命令包含在命令列表子动作中
+Whether or not to include your authentication keys in the backup	是否在备份中包含你的认证密钥
+Whether or not to log any speech to text dication	是否记录任何语音转文字听写
+Whether or not to pick a random top level sub-actions to only run	是否仅随机挑选一个高级子动作来运行
+Whether or not to save counters to disk	是否将计数器保存到磁盘
+Whether or not to save user counters to disk	是否将用户计数器保存到磁盘
+Whether or not to the switch case should be case sensitive	Switch Case 是否应区分大小写
+Whether or not to use realtime data from Twitch, or artificial data	是否使用来自 Twitch 的实时数据，还是模拟数据
+Whether or not top level sub-actions run concurrently	高级子动作是否并发运行
+Whether to handle BetterTTV emotes	是否处理 BetterTTV 表情
+Whether to handle FrankerFaceZ emotes	是否处理 FrankerFaceZ 表情
+Whether to handle Seven TV emotes	是否处理 Seven TV 表情
+White Balance	白平衡
+White Balance Tint	白平衡色调
+Why donate?	为什么要捐赠？
+Will reset all delete confirmations so they are asked again when deleting items	将重置所有删除确认，删除项目时会再次询问
+Will reset the integrations tab back to original	将把集成选项卡重置回原始状态
+Will reset the navigation panel to default, a restart is required	将把导航面板重置为默认，需要重启
+Window Options	窗口选项
+Winning Index	中奖索引
+Working Directory	工作目录
+You are currently not subscribed to Patreon, subscribe on Patreon to the Thank You tier or higher and get access to Cloud Backups and more!	你目前尚未订阅 Patreon，请在 Patreon 上订阅“Thank You”等级或更高等级，即可获得云备份等更多功能！
+You can add multiple Case groups under the Switch SubAction, and order matters.	你可以在 Switch 子动作下添加多个 Case 分组，顺序很重要。
+You can either set a static description, and/or use variables to set a description.	你可以设置静态描述，和/或使用变量设置描述。
+You can either set a static title, and/or use variables to set a title	你可以设置静态标题，和/或使用变量设置标题
+You can either set a static title, and/or use variables to set a title.	你可以设置静态标题，和/或使用变量设置标题。
+You can either set a static title/description, and/or use variables to set a title/description.	你可以设置静态标题/描述，和/或使用变量设置标题/描述。
+You can enter a %variable% in either field, or a number.  The value is in milliseconds.	你可以在任一字段中输入 %variable% 或数字。单位为毫秒。
+You can get the ButtonID from the StreamDeck Application, and Image/State supports variables. State is optional	你可以从 StreamDeck 应用获取 ButtonID，Image/State 支持变量。State 是可选的
+You can get the ButtonID from the StreamDeck Application, and State supports variables.	你可以从 StreamDeck 应用获取 ButtonID，State 支持变量。
+You can get the ButtonID from the StreamDeck Application, and Title/State supports variables.  State is optional.	你可以从 StreamDeck 应用获取 ButtonID，Title/State 支持变量。State 是可选的。
+You can get the ButtonID from the StreamDeck Application, and Value supports variables.	你可以从 StreamDeck 应用获取 ButtonID，Value 支持变量。
+You can get the ButtonID from the StreamDeck Application.	你可以从 StreamDeck 应用获取 ButtonID。
+You can set the status of a redemption using this action, and the usual caveat, the reward must have been created by CPH for it to modify the status of redemptions.	你可以使用此动作设置兑换的状态。通常需要注意的是，该奖励必须由 CPH 创建，才能修改兑换的状态。
+You can specify a default value to use if the variable is not found, if a default value is set, and the variable is not found, it will also set the variable to this value	你可以指定一个默认值，在变量未找到时使用；如果设置了默认值且变量未找到，它还会将变量设置为该值
+You can use the above entry for variables, or set a specific category, change the Source to pick from Kick's category list	你可以将上面的条目用作变量，也可以设置特定类别，更改来源以从 Kick 的类别列表中选取
+You can use the above entry for variables, or set a specific game, change the Source to pick from Twitch's list	你可以将上面的条目用作变量，也可以设置特定游戏，更改来源以从 Twitch 的列表中选取
+You can use variable in the text, for example, %targetUser% to set the text to the target's name, if an Add Target Info action exists in the actions.	你可以在文本中使用变量，例如 %targetUser% 将文本设置为目标的名称，前提是动作中存在“添加目标信息”动作。
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the browser source set to the target user's profile image, if an Add Target info action is in the actions.	你可以在来源中使用变量，例如 %targetUserProfileImageUrl% 可将浏览器源设置为目标用户的头像，前提是动作中存在“添加目标信息”动作。
+You can use variables in the source, for example %targetUserProfileImageUrl% if you want the image or media source set to the target user's profile image, if an Add Target info action is in the actions.	你可以在来源中使用变量，例如 %targetUserProfileImageUrl% 可将图像或媒体源设置为目标用户的头像，前提是动作中存在“添加目标信息”动作。
+You can use variables, or a fixed value, including nothing to set a description for the stream marker.	你可以使用变量或固定值（包括空值）来为直播标记设置描述。
+YouTube Message	YouTube 消息
+Your Kick account is linked on Streamer.bot	你的 Kick 账户已在 Streamer.bot 上关联
+Your Kick connection on the website has expired, this is required, click here to reconnect	你的网站在 Kick 上的连接已过期，这是必需的，点击此处重新连接
+Your YouTube broadcasts	你的 YouTube 直播
+Your stream, your rules—made better with Streamer.bot	你的直播，你做主——用 Streamer.bot 做得更好
+Your support helps keep Streamer.bot free for everyone, and shows your appreciation for the hard work that goes into maintaining and improving the application.	你的支持能让 Streamer.bot 继续对所有人免费，并表达你对维护和改进该应用所付出的辛勤工作的感谢。
+Your support helps maintain continued development and ongoing improvements to Streamer.bot, ensuring it remains a powerful tool for streamers like you.	你的支持有助于 Streamer.bot 的持续开发和改进，确保它始终是像你这样主播的强大工具。
+channel points	频道积分
+on the	在
+per Stream	每次直播
+per User per Stream	每个用户每次直播
+raids,	突袭，
+seconds for exit	退出前的秒数
+set to 0 to disable	设为 0 以禁用
+tier or higher on Patreon.	或更高等级的 Patreon 会员。
+total viewers	总观众数
+website.	网站。
+{0} ({1})	{0}（{1}）
+{0} Supporter	{0} 支持者
+{0} is NOT connected!	{0} 未连接！
+{0} minute(s)	{0} 分钟
+Change VoiceMod settings on the fly, or voices	即时修改 VoiceMod 设置或切换音色
+Connect to enable Ko-fi, Patreon, FourthWall and more!	连接以启用 Ko-fi、Patreon、FourthWall 等更多功能！
+Connect your Stream Deck for even more power!	连接你的 Stream Deck 以解锁更强大的功能！
+Control your Elgato Camera or Prompter.	控制你的 Elgato 摄像头或提词器。
+Control your Elgato Microphone.	控制你的 Elgato 麦克风。
+Control your lights through LumiaStream, and receive events.	通过 LumiaStream 控制灯光，并接收事件。
+Enable receving events from StreamElements.	启用从 StreamElements 接收事件。
+Enable receving events from Streamlabs.	启用从 Streamlabs 接收事件。
+Filter	筛选
+Groups	分组
+Integrate further with Speaker.bot.	与 Speaker.bot 进一步集成。
+Platform	平台
+Raids	突袭
+React to events that happen in CrowdControl.	响应 CrowdControl 中发生的事件。
+React to events, and trigger changes.	响应事件并触发变更。
+React to viewers purchasing and using cards	响应观众购买和使用卡片的行为
+React to your heart rate!	响应你的心率！
+Real-time AR effects that work inside OBS, Streamlabs, and Zoom.	可在 OBS、Streamlabs 和 Zoom 中使用的实时 AR 特效。
+Receive donation events.	接收捐赠事件。
+Receive events when donations are received to your campaign!	当你的筹款活动收到捐赠时接收事件！
+Receive events when someone sends you a treat!	当有人给你送小礼物时接收事件！
+Receive events when tips are received.	收到打赏时接收事件。
+Role	角色
+Subscribed	已订阅
+Take control of your avatar, receive events or control features.	控制你的虚拟形象，接收事件或控制功能。
+Username	用户名
+Backups	备份
+Defaults	默认值
+Labs	实验性功能
+Variables	变量
