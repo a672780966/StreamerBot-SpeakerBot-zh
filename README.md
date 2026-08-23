@@ -57,7 +57,11 @@ StreamerBot-SpeakerBot-zh\
 2. Right-click `安装.ps1` → **Run with PowerShell**, then pick a language (`1) 简体中文 2) 日本語 3) 한국어 4) Español`).
    - Or skip the menu: `powershell -ExecutionPolicy Bypass -File 安装.ps1 -Lang ja-JP`
    - `-Lang` accepts `zh-CN` / `ja-JP` / `ko-KR` / `es-ES`
-3. The script auto-launches both apps (pass `-NoStart` to skip). The UI switches to the chosen language shortly after startup.
+3. The script auto-launches the apps (pass `-NoStart` to skip). The UI switches to the chosen language shortly after startup.
+
+The installer automatically detects Streamer.bot and Speaker.bot when possible (saved config → common locations → manual input). If an application cannot be detected, the installer will ask for its installation directory (a directory path or a full `.exe` path both work). The detected paths are stored locally in `config.json` and reused by the language-switch and restore scripts.
+
+Streamer.bot and Speaker.bot do not both need to be installed — only the detected apps are localized, and having neither will abort with a clear message.
 
 The installer automatically: stops running instances, backs up `*.exe.config` to `*.exe.config.bak`, injects the two AppDomainManager lines into `<runtime>`, deploys `ZhInject.dll` plus the selected-language `ZhMap.tsv`, and writes `ZhMode.txt=translate` and `ZhLang.txt=<lang>`.
 
@@ -84,8 +88,9 @@ The installer deploys **all four language maps** into `langs\` and embeds a comp
 ## Restore to English
 
 Close the apps and run `还原.ps1`:
-- Deletes `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt`
+- Deletes `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt` and `langs\`
 - Restores the original config from `.bak` (or strips the injected lines if no backup exists)
+- Keeps `config.json` so a future install reuses the saved app paths
 
 ## How It Works
 
@@ -162,9 +167,11 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 2. 右键 `安装.ps1` → **使用 PowerShell 运行**，按提示选择语言（`1) 简体中文 2) 日本語 3) 한국어 4) Español`）。
    - 或指定语言：`powershell -ExecutionPolicy Bypass -File 安装.ps1 -Lang ja-JP`
    - `-Lang` 可选 `zh-CN` / `ja-JP` / `ko-KR` / `es-ES`
-3. 安装完成后脚本**自动启动**两个程序（可用 `-NoStart` 跳过），稍候界面即为所选语言。
+3. 安装完成后脚本**自动启动**已检测到的程序（可用 `-NoStart` 跳过），稍候界面即为所选语言。
 
-安装脚本会自动：关闭正在运行的程序、备份原 `*.exe.config` → `*.exe.config.bak`、在 `<runtime>` 注入 AppDomainManager 两行配置、部署 `ZhInject.dll` + 所选语言 `ZhMap.tsv`，写入 `ZhMode.txt=translate` 与 `ZhLang.txt=<语言>`。
+安装脚本会**自动检测** Streamer.bot 与 Speaker.bot（顺序：已保存的 config.json → 常见目录搜索 → 手动输入；输入目录或 `.exe` 完整路径均可）。无法检测到时会提示输入安装目录；检测到的路径保存在本地 `config.json`，供 切换语言.ps1 / 还原.ps1 复用。**两个程序无需同时安装**，只装其中一个也能正常使用；都检测不到则明确报错终止。
+
+安装脚本还会自动：关闭正在运行的程序、备份原 `*.exe.config` → `*.exe.config.bak`、在 `<runtime>` 注入 AppDomainManager 两行配置、部署 `ZhInject.dll` + 全部四语言 `langs\` + 所选语言 `ZhMap.tsv`，写入 `ZhMode.txt=translate` 与 `ZhLang.txt=<语言>`。
 
 ## 切换语言
 
@@ -188,7 +195,7 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 
 ## 还原英文
 
-关闭程序后运行 `还原.ps1`：删除 `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt`，并从 `.bak` 恢复原始配置（无备份则直接移除注入行）。
+关闭程序后运行 `还原.ps1`：删除 `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt` 与 `langs\`，并从 `.bak` 恢复原始配置（无备份则直接移除注入行）。`config.json` 会保留，再次安装时自动复用程序路径。
 
 ## 翻译延迟说明
 
@@ -233,7 +240,9 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 2. `安装.ps1` を右クリック → **PowerShell で実行**し、言語を選択（`1) 简体中文 2) 日本語 3) 한국어 4) Español`）。
    - または直接指定：`powershell -ExecutionPolicy Bypass -File 安装.ps1 -Lang ja-JP`
    - `-Lang` は `zh-CN` / `ja-JP` / `ko-KR` / `es-ES`
-3. インストール後スクリプトが**自動起動**します（`-NoStart` でスキップ）。UI は選択言語に切り替わります。
+3. インストール後スクリプトが検出したアプリを**自動起動**します（`-NoStart` でスキップ）。UI は選択言語に切り替わります。
+
+インストーラは Streamer.bot と Speaker.bot を**自動検出**します（保存済み config.json → 一般的な場所 → 手動入力）。検出できない場合はインストール先を入力してください。パスは `config.json` に保存され、言語切替・復元スクリプトで再利用されます。**両アプリのインストールは不要**で、片方だけでも動作します。
 
 インストーラは自動で：実行中のアプリを停止、`*.exe.config` を `*.exe.config.bak` にバックアップ、`<runtime>` に AppDomainManager 2行を注入、`ZhInject.dll` と選択言語の `ZhMap.tsv` を配置、`ZhMode.txt=translate` と `ZhLang.txt=<言語>` を書き込みます。
 
@@ -303,7 +312,9 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 2. `安装.ps1`을 우클릭 → **PowerShell로 실행**하고 언어 선택（`1) 简体中文 2) 日本語 3) 한국어 4) Español`）。
    - 또는 직접 지정: `powershell -ExecutionPolicy Bypass -File 安装.ps1 -Lang ko-KR`
    - `-Lang` 값: `zh-CN` / `ja-JP` / `ko-KR` / `es-ES`
-3. 설치 후 스크립트가 앱을 **자동 실행**합니다（`-NoStart`로 건너뛰기）。잠시 후 UI가 선택 언어로 바뀝니다.
+3. 설치 후 스크립트가 감지된 앱을 **자동 실행**합니다（`-NoStart`로 건너뛰기）。잠시 후 UI가 선택 언어로 바뀝니다.
+
+설치 스크립트는 Streamer.bot과 Speaker.bot을 **자동 감지**합니다（저장된 config.json → 일반 위치 → 수동 입력）. 감지하지 못하면 설치 디렉터리를 입력하세요. 경로는 `config.json`에 저장되어 언어 전환·복원 스크립트에서 재사용됩니다. **두 앱을 모두 설치할 필요는 없으며** 하나만 있어도 동작합니다.
 
 설치 스크립트는 자동으로: 실행 중인 앱을 종료하고 `*.exe.config`를 `*.exe.config.bak`로 백업하며 `<runtime>`에 AppDomainManager 두 줄을 주입하고 `ZhInject.dll` + 선택 언어 `ZhMap.tsv`를 배포하며 `ZhMode.txt=translate`와 `ZhLang.txt=<언어>`를 기록합니다.
 
@@ -373,7 +384,9 @@ Usa un enfoque de **inyección**: no modifica el exe y mantiene las firmas digit
 2. Haz clic derecho en `安装.ps1` → **Ejecutar con PowerShell** y elige idioma (`1) 简体中文 2) 日本語 3) 한국어 4) Español`).
    - O directamente: `powershell -ExecutionPolicy Bypass -File 安装.ps1 -Lang es-ES`
    - `-Lang` acepta `zh-CN` / `ja-JP` / `ko-KR` / `es-ES`
-3. El script **inicia ambas apps automáticamente** (usa `-NoStart` para omitirlo). La interfaz cambia al idioma elegido poco después.
+3. El script **inicia automáticamente las apps detectadas** (usa `-NoStart` para omitirlo). La interfaz cambia al idioma elegido poco después.
+
+El instalador **detecta automáticamente** Streamer.bot y Speaker.bot (config.json guardado → ubicaciones comunes → entrada manual). Si no puede detectar una app, pedirá su directorio de instalación. Las rutas se guardan en `config.json` y se reutilizan para cambiar idioma y restaurar. **No es necesario tener ambas apps instaladas**; funciona con una sola.
 
 El instalador automáticamente: detiene las apps en ejecución, respalda `*.exe.config` → `*.exe.config.bak`, inyecta las dos líneas AppDomainManager en `<runtime>`, despliega `ZhInject.dll` + el `ZhMap.tsv` del idioma elegido, y escribe `ZhMode.txt=translate` y `ZhLang.txt=<idioma>`.
 

@@ -28,7 +28,7 @@ I built a complete, runtime-verified UI localization pack for **Streamer.bot** a
 
 ## What the current implementation is (and why it probably shouldn't ship as-is)
 
-The pack currently works via a .NET `AppDomainManager` injection: a sidecar `ZhInject.dll` loads at startup, scans open windows on a 1-second timer, and rewrites static UI strings through reflection. It also draws a small floating language-switcher bar next to the main window.
+The pack currently works via a .NET `AppDomainManager` injection: a sidecar `ZhInject.dll` loads at startup, scans open windows on a 1-second timer, and rewrites static UI strings through reflection. It also adds a compact language switcher associated with the application's main window.
 
 This was built to work **without touching the exe** (signatures stay intact, updates keep working), and it's fully reversible — but I understand it's an external hack:
 

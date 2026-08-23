@@ -42,4 +42,13 @@ Per-page UI text inventories (496 XAML views extracted from Streamer.bot) live i
 
 1. Run `安装.ps1 -Lang ja-JP -NoStart`
 2. Launch the app — check `ZhApply.log` next to the exe for `applied:` entries and `seterr` (must stay 0)
-3. The floating switcher bar appears near the main window's top-right corner (requires `ZhBar.txt` + `langs\`, both deployed by the installer)
+3. The language switcher is associated with the application's main-window title area and is enabled when `ZhBar.txt` and the `langs\` directory are present (both deployed by the installer)
+
+## App path configuration
+
+The scripts do not use fixed installation paths:
+
+- `config.example.json` — committed template showing the config structure
+- `config.json` — generated locally by `安装.ps1` after it detects (or you enter) the app directories; intentionally excluded from Git
+
+Path resolution order in `安装.ps1`: saved `config.json` → auto-discovery in common locations (script folder, `%USERPROFILE%\Apps`, Desktop, Downloads, `%LOCALAPPDATA%`, Program Files — depth-limited) → manual input (directory or full `.exe` path). `切换语言.ps1` and `还原.ps1` read the same `config.json`. Only one of the two apps needs to be installed.
