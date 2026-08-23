@@ -45,6 +45,20 @@ The installer automatically: stops running instances, backs up `*.exe.config` to
 - Or: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - The active language is recorded in `ZhLang.txt` next to each app.
 
+### Floating Switcher Bar
+
+The installer deploys **all four language maps** into `langs\` and enables a small **floating bar** next to each app's main window (top-right corner, follows the window):
+
+```
+┌─────────────────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
+└─────────────────────────────────────────────┘
+```
+
+- **Click a language** → confirm → the app restarts into that language
+- `─` minimize · `□` expand to a large panel (current language check-marked, plus a **Restore English** button that uninstalls the localization and restarts the app in English) · `✕` hide for this session
+- Draggable; hides while the main window is minimized; disable entirely by deleting `ZhBar.txt`
+
 ## Restore to English
 
 Close the apps and run `还原.ps1`:
@@ -136,6 +150,20 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - 或：`powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 当前生效语言记录在各程序目录的 `ZhLang.txt`。
 
+### 悬浮切换条
+
+安装脚本会部署**全部四张语言映射**到 `langs\` 目录，并启用主窗口右上角的**悬浮切换条**（跟随主窗口）：
+
+```
+┌─────────────────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
+└─────────────────────────────────────────────┘
+```
+
+- **点击语言** → 确认弹窗 → 程序自动重启进入该语言
+- `─` 最小化 · `□` 展开大窗（当前语言带 ✓，含**还原英文**按钮，可一键卸载汉化并以英文重启）· `✕` 本次隐藏
+- 可拖动；主窗口最小化时自动隐藏；删除 `ZhBar.txt` 可彻底停用
+
 ## 还原英文
 
 关闭程序后运行 `还原.ps1`：删除 `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt`，并从 `.bak` 恢复原始配置（无备份则直接移除注入行）。
@@ -193,6 +221,20 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - または：`powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 現在の言語は各アプリの `ZhLang.txt` に記録されます。
 
+### フローティング切替バー
+
+インストーラは **4言語すべてのマップ**を `langs\` に配置し、メインウィンドウ右上に**フローティングバー**を表示します（ウィンドウに追従）：
+
+```
+┌─────────────────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
+└─────────────────────────────────────────────┘
+```
+
+- **言語をクリック** → 確認ダイアログ → アプリが自動再起動して切り替わります
+- `─` 最小化 · `□` 拡張パネル（現在言語は ✓ 表示、**英語に戻す**ボタンでアンインストールして英語で再起動）· `✕` 今回非表示
+- ドラッグ移動可；メインウィンドウ最小化時は自動非表示；`ZhBar.txt` を削除すると無効化
+
 ## 英語に戻す
 
 アプリを閉じて `还原.ps1` を実行：`ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt` を削除し、`.bak` から設定を復元します（バックアップが無ければ注入行を除去）。
@@ -249,6 +291,20 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - 또는: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 현재 언어는 각 앱 폴더의 `ZhLang.txt`에 기록됩니다.
 
+### 플로팅 전환 바
+
+설치 스크립트는 **4개 언어 매핑 전부**를 `langs\`에 배포하고 메인 창 오른쪽 상단에 **플로팅 바**를 표시합니다（창을 따라 이동）：
+
+```
+┌─────────────────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
+└─────────────────────────────────────────────┘
+```
+
+- **언어 클릭** → 확인 대화상자 → 앱이 자동 재시작되며 해당 언어로 전환됩니다
+- `─` 최소화 · `□` 확장 패널（현재 언어 ✓ 표시, **영어로 복원** 버튼으로 제거 후 영어로 재시작）· `✕` 이번 세션 숨김
+- 드래그 이동 가능；메인 창 최소화 시 자동 숨김；`ZhBar.txt` 삭제 시 비활성화
+
 ## 영어로 복원
 
 앱을 닫고 `还原.ps1` 실행: `ZhInject.dll / ZhMap.tsv / ZhMode.txt / ZhLang.txt / ZhApply.log / ZhDebug.txt`를 삭제하고 `.bak`에서 설정을 복원합니다（백업이 없으면 주입 줄만 제거）.
@@ -304,6 +360,20 @@ El instalador automáticamente: detiene las apps en ejecución, respalda `*.exe.
 - Clic derecho en `切换语言.ps1` → elige el nuevo idioma; despliega el mapa y **reinicia las apps** para aplicar el cambio.
 - O: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - El idioma activo se registra en `ZhLang.txt` junto a cada app.
+
+### Barra flotante de cambio de idioma
+
+El instalador despliega **los cuatro mapas de idioma** en `langs\` y muestra una pequeña **barra flotante** junto a la esquina superior derecha de la ventana principal（sigue a la ventana）:
+
+```
+┌─────────────────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
+└─────────────────────────────────────────────┘
+```
+
+- **Clic en un idioma** → confirmación → la app se reinicia en ese idioma
+- `─` minimizar · `□` panel ampliado（idioma actual con ✓, incluye el botón **Restaurar inglés** que desinstala la localización y reinicia en inglés）· `✕` ocultar en esta sesión
+- Arrastrable; se oculta al minimizar la ventana principal; elimina `ZhBar.txt` para desactivarla
 
 ## Restaurar a inglés
 

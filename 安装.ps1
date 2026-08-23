@@ -108,10 +108,23 @@ foreach ($app in $Apps) {
 
     # 3. 部署文件
     Copy-Item -LiteralPath $DllSrc  -Destination (Join-Path $dir 'ZhInject.dll') -Force
+    # 部署全部语言映射到 langs\ 子目录（供悬浮切换条使用）
+    $langsDir = Join-Path $dir 'langs'
+    if (Test-Path -LiteralPath $langsDir) { Remove-Item -LiteralPath $langsDir -Recurse -Force }
+    New-Item -ItemType Directory -Path $langsDir | Out-Null
+    foreach ($L in @('zh-CN','ja-JP','ko-KR','es-ES')) {
+        $m = Join-Path $SrcRoot "$name\$L\ZhMap.tsv"
+        if (Test-Path -LiteralPath $m) {
+            New-Item -ItemType Directory -Path (Join-Path $langsDir $L) -Force | Out-Null
+            Copy-Item -LiteralPath $m -Destination (Join-Path $langsDir "$L\ZhMap.tsv") -Force
+        }
+    }
+    # 当前语言映射直接部署到根（DLL 启动时读取）
     Copy-Item -LiteralPath $mapSrc  -Destination (Join-Path $dir 'ZhMap.tsv') -Force
     Set-Content -LiteralPath (Join-Path $dir 'ZhMode.txt') -Value 'translate' -Encoding Ascii
     Set-Content -LiteralPath (Join-Path $dir 'ZhLang.txt') -Value $Lang -Encoding Ascii
-    Write-Host "[$name] 已部署 ZhInject.dll / ZhMap.tsv($Lang) / ZhMode.txt=translate / ZhLang.txt=$Lang" -ForegroundColor Green
+    Set-Content -LiteralPath (Join-Path $dir 'ZhBar.txt')  -Value 'on' -Encoding Ascii
+    Write-Host "[$name] 已部署 ZhInject.dll / langs(4语言) / ZhMap.tsv($Lang) / ZhMode.txt=translate / ZhLang.txt=$Lang / ZhBar.txt" -ForegroundColor Green
 }
 
 Write-Host ''
