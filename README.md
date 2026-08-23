@@ -45,9 +45,9 @@ The installer automatically: stops running instances, backs up `*.exe.config` to
 - Or: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - The active language is recorded in `ZhLang.txt` next to each app.
 
-### Floating Switcher Bar
+### Title-Bar Language Switcher
 
-The installer deploys **all four language maps** into `langs\` and enables a small **floating bar** next to each app's main window (top-right corner, follows the window):
+The installer deploys **all four language maps** into `langs\` and embeds a compact **title-bar switcher** into each app's main window title bar (right side, before the caption buttons):
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -57,7 +57,7 @@ The installer deploys **all four language maps** into `langs\` and enables a sma
 
 - **Click a language** → confirm → the app restarts into that language
 - `─` minimize · `□` expand to a large panel (current language check-marked, plus a **Restore English** button that uninstalls the localization and restarts the app in English) · `✕` hide for this session
-- Draggable; hides while the main window is minimized; disable entirely by deleting `ZhBar.txt`
+- Moves, minimizes and restores together with the app window; disable entirely by deleting `ZhBar.txt`
 
 ## Restore to English
 
@@ -150,9 +150,9 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - 或：`powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 当前生效语言记录在各程序目录的 `ZhLang.txt`。
 
-### 悬浮切换条
+### 标题栏切换条
 
-安装脚本会部署**全部四张语言映射**到 `langs\` 目录，并启用主窗口右上角的**悬浮切换条**（跟随主窗口）：
+安装脚本会部署**全部四张语言映射**到 `langs\` 目录，并在主窗口**标题栏内嵌入切换条**（位于窗口控制按钮左侧）：
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -162,7 +162,7 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 
 - **点击语言** → 确认弹窗 → 程序自动重启进入该语言
 - `─` 最小化 · `□` 展开大窗（当前语言带 ✓，含**还原英文**按钮，可一键卸载汉化并以英文重启）· `✕` 本次隐藏
-- 可拖动；主窗口最小化时自动隐藏；删除 `ZhBar.txt` 可彻底停用
+- 随主窗口移动/最小化/还原；删除 `ZhBar.txt` 可彻底停用
 
 ## 还原英文
 
@@ -221,9 +221,9 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - または：`powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 現在の言語は各アプリの `ZhLang.txt` に記録されます。
 
-### フローティング切替バー
+### タイトルバー切替バー
 
-インストーラは **4言語すべてのマップ**を `langs\` に配置し、メインウィンドウ右上に**フローティングバー**を表示します（ウィンドウに追従）：
+インストーラは **4言語すべてのマップ**を `langs\` に配置し、メインウィンドウの**タイトルバーに埋め込みバー**を表示します（ウィンドウ制御ボタンの左側）：
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -291,9 +291,9 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 - 또는: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - 현재 언어는 각 앱 폴더의 `ZhLang.txt`에 기록됩니다.
 
-### 플로팅 전환 바
+### 제목 표시줄 전환 바
 
-설치 스크립트는 **4개 언어 매핑 전부**를 `langs\`에 배포하고 메인 창 오른쪽 상단에 **플로팅 바**를 표시합니다（창을 따라 이동）：
+설치 스크립트는 **4개 언어 매핑 전부**를 `langs\`에 배포하고 메인 창 **제목 표시줄에 전환 바를 내장**합니다（창 제어 버튼 왼쪽）：
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -361,9 +361,9 @@ El instalador automáticamente: detiene las apps en ejecución, respalda `*.exe.
 - O: `powershell -ExecutionPolicy Bypass -File 切换语言.ps1 -Lang es-ES`
 - El idioma activo se registra en `ZhLang.txt` junto a cada app.
 
-### Barra flotante de cambio de idioma
+### Barra de cambio de idioma en la barra de título
 
-El instalador despliega **los cuatro mapas de idioma** en `langs\` y muestra una pequeña **barra flotante** junto a la esquina superior derecha de la ventana principal（sigue a la ventana）:
+El instalador despliega **los cuatro mapas de idioma** en `langs\` y incrusta una **barra compacta en la barra de título** de la ventana principal（a la izquierda de los botones de control）:
 
 ```
 ┌─────────────────────────────────────────────┐
