@@ -15,7 +15,11 @@ StreamerBot-SpeakerBot-zh\
 ├─ 切换语言.ps1      Language switch script (deploys the map and restarts the app)
 ├─ 还原.ps1          Restore script (removes all localization files, restores config)
 ├─ 使用说明.md       Usage guide (Chinese)
+├─ docs\             Per-page UI text atlas extracted from Streamer.bot (496 XAML views) — see docs/README.md
+├─ tools\
+│  └─ merge_maps.py  Translation map build & validation pipeline (validate / stats / merge)
 ├─ src\
+│  ├─ ZhInject.cs    Injector source (C# 5)
 │  └─ ZhInject.dll   Language-agnostic injector (one DLL for all four languages)
 ├─ Streamer.bot\
 │  ├─ zh-CN\ZhMap.tsv    Simplified Chinese map (1089 keys)

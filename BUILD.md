@@ -20,10 +20,23 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe ^
 - `/codepage:65001` — the source contains CJK button labels; this forces UTF-8 interpretation
 - Output: `ZhInject.dll` (~28 KB), a language-agnostic injector shared by all four languages
 
-## Regenerate translation maps (optional)
+## Translation map pipeline (optional)
 
 The `*.tsv` maps are plain `english<TAB>translation` UTF-8 files — edit them directly and restart the app.
-The full 4-language pipeline used to generate them (merge + fidelity validation against the Chinese source map) lives outside this repo; the shipped maps are the authoritative artifact.
+
+A Python 3 pipeline is included for validating and extending the maps:
+
+```bat
+python tools\merge_maps.py validate
+python tools\merge_maps.py stats
+python tools\merge_maps.py merge --app Streamer.bot --lang fr-FR --translations fr.tsv
+```
+
+- `validate` — checks all 8 shipped maps: key-set parity against the zh-CN authoritative source, `{N}`/`%var%` placeholder integrity, duplicate keys, encoding
+- `stats` — per-map counts (translated / kept-English / suppressed)
+- `merge` — builds a new language map from the zh-CN key source plus a partial translation TSV; entries without a translation fall back to English, entries with broken placeholders are rejected to keep format strings intact
+
+Per-page UI text inventories (496 XAML views extracted from Streamer.bot) live in `docs/` — use them to locate which page a string belongs to.
 
 ## Verify
 
