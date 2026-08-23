@@ -47,17 +47,17 @@ The installer automatically: stops running instances, backs up `*.exe.config` to
 
 ### Title-Bar Language Switcher
 
-The installer deploys **all four language maps** into `langs\` and embeds a compact **title-bar switcher** into each app's main window title bar (right side, before the caption buttons):
+The installer deploys **all four language maps** into `langs\` and embeds a compact **title-bar switcher** into each app's main window title bar (right side, next to the caption buttons):
 
 ```
-┌─────────────────────────────────────────────┐
-│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
-└─────────────────────────────────────────────┘
+┌────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español │
+└────────────────────────────────┘
 ```
 
 - **Click a language** → confirm → the app restarts into that language
-- `─` minimize · `□` expand to a large panel (current language check-marked, plus a **Restore English** button that uninstalls the localization and restarts the app in English) · `✕` hide for this session
-- Moves, minimizes and restores together with the app window; disable entirely by deleting `ZhBar.txt`
+- **Right-click the bar** → **Restore English** (uninstalls the localization and restarts the app in English)
+- Always on top and drift-free: moves, minimizes and restores together with the app window; disable entirely by deleting `ZhBar.txt`
 
 ## Restore to English
 
@@ -155,14 +155,14 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 安装脚本会部署**全部四张语言映射**到 `langs\` 目录，并在主窗口**标题栏内嵌入切换条**（位于窗口控制按钮左侧）：
 
 ```
-┌─────────────────────────────────────────────┐
-│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
-└─────────────────────────────────────────────┘
+┌────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español │
+└────────────────────────────────┘
 ```
 
 - **点击语言** → 确认弹窗 → 程序自动重启进入该语言
-- `─` 最小化 · `□` 展开大窗（当前语言带 ✓，含**还原英文**按钮，可一键卸载汉化并以英文重启）· `✕` 本次隐藏
-- 随主窗口移动/最小化/还原；删除 `ZhBar.txt` 可彻底停用
+- **右键切换条** → **还原英文**（一键卸载汉化并以英文重启）
+- 始终置顶、绝不漂移：随主窗口移动/最小化/还原；删除 `ZhBar.txt` 可彻底停用
 
 ## 还原英文
 
@@ -226,14 +226,14 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 インストーラは **4言語すべてのマップ**を `langs\` に配置し、メインウィンドウの**タイトルバーに埋め込みバー**を表示します（ウィンドウ制御ボタンの左側）：
 
 ```
-┌─────────────────────────────────────────────┐
-│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
-└─────────────────────────────────────────────┘
+┌────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español │
+└────────────────────────────────┘
 ```
 
 - **言語をクリック** → 確認ダイアログ → アプリが自動再起動して切り替わります
-- `─` 最小化 · `□` 拡張パネル（現在言語は ✓ 表示、**英語に戻す**ボタンでアンインストールして英語で再起動）· `✕` 今回非表示
-- ドラッグ移動可；メインウィンドウ最小化時は自動非表示；`ZhBar.txt` を削除すると無効化
+- **バーを右クリック** → **英語に戻す**（アンインストールして英語で再起動）
+- 常に最前面で固定；メインウィンドウと一緒に移動/最小化/復元；`ZhBar.txt` を削除すると無効化
 
 ## 英語に戻す
 
@@ -296,14 +296,14 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 설치 스크립트는 **4개 언어 매핑 전부**를 `langs\`에 배포하고 메인 창 **제목 표시줄에 전환 바를 내장**합니다（창 제어 버튼 왼쪽）：
 
 ```
-┌─────────────────────────────────────────────┐
-│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
-└─────────────────────────────────────────────┘
+┌────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español │
+└────────────────────────────────┘
 ```
 
 - **언어 클릭** → 확인 대화상자 → 앱이 자동 재시작되며 해당 언어로 전환됩니다
-- `─` 최소화 · `□` 확장 패널（현재 언어 ✓ 표시, **영어로 복원** 버튼으로 제거 후 영어로 재시작）· `✕` 이번 세션 숨김
-- 드래그 이동 가능；메인 창 최소화 시 자동 숨김；`ZhBar.txt` 삭제 시 비활성화
+- **바 우클릭** → **영어로 복원**（제거 후 영어로 재시작）
+- 항상 최상단 고정；메인 창과 함께 이동/최소화/복원；`ZhBar.txt` 삭제 시 비활성화
 
 ## 영어로 복원
 
@@ -366,14 +366,14 @@ El instalador automáticamente: detiene las apps en ejecución, respalda `*.exe.
 El instalador despliega **los cuatro mapas de idioma** en `langs\` y incrusta una **barra compacta en la barra de título** de la ventana principal（a la izquierda de los botones de control）:
 
 ```
-┌─────────────────────────────────────────────┐
-│ 中文 │ 日本語 │ 한국어 │ Español   ─  □  ✕ │
-└─────────────────────────────────────────────┘
+┌────────────────────────────────┐
+│ 中文 │ 日本語 │ 한국어 │ Español │
+└────────────────────────────────┘
 ```
 
 - **Clic en un idioma** → confirmación → la app se reinicia en ese idioma
-- `─` minimizar · `□` panel ampliado（idioma actual con ✓, incluye el botón **Restaurar inglés** que desinstala la localización y reinicia en inglés）· `✕` ocultar en esta sesión
-- Arrastrable; se oculta al minimizar la ventana principal; elimina `ZhBar.txt` para desactivarla
+- **Clic derecho en la barra** → **Restaurar inglés**（desinstala la localización y reinicia en inglés）
+- Siempre visible y fija; se mueve, minimiza y restaura con la ventana; elimina `ZhBar.txt` para desactivarla
 
 ## Restaurar a inglés
 
