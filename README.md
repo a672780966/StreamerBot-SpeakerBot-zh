@@ -7,6 +7,24 @@ A fully reversible, injection-based localization pack for **Streamer.bot** and *
 - **Reversible** – one-click uninstall restores the original English UI
 - **Instant language switching** – install once, switch between all four languages anytime
 
+## Screenshots
+
+### Streamer.bot
+
+| 简体中文 | 日本語 |
+|---|---|
+| ![](screenshots/Streamer.bot-zh-CN.png) | ![](screenshots/Streamer.bot-ja-JP.png) |
+| **한국어** | **Español** |
+| ![](screenshots/Streamer.bot-ko-KR.png) | ![](screenshots/Streamer.bot-es-ES.png) |
+
+### Speaker.bot
+
+| 简体中文 | 日本語 |
+|---|---|
+| ![](screenshots/Speaker.bot-zh-CN.png) | ![](screenshots/Speaker.bot-ja-JP.png) |
+| **한국어** | **Español** |
+| ![](screenshots/Speaker.bot-ko-KR.png) | ![](screenshots/Speaker.bot-es-ES.png) |
+
 ## Repository Layout
 
 ```
