@@ -57,7 +57,7 @@ The installer deploys **all four language maps** into `langs\` and embeds a comp
 
 - **Click a language** → confirm → the app restarts into that language
 - **Right-click the bar** → **Restore English** (uninstalls the localization and restarts the app in English)
-- Always on top and drift-free: moves, minimizes and restores together with the app window; disable entirely by deleting `ZhBar.txt`
+- Same z-layer as the app (never floats over other apps), drift-free: moves, minimizes and restores with the app window; **theme-adaptive** colors match each app's title bar (light/dark); disable entirely by deleting `ZhBar.txt`
 
 ## Restore to English
 
@@ -162,7 +162,7 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 
 - **点击语言** → 确认弹窗 → 程序自动重启进入该语言
 - **右键切换条** → **还原英文**（一键卸载汉化并以英文重启）
-- 始终置顶、绝不漂移：随主窗口移动/最小化/还原；删除 `ZhBar.txt` 可彻底停用
+- 与程序窗口同层（不会浮在其他程序上）、绝不漂移：随主窗口移动/最小化/还原；**配色自适应**各程序标题栏深浅色；删除 `ZhBar.txt` 可彻底停用
 
 ## 还原英文
 
@@ -233,7 +233,7 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 
 - **言語をクリック** → 確認ダイアログ → アプリが自動再起動して切り替わります
 - **バーを右クリック** → **英語に戻す**（アンインストールして英語で再起動）
-- 常に最前面で固定；メインウィンドウと一緒に移動/最小化/復元；`ZhBar.txt` を削除すると無効化
+- アプリと同じ階層（他アプリの上に浮かない）；メインウィンドウと一緒に移動/最小化/復元；**テーマ適応**色；`ZhBar.txt` を削除すると無効化
 
 ## 英語に戻す
 
@@ -303,7 +303,7 @@ Runtime verification passed for every language: `applied` fires, `seterr = 0`.
 
 - **언어 클릭** → 확인 대화상자 → 앱이 자동 재시작되며 해당 언어로 전환됩니다
 - **바 우클릭** → **영어로 복원**（제거 후 영어로 재시작）
-- 항상 최상단 고정；메인 창과 함께 이동/최소화/복원；`ZhBar.txt` 삭제 시 비활성화
+- 앱과 같은 계층（다른 앱 위에 뜨지 않음）；메인 창과 함께 이동/최소화/복원；**테마 적응** 색상；`ZhBar.txt` 삭제 시 비활성화
 
 ## 영어로 복원
 
@@ -373,7 +373,7 @@ El instalador despliega **los cuatro mapas de idioma** en `langs\` y incrusta un
 
 - **Clic en un idioma** → confirmación → la app se reinicia en ese idioma
 - **Clic derecho en la barra** → **Restaurar inglés**（desinstala la localización y reinicia en inglés）
-- Siempre visible y fija; se mueve, minimiza y restaura con la ventana; elimina `ZhBar.txt` para desactivarla
+- Misma capa que la app（no flota sobre otras）; se mueve, minimiza y restaura con la ventana; **colores adaptables** al tema; elimina `ZhBar.txt` para desactivarla
 
 ## Restaurar a inglés
 
