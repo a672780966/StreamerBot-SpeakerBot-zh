@@ -83,12 +83,13 @@ if (-not $targets -or $targets.Count -eq 0) {
     exit 1
 }
 
+$switchedTargets = @()
 foreach ($t in $targets) {
     $name = $t.Name
     $dir  = $t.Dir
     $mapSrc = Join-Path $SrcRoot "$name\$Lang\ZhMap.tsv"
     if (-not (Test-Path -LiteralPath $mapSrc)) {
-        Write-Host "[$name] 错误：缺少语言映射文件 $mapSrc（已跳过）" -ForegroundColor Red
+        Write-Host "$name：缺少 $Lang 映射，未切换" -ForegroundColor Red
         continue
     }
 
@@ -102,13 +103,22 @@ foreach ($t in $targets) {
 
     Copy-Item -LiteralPath $mapSrc -Destination (Join-Path $dir 'ZhMap.tsv') -Force
     Set-Content -LiteralPath (Join-Path $dir 'ZhLang.txt') -Value $Lang -Encoding Ascii
-    Write-Host "[$name] 已切换到 $LangName ($Lang)" -ForegroundColor Green
+    $switchedTargets += $t
+    Write-Host "$name：切换成功（$LangName / $Lang）" -ForegroundColor Green
+}
+$failedTargets = @($targets | Where-Object { $switchedTargets -notcontains $_ })
+foreach ($t in $failedTargets) {
+    Write-Host "$($t.Name)：未切换" -ForegroundColor Yellow
 }
 
 Write-Host ''
 if (-not $NoRestart) {
-    Write-Host '正在自动重启程序...' -ForegroundColor DarkGray
-    foreach ($t in $targets) {
+    if ($switchedTargets.Count -eq 0) {
+        Write-Host "没有程序完成切换，无需重启。" -ForegroundColor Yellow
+        exit 1
+    }
+    Write-Host '正在自动重启已切换的程序...' -ForegroundColor DarkGray
+    foreach ($t in $switchedTargets) {
         $exe = Join-Path $t.Dir "$($t.Name).exe"
         if (Test-Path -LiteralPath $exe) {
             try { Start-Process -FilePath $exe; Write-Host "[$($t.Name)] 已启动" -ForegroundColor Green }

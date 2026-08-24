@@ -50,11 +50,21 @@ function Write-Config {
 }
 
 function Test-AppDir {
-    # 目录存在且包含 <Name>.exe 才算有效
+    # 有效安装目录必须同时包含 <Name>.exe 与 <Name>.exe.config
     param([string]$Dir, [string]$Name)
     if ([string]::IsNullOrWhiteSpace($Dir)) { return $false }
     if (-not (Test-Path -LiteralPath $Dir -PathType Container)) { return $false }
-    return (Test-Path -LiteralPath (Join-Path $Dir "$Name.exe") -PathType Leaf)
+    if (-not (Test-Path -LiteralPath (Join-Path $Dir "$Name.exe") -PathType Leaf)) { return $false }
+    return (Test-Path -LiteralPath (Join-Path $Dir "$Name.exe.config") -PathType Leaf)
+}
+
+function Test-ExeOnly {
+    # 有 exe 但缺 .exe.config：用于给出更精确的“目录无效”提示
+    param([string]$Dir, [string]$Name)
+    if ([string]::IsNullOrWhiteSpace($Dir)) { return $false }
+    if (-not (Test-Path -LiteralPath $Dir -PathType Container)) { return $false }
+    return ((Test-Path -LiteralPath (Join-Path $Dir "$Name.exe") -PathType Leaf) -and
+            -not (Test-Path -LiteralPath (Join-Path $Dir "$Name.exe.config") -PathType Leaf))
 }
 
 function Normalize-AppPath {
@@ -69,6 +79,18 @@ function Normalize-AppPath {
     }
     if (Test-AppDir -Dir $full -Name $Name) { return $full }
     return $null
+}
+
+function Get-ProbeDir {
+    # 解析用户输入的探测目录：exe 路径取其父目录，目录路径取本身
+    param([string]$InputPath, [string]$Name)
+    try {
+        $pf = [System.IO.Path]::GetFullPath($InputPath.Trim().Trim('"'))
+        if ((Split-Path -Leaf $pf) -ieq "$Name.exe") {
+            return [System.IO.Path]::GetDirectoryName($pf)
+        }
+        return $pf
+    } catch { return $null }
 }
 
 function Read-InputSafe {
@@ -112,7 +134,12 @@ function Find-AppCandidates {
             Search-Exe -Dir $root -Exe "$Name.exe" -Depth 0 -Found $found
         }
     }
-    return $found
+    # 只保留完整有效的安装目录（exe + .exe.config 齐全）
+    $valid = New-Object System.Collections.Generic.List[string]
+    foreach ($d in $found) {
+        if (Test-AppDir -Dir $d -Name $Name) { $valid.Add($d) }
+    }
+    return $valid
 }
 
 function Resolve-AppDir {
@@ -123,7 +150,12 @@ function Resolve-AppDir {
     if ($ParamPath) {
         $d = Normalize-AppPath -InputPath $ParamPath -Name $Name
         if ($d) { return @{ Dir = $d; Source = 'input' } }
-        Write-Warning "[$Name] 命令行指定的路径无效：$ParamPath（改用自动发现）"
+        $probe = Get-ProbeDir -InputPath $ParamPath -Name $Name
+        if ($probe -and (Test-ExeOnly -Dir $probe -Name $Name)) {
+            Write-Warning "[$Name] 目录无效：找到 $Name.exe 但缺少 $Name.exe.config。"
+        } else {
+            Write-Warning "[$Name] 命令行指定的路径无效：$ParamPath（改用自动发现）"
+        }
     }
 
     $saved = [string]$Config.$Key
@@ -158,7 +190,12 @@ function Resolve-AppDir {
         if ([string]::IsNullOrWhiteSpace($inp)) { return @{ Dir = ''; Source = 'none' } }
         $d = Normalize-AppPath -InputPath $inp -Name $Name
         if ($d) { return @{ Dir = $d; Source = 'input' } }
-        Write-Warning "路径无效（未找到 $Name.exe）：$inp"
+        $probe = Get-ProbeDir -InputPath $inp -Name $Name
+        if ($probe -and (Test-ExeOnly -Dir $probe -Name $Name)) {
+            Write-Warning "路径无效：找到 $Name.exe 但缺少 $Name.exe.config，该目录不是有效的 $Name 安装目录。"
+        } else {
+            Write-Warning "路径无效（未找到 $Name.exe）：$inp"
+        }
     }
 }
 
@@ -177,15 +214,28 @@ function Stop-App {
 }
 
 function Inject-AppDomainManager {
+    # 返回: 'injected'=已注入 | 'already'=本项目已安装 | 'conflict'=存在第三方 AppDomainManager
     param([string]$ConfigFile)
     $xml = Get-Content -LiteralPath $ConfigFile -Raw -Encoding UTF8
-    if ($xml -match 'appDomainManagerAssembly') { return '已注入，跳过' }
-    if ($xml -notmatch '<runtime>') { throw '未找到 <runtime> 节点，无法注入' }
-    $insert = "    <appDomainManagerAssembly value=`"ZhInject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null`" />`r`n" +
-              "    <appDomainManagerType value=`"ZhInject.ZhManager`" />`r`n  "
-    $xml = $xml -replace '</runtime>', ($insert + '</runtime>')
-    Set-Content -LiteralPath $ConfigFile -Value $xml -Encoding UTF8
-    return '已注入'
+    $asm  = [regex]::Match($xml, '<appDomainManagerAssembly[^>]*\svalue="([^"]*)"')
+    $type = [regex]::Match($xml, '<appDomainManagerType[^>]*\svalue="([^"]*)"')
+    if (-not $asm.Success -and -not $type.Success) {
+        # A. 未存在 AppDomainManager → 正常注入
+        if ($xml -notmatch '<runtime>') { throw '未找到 <runtime> 节点，无法注入' }
+        $insert = "    <appDomainManagerAssembly value=`"ZhInject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null`" />`r`n" +
+                  "    <appDomainManagerType value=`"ZhInject.ZhManager`" />`r`n  "
+        $xml = $xml -replace '</runtime>', ($insert + '</runtime>')
+        Set-Content -LiteralPath $ConfigFile -Value $xml -Encoding UTF8
+        return 'injected'
+    }
+    if ($asm.Success -and $type.Success -and
+        ($asm.Groups[1].Value -ieq 'ZhInject' -or $asm.Groups[1].Value -match '^\s*ZhInject\s*,') -and
+        $type.Groups[1].Value -ieq 'ZhInject.ZhManager') {
+        # B. 本项目已注入
+        return 'already'
+    }
+    # C. 存在其他 AppDomainManager（或缺其一，属不完整/冲突配置）
+    return 'conflict'
 }
 
 # ===== 主流程 =====
@@ -259,9 +309,18 @@ foreach ($name in ($active | Sort-Object)) {
         Write-Host "[$name] 已备份配置 → $bak" -ForegroundColor DarkGray
     }
 
-    # 2. 注入配置
+    # 2. 注入配置（三态：注入 / 已装本项目 / 第三方冲突）
     $result = Inject-AppDomainManager -ConfigFile $configFile
-    Write-Host "[$name] 注入 AppDomainManager：$result" -ForegroundColor Green
+    if ($result -eq 'conflict') {
+        Write-Host "[$name] 检测到其他 AppDomainManager 配置。" -ForegroundColor Red
+        Write-Host "[$name] 为避免配置冲突，本程序未安装本地化组件。" -ForegroundColor Red
+        continue
+    }
+    if ($result -eq 'already') {
+        Write-Host "[$name] 注入 AppDomainManager：已安装，跳过重复注入" -ForegroundColor DarkGray
+    } else {
+        Write-Host "[$name] 注入 AppDomainManager：已注入" -ForegroundColor Green
+    }
 
     # 3. 部署文件
     Copy-Item -LiteralPath $DllSrc -Destination (Join-Path $dir 'ZhInject.dll') -Force
